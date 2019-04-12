@@ -1,0 +1,5 @@
+geo,year,mobile_network_type,proportion_pop_covered_mobile_network,datasource
+zaf,2015,three_g,98,ictreport2016
+zaf,2016,three_g,99,ictreport2016
+zaf,2015,lte,53,ictreport2016
+zaf,2016,lte,75,ictreport2016

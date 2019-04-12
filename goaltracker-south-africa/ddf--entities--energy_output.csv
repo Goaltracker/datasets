@@ -1,0 +1,4 @@
+energy_output,name,description
+kwh,Kilowatt hours,Energy output
+mwh,Megawatt hours,Energy output
+gwh,Gigawatt hours,Energy output

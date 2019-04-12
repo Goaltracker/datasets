@@ -1,0 +1,9 @@
+geo,year,number_new_hiv_infections_per_1000_unifected_population_by_age_sex,sex,age_group,datasource
+zaf,2005,2.2,total,15_49,sanhiv2012
+zaf,2008,1.9,total,15_49,sanhiv2012
+zaf,2012,1.9,total,15_49,sanhiv2012
+zaf,2012,1.0,male,15_24,sanhiv2012
+zaf,2012,2.1,female,15_24,sanhiv2012
+zaf,2012,1.5,total,15_24,sanhiv2012
+zaf,2012,1.6,male,15_49,sanhiv2012
+zaf,2012,2.1,female,15_49,sanhiv2012

@@ -1,0 +1,5 @@
+basic_service,name,description,sdg_indicator,indicator_type
+elec,Electricity,Electricity,11.1.1Db,Domesticated
+ref,Refuse removal,Refuse removal,11.1.1Db,Domesticated
+san,Improved sanitation,Improved sanitation,11.1.1Db,Domesticated
+wat,Improved water,Improved water,11.1.1Db,Domesticated

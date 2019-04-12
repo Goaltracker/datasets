@@ -1,0 +1,7 @@
+geo,year,sex,age_group,participation_rate_in_education_and_training_15_24,datasource
+zaf,2013,male,15_24,10.3,ghs2015
+zaf,2013,female,15_24,14.0,ghs2015
+zaf,2014,male,15_24,11.2,ghs2015
+zaf,2014,female,15_24,14.9,ghs2015
+zaf,2015,male,15_24,10.9,ghs2015
+zaf,2015,female,15_24,14.1,ghs2015

@@ -1,0 +1,6 @@
+geo,year,annual_renewable_energy_operating_capacity,energy,datasource
+zaf,2012,17,mw,redis2016
+zaf,2013,560,mw,redis2016
+zaf,2014,1716,mw,redis2016
+zaf,2015,2242,mw,redis2016
+zaf,2016,3103,mw,redis2016

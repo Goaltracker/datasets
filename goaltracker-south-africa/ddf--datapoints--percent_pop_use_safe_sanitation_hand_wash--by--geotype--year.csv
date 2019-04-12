@@ -1,0 +1,10 @@
+geo,year,geotype,percent_pop_use_safe_sanitation_hand_wash,datasource
+zaf,2014,urban,92.5,ghs2014
+zaf,2014,non_urban,55.4,ghs2014
+zaf,2014,total,79.0,ghs2014
+zaf,2015,urban,91.7,ghs2015
+zaf,2015,non_urban,59.8,ghs2015
+zaf,2015,total,80.1,ghs2015
+zaf,2016,urban,92.3,ghs2016
+zaf,2016,non_urban,62.1,ghs2016
+zaf,2016,total,81.5,ghs2016

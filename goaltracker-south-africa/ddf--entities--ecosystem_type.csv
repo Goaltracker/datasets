@@ -1,0 +1,5 @@
+ecosystem_type,name,description
+t,Terrestrial,Terrestrial
+f,Freshwater,Freshwater
+m,Marine,Marine
+c,Coastal,Coastal

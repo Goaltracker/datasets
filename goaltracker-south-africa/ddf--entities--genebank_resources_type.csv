@@ -1,0 +1,12 @@
+genebank_resources_type,name,description
+veg_ornamental_plant,Stock count of vegetable and ornametal plants in genebanks,Genebank resources Type
+small_grains,Stock count of small grains in genebanks,Genebank resources Type
+tropical_subtropical_crops,Stock count of tropical and sub-tropical crops in genebanks,Genebank resources Type
+deciduous_fruit,Stock count of deciduous fruits in genebanks,Genebank resources Type
+plant_total,Total stock count of plant genebanks,Genebank resources Type
+sheep,Stock count of sheep genetic resources in genebanks,Genebank resources Type
+goat,Stock count of goat genetic resources in genebanks,Genebank resources Type
+chicken,Stock count of chicken genetic resources in genebanks,Genebank resources Type
+cattle,Stock count of cattle genetic resources in genebanks,Genebank resources Type
+pig,Stock count of pig genetic resources in genebanks,Genebank resources Type
+animal_total,Total stock count of animal genebanks,Genebank resources Type

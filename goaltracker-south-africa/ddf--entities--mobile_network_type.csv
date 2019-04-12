@@ -1,0 +1,4 @@
+mobile_network_type,name,description
+three_g,3G,3rd generation mobile network
+lte,LTE,4th generation mobile network
+five_g,5G,5th generation mobile network

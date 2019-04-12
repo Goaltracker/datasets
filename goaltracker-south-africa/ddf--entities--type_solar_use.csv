@@ -1,0 +1,5 @@
+type_solar_use,name,description
+cooking,Solar used for cooking,Types of solar use
+space_heating,Solar used for heating rooms,Types of solar use
+lighting,Solar used for heating,Types of solar use
+water_heating,Solar used for heating water,Types of solar use

@@ -1,0 +1,11 @@
+geo,year,mode_transport,num_passenger_journeys,freight_volume_transported,datasource
+zaf,2012,road_journey,295 million journeys,,lts2016
+zaf,2012,rail_journey,566 million journeys,,lts2016
+zaf,2013,road_journey,284 million journeys,,lts2016
+zaf,2013,rail_journey,577 million journeys,,lts2016
+zaf,2014,road_journey,305 million journeys,,lts2016
+zaf,2014,rail_journey,561 million journeys,,lts2016
+zaf,2015,road_journey,302 million journeys,,lts2016
+zaf,2015,rail_journey,506 million journeys,,lts2016
+zaf,2016,road_journey,287 million journeys,,lts2016
+zaf,2016,rail_journey,413 million journeys,,lts2016

@@ -1,0 +1,8 @@
+geo,year,age_group,unemployment_rate_age_group,datasource
+zaf,2016,15_24,53.3,qlfs2016
+zaf,2016,25_34,31.7,qlfs2016
+zaf,2016,35_44,21.1,qlfs2016
+zaf,2016,45_54,14.8,qlfs2016
+zaf,2016,55_64,9.0,qlfs2016
+zaf,2016,65,3.0,qlfs2016
+zaf,2016,total,26.5,qlfs2016

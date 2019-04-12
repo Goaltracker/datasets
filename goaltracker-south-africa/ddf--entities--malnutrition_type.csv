@@ -1,0 +1,4 @@
+malnutrition_type,name,description
+wasting,Wasting,Malnutrition Type
+overweight,Overweight,Malnutrition Type
+total,Prevalence rate  of malnutrition,Malnutrition Type

@@ -1,0 +1,6 @@
+geo,year,annual_electricity_produced_from_renewables,energy,datasource
+zaf,2012,16.1,mw,redis2016
+zaf,2013,151.0,mw,redis2016
+zaf,2014,2162.1,mw,redis2016
+zaf,2015,4668.5,mw,redis2016
+zaf,2016,6089.8,mw,redis2016

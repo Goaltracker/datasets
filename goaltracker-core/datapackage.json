@@ -1,0 +1,215 @@
+{
+  "name": "goaltracker-core",
+  "title": "goaltracker-core",
+  "description": "",
+  "version": "0.0.1",
+  "language": {
+    "id": "en",
+    "name": "English"
+  },
+  "translations": [],
+  "license": "",
+  "author": "",
+  "resources": [
+    {
+      "path": "ddf--concepts.csv",
+      "name": "ddf--concepts",
+      "schema": {
+        "fields": [
+          {
+            "name": "concept"
+          },
+          {
+            "name": "concept_type"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "concept"
+      }
+    },
+    {
+      "path": "ddf--entities--goal.csv",
+      "name": "goal",
+      "schema": {
+        "fields": [
+          {
+            "name": "goal"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "goal"
+      }
+    },
+    {
+      "path": "ddf--entities--indicator.csv",
+      "name": "indicator",
+      "schema": {
+        "fields": [
+          {
+            "name": "goal"
+          },
+          {
+            "name": "target"
+          },
+          {
+            "name": "indicator"
+          },
+          {
+            "name": "description"
+          },
+          {
+            "name": "tier_proposed"
+          },
+          {
+            "name": "tier_revised"
+          },
+          {
+            "name": "tier_proposed_coded"
+          },
+          {
+            "name": "tier_revised_coded"
+          }
+        ],
+        "primaryKey": "indicator"
+      }
+    },
+    {
+      "path": "ddf--entities--target.csv",
+      "name": "target",
+      "schema": {
+        "fields": [
+          {
+            "name": "goal"
+          },
+          {
+            "name": "target"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "target"
+      }
+    }
+  ],
+  "ddfSchema": {
+    "datapoints": [],
+    "entities": [
+      {
+        "primaryKey": [
+          "goal"
+        ],
+        "value": "name",
+        "resources": [
+          "goal"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "description",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "goal",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "target",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "tier_proposed",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "tier_proposed_coded",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "tier_revised",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "indicator"
+        ],
+        "value": "tier_revised_coded",
+        "resources": [
+          "indicator"
+        ]
+      },
+      {
+        "primaryKey": [
+          "target"
+        ],
+        "value": "goal",
+        "resources": [
+          "target"
+        ]
+      },
+      {
+        "primaryKey": [
+          "target"
+        ],
+        "value": "name",
+        "resources": [
+          "target"
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "concept_type",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name",
+        "resources": [
+          "ddf--concepts"
+        ]
+      }
+    ],
+    "synonyms": []
+  }
+}

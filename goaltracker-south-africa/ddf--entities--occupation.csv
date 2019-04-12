@@ -1,0 +1,11 @@
+occupation,name,description
+manager,Manager,disaggregation by occupation
+professional,Professional,disaggregation by occupation
+technician,Technician,disaggregation by occupation
+clerk,Clerk,disaggregation by occupation
+sales,Sales,disaggregation by occupation
+skilled_agriculture,Skilled Agriculture,disaggregation by occupation
+craft,Craft,disaggregation by occupation
+operator,Operator,disaggregation by occupation
+elementary,Elementary,disaggregation by occupation
+domestic_worker,Domestic Worker,disaggregation by occupation

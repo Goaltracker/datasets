@@ -1,0 +1,9 @@
+geo,year,domestic_work_type,sex,percent_time_spent_unpaid_work,datasource
+zaf,2000,unpaid_domestic_work,male,5.1,tus2010
+zaf,2000,unpaid_domestic_work,female,12.6,tus2010
+zaf,2000,unpaid_care_work,male,0.3,tus2010
+zaf,2000,unpaid_care_work,female,2.2,tus2010
+zaf,2010,unpaid_domestic_work,male,6.1,tus2010
+zaf,2010,unpaid_domestic_work,female,13.5,tus2010
+zaf,2010,unpaid_care_work,male,0.3,tus2010
+zaf,2010,unpaid_care_work,female,2.0,tus2010

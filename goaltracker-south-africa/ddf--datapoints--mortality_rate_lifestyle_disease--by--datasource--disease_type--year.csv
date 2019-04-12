@@ -1,0 +1,10 @@
+geo,year,disease_type,mortality_rate_lifestyle_disease,datasource
+zaf,2013,cerebrovascular_diseases,57,crvs2013
+zaf,2013,diabetes_mellitus,68,crvs2013
+zaf,2014,cerebrovascular_diseases,58,crvs2014
+zaf,2014,diabetes_mellitus,67,crvs2014
+zaf,2015,neoplasms,128,crvs2015
+zaf,2015,total,297,crvs2015
+zaf,2015,diseases_of_respiratory_systems,35,crvs2015
+zaf,2015,cerebrovascular_diseases,53,crvs2015
+zaf,2015,diabetes_mellitus,69,crvs2015

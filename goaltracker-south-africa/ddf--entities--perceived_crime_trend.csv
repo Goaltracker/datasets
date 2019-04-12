@@ -1,0 +1,4 @@
+perceived_crime_trend,name,description
+increase,Increased,Perceived increase in crime trend
+decrease,Decreased,Perceived decrease in crime trend
+same,Stayed the same,No perceived change in crime trend

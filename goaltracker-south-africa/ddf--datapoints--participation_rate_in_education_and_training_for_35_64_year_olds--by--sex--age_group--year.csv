@@ -1,0 +1,7 @@
+geo,year,sex,age_group,participation_rate_in_education_and_training_for_35_64_year_olds,datasource
+zaf,2013,male,35_64,7.2,ghs2015
+zaf,2013,female,35_64,8.8,ghs2015
+zaf,2014,male,35_64,7.7,ghs2015
+zaf,2014,female,35_64,9.2,ghs2015
+zaf,2015,male,35_64,7.2,ghs2015
+zaf,2015,female,35_64,8.6,ghs2015

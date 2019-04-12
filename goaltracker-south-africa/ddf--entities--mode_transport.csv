@@ -1,0 +1,5 @@
+mode_transport,name,description
+rail_journey,Rail journey,Passenger journey by rail
+rail_freight,Rail freight,Freight transport by rail
+road_journey,Road journey,Passenger journey by road
+road_freight,Road freight,Freight  transport by road

@@ -1,0 +1,6 @@
+sex,name,description
+male,Male,Either Male or Female and Total
+female,Female,Either Male or Female and Total
+total,Total,Total Male and female
+total_male,Male,Total of Male
+total_female,Female,Total of Female

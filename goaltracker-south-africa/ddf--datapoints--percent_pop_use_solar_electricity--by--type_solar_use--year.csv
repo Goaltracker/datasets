@@ -1,0 +1,13 @@
+geo,year,percent_pop_use_solar_electricity,type_solar_use,datasource
+zaf,2014,0.1,cooking,ghs2016
+zaf,2014,0.2,space_heating,ghs2016
+zaf,2014,0.3,lighting,ghs2016
+zaf,2014,0.8,water_heating,ghs2016
+zaf,2015,0.2,cooking,ghs2016
+zaf,2015,0.1,space_heating,ghs2016
+zaf,2015,0.4,lighting,ghs2016
+zaf,2015,0.7,water_heating,ghs2016
+zaf,2016,0.1,cooking,ghs2016
+zaf,2016,0.1,space_heating,ghs2016
+zaf,2016,0.5,lighting,ghs2016
+zaf,2016,0.6,water_heating,ghs2016
