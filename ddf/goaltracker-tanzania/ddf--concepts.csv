@@ -21,7 +21,6 @@
 "gross_enrolment_ratio_in_lower_secondary_schools","measure","gross enrolment ratio in lower secondary schools","_4_1_1"
 "health_worker_density_nurse_and_midwife","measure","health worker density nurse and midwife","_3_6_1"
 "health_worker_density","measure","health worker density","_3_6_1"
-"income_inequality","measure","income inequality","_10_1_1"
 "life_expectancy_years","measure","life expectancy years","_3_4_1"
 "income_inequality","measure","income inequality","_10_1_1"
 "maternal_mortality_rate","measure","maternal mortality rate","_3_1_1"
@@ -40,7 +39,6 @@
 "proportion_of_population_below_food_poverty_line","measure","proportion of population below food poverty line",
 "time_spent_on_unpaid_domestic_and_care_work","measure","time spent on unpaid domestic and care work","_5_4_1"
 "youth_not_in_education_employment_or_training","measure","youth not in education employment or training","_8_6_1"
-"proportion_of_informal_employment_in_non_agriculture_employment","measure","proportion of informal employment in non agriculture employment","_10_1_1"
 "propotion_of_women_in_managerial_positions","measure","propotion of women in managerial positions","_5_5_2"
 "pupils_to_classroom_ratio_in_lower_secondary_schools","measure","pupils to classroom ratio in lower secondary schools","_4_a_1"
 "real_growth_rate","measure","real growth rate","_8_1_1"
@@ -61,4 +59,3 @@
 "women_aged_15_49_years_use_morden_method_of_family_planning","measure","women aged 15 49 years use morden method of family planning","_4_1_1"
 "working_population_employed_population_with_high_skills","measure","working population employed population with high skills","_4_1_1"
 "youth_in_vulnerable_employment","measure","youth in vulnerable employment",
-"youth_not_in_education_employment_or_training","measure","youth not in education employment or training","_3_4_1"

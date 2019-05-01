@@ -1341,17 +1341,6 @@
           "sex",
           "year"
         ],
-        "value": "children_aged_5_17_engaging_in_child_labour",
-        "resources": [
-          "children_aged_5_17_engaging_in_child_labour--by--area--year--sex--age_group"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "sex",
-          "year"
-        ],
         "value": "cohort_passing_primary_school_leaving_examination_psle",
         "resources": [
           "cohort_passing_primary_school_leaving_examination_psle--by--area--year--sex"
