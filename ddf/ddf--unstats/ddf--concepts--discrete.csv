@@ -1,0 +1,30 @@
+concept,concept_type,name
+age,entity_domain,Age
+bounds,entity_domain,Bounds
+cities,entity_domain,Cities
+description,string,Description
+disability_status,entity_domain,Disability Status
+education_level,entity_domain,Education Level
+freq,entity_domain,Freq
+geo_area,entity_domain,Geo Area
+goal,string,Goal
+hazard_type,entity_domain,Hazard Type
+ihr_capacity,entity_domain,Ihr Capacity
+indicator,string,Indicator
+level_status,entity_domain,Level Status
+location,entity_domain,Location
+migratory_status,entity_domain,Migratory Status
+mode_of_transportation,entity_domain,Mode Of Transportation
+name,string,Name
+name_of_international_institution,entity_domain,Name Of International Institution
+name_of_non_communicable_disease,entity_domain,Name Of Non Communicable Disease
+quantile,entity_domain,Quantile
+sex,entity_domain,Sex
+target,string,Target
+tariff_regime_status,entity_domain,Tariff Regime Status
+type_of_mobile_technology,entity_domain,Type Of Mobile Technology
+type_of_occupation,entity_domain,Type Of Occupation
+type_of_product,entity_domain,Type Of Product
+type_of_skill,entity_domain,Type Of Skill
+type_of_speed,entity_domain,Type Of Speed
+year,time,Year

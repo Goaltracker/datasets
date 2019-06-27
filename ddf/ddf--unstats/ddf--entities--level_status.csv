@@ -1,0 +1,14 @@
+level_status,name
+cldpr,CLDPR
+higimp,HIGIMP
+hipar,HIPAR
+lopar,LOPAR
+lowimp,LOWIMP
+mhigimp,MHIGIMP
+mlowimp,MLOWIMP
+mopar,MOPAR
+ncdpr,NCDPR
+nodata,NODATA
+notspec,NOTSPEC
+vhigimp,VHIGIMP
+vlowimp,VLOWIMP
