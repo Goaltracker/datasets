@@ -1,4 +1,4 @@
-concept,concept_type,name,sdg_indicator, local_color,local_comment
+concept,concept_type,name,sdg_indicator,local_color,local_comment
 year,time,Year,,,
 name,string,Name,,,
 area,entity_domain,Area,,,
