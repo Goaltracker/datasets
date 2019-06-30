@@ -1,15 +1,15 @@
-"concept","concept_type","name","sdg_indicator", "comment"
-"year","time","Year",
-"name","string","Name",
-"area","entity_domain","Area",
-"area_code","string","Area code",
-"sdg_indicator","string","SDG indicator",
-"sex","entity_domain","Sex",
-"location","entity_domain","Location",
-"age_group","entity_domain","Age group",
+"concept","concept_type","name","sdg_indicator", "local_color", "local_comment"
+"year","time","Year",,,
+"name","string","Name",,,
+"area","entity_domain","Area",,,
+"area_code","string","Area code",,,
+"sdg_indicator","string","SDG indicator",,,
+"sex","entity_domain","Sex",,,
+"location","entity_domain","Location",,,
+"age_group","entity_domain","Age group",,,
 "_1_1_1", measure, "Andel av befolkningen under den internationella fattigdomsgränsen", _1_1_1, Vit, "SCB föreslår att SCB ansvarar för den globala indikatorn. En nationell indikator skulle kunna utvecklas för att mäta situationen för de allra mest utsatta t.ex. bland personer som inte har rätt till eller av ngn annan anledning inte uppbär (offentligt) ekonomiskt stöd. Den här indikatorn skulle också kunna undersöka 'fattigdomsfällan' och/eller hur många som får bidrag men ändå behöver stöd från civila samhället (därför att det offentliga stödet inte räcker). Eller hur bidragstagares inkomster utvecklas i förhållande till andra."
-"_1_1_2", measure, "Mått kring fattigdom och de allra mest utsatta grupperna i samhället", _1_1_2, Röd
-"_1_2_1", measure, "Andel av befolkning under den nationella fattigdomsgränsen", _1_2_1, Grön
+"_1_1_2", measure, "Mått kring fattigdom och de allra mest utsatta grupperna i samhället", _1_1_2, Röd,
+"_1_2_1", measure, "Andel av befolkning under den nationella fattigdomsgränsen", _1_2_1, Grön,
 
 
 
