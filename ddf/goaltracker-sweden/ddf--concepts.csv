@@ -1,0 +1,61 @@
+"concept","concept_type","name","sdg_indicator"
+"year","time","Year",
+"name","string","Name",
+"area","entity_domain","Area",
+"area_code","string","Area code",
+"sdg_indicator","string","SDG indicator",
+"sex","entity_domain","Sex",
+"location","entity_domain","Location",
+"age_group","entity_domain","Age group",
+"adolscent_birth_rate","measure","adolscent birth rate","_3_7_2"
+"annual_rate_of_inflation","measure","annual rate of inflation","_17_13_1"
+"average_number_of_persons_per_sleeping_room","measure","average number of persons per sleeping room",
+"births_attended_by_skilled_health_personnel","measure","births attended by skilled health personnel","_3_1_2"
+"children_aged_5_17_engaging_in_child_labour","measure","children aged 5 17 engaging in child labour","_8_7_1"
+"children_under_5_years_overweight","measure","children under 5 years overweight","_2_2_1"
+"cohort_passing_primary_school_leaving_examination_psle","measure","cohort passing primary school leaving examination psle","_4_3_1"
+"death_caused_by_road_accidents","measure","death caused by road accidents","_3_c_1"
+"early_learning_net_enrolment_ratio_percent_of_eligible","measure","early learning net enrolment ratio percent of eligible","_4_1_1"
+"early_learning_gross_enrolment_ratio","measure","early learning gross enrolment ratio","_4_1_1"
+"gross_enrolment_ratio_in_higher_secondary_schools","measure","gross enrolment ratio in higher secondary schools",
+"gross_enrolment_ratio_in_lower_secondary_schools","measure","gross enrolment ratio in lower secondary schools","_4_1_1"
+"health_worker_density_nurse_and_midwife","measure","health worker density nurse and midwife","_3_6_1"
+"health_worker_density","measure","health worker density","_3_6_1"
+"life_expectancy_years","measure","life expectancy years","_3_4_1"
+"income_inequality","measure","income inequality","_10_1_1"
+"maternal_mortality_rate","measure","maternal mortality rate","_3_1_1"
+"net_enrolment_ratio_in_lower_education","measure","net enrolment ratio in lower education","_4_1_1"
+"circumcised_women","measure","circumcised women","_5_3_2"
+"physical_violence_from_current_or_former_partners","measure","physical violence from current or former partners","_5_2_2"
+"stunting_in_children","measure","stunting in children","_10_1_1"
+"wasting_weight_for_height_of_under_fives","measure","wasting weight for height of under fives","_10_1_1"
+"primary_gross_enrolment_ratio","measure","primary gross enrolment ratio",
+"primary_net_enrolment_ratio","measure","primary net enrolment ratio","_4_1_1"
+"primary_education_pupils_to_teacher_ratio","measure","primary education pupils to teacher ratio","_4_a_1"
+"primary_education_pupils_to_classroom_ratio","measure","primary education pupils to classroom ratio","_10_1_1"
+"primary_schools_with_electricity_pecent","measure","primary schools with electricity pecent","_4_a_1"
+"proportion_of_informal_employment_in_non_agriculture_employment","measure","proportion of informal employment in non agriculture employment","_8_3_1"
+"proportion_of_population_below_basic_needs_poverty_line","measure","proportion of population below basic needs poverty line","_1_1_1"
+"proportion_of_population_below_food_poverty_line","measure","proportion of population below food poverty line",
+"time_spent_on_unpaid_domestic_and_care_work","measure","time spent on unpaid domestic and care work","_5_4_1"
+"youth_not_in_education_employment_or_training","measure","youth not in education employment or training","_8_6_1"
+"propotion_of_women_in_managerial_positions","measure","propotion of women in managerial positions","_5_5_2"
+"pupils_to_classroom_ratio_in_lower_secondary_schools","measure","pupils to classroom ratio in lower secondary schools","_4_a_1"
+"real_growth_rate","measure","real growth rate","_8_1_1"
+"share_of_fisheries_to_gdp_current_prices","measure","share of fisheries to gdp current prices","_14_7_1"
+"share_of_forestry_to_total_export_earnings","measure","share of forestry to total export earnings","_2_3_1"
+"share_of_forestry_to_gdp_current_prices","measure","share of forestry to gdp current prices","_10_1_1"
+"share_of_gdp_current_prices","measure","share of gdp current prices","_17_1_1"
+"share_of_livestock_to_gdp_current_prices","measure","share of livestock to gdp current prices","_8_2_1"
+"share_of_livestock_total_export_earnings","measure","share of livestock total export earnings",
+"share_of_total_export_earnings","measure","share of total export earnings","_2_b_2"
+"share_of_total_fisheries_export_earnings","measure","share of total fisheries export earnings","_10_1_1"
+"students_passing_examination","measure","students passing examination","_4_1_1"
+"transition_rate_from_form_four_to_form_five","measure","transition rate from form four to form five","_4_1_1"
+"under_five_mortality_rate","measure","under five mortality rate","_4_1_1"
+"unemployment_rate","measure","unemployment rate","_8_5_2"
+"women_age_15_to_49_who_ever_violence_experienced","measure","women age 15 to 49 who ever violence experienced","_5_2_1"
+"women_age_15_49_who_have_experienced_sexual_violence","measure","women age 15 49 who have experienced sexual violence","_4_1_1"
+"women_aged_15_49_years_use_morden_method_of_family_planning","measure","women aged 15 49 years use morden method of family planning","_4_1_1"
+"working_population_employed_population_with_high_skills","measure","working population employed population with high skills","_4_1_1"
+"youth_in_vulnerable_employment","measure","youth in vulnerable employment",
