@@ -1,4 +1,5 @@
 geo,year,percent_pop_access_electricity,datasource
-zaf,2014,93.3,ghs2016
-zaf,2015,93.0,ghs2016
-zaf,2016,94.2,ghs2016
+zaf,2014,93.12,ghs2016
+zaf,2015,92.89,ghs2016
+zaf,2016,94.12,ghs2016
+zaf,2017,95.27,ghs2016

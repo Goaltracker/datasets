@@ -1,4 +1,11 @@
 geo,year,num_murders_victims_per_100_000_population,datasource
-zaf,2014,33.0,crimestats2016
-zaf,2015,34.5,crimestats2016
-zaf,2016,36.2,crimestats2016
+zaf,2009,36.4,crimestats2016
+zaf,2010,33.3,crimestats2016
+zaf,2011,31.1,crimestats2016
+zaf,2012,30.1,crimestats2016
+zaf,2013,30.9,crimestats2016
+zaf,2014,31.9,crimestats2016
+zaf,2015,32.9,crimestats2016
+zaf,2016,34.0,crimestats2016
+zaf,2017,34.1,crimestats2016
+zaf,2018,35.8,crimestats2016

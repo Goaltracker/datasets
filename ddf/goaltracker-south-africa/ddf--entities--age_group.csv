@@ -15,8 +15,10 @@ age_group,name,description
 35_44,35-44 yrs,age 35-44 years
 45_54,45-54 yrs,age 45-54 years
 55_64,55-64 yrs,age 55-64 years
+15_64,15-64 yrs,age 15-64 years
 65,65+ yrs,age 64+ years older
 15_34,15-34 yrs,age 15-34 years
 35_64,35-64 yrs,age 35-64 years
 total_15_49,Total 15-49,Total for persons 15-49 years
 total_18,Total (18+),Total for persons older than 18 yrs
+total,Total,Total for persons

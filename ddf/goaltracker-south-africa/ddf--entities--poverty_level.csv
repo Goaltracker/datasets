@@ -1,3 +1,4 @@
 poverty_level,name
-lower,Lower
-upper,Upper
+lower,Lower-bound Poverty Line
+upper,Upper-bound Poverty Line
+food,Food Poverty Line

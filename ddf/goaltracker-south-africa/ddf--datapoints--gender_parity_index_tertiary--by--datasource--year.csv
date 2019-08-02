@@ -1,4 +1,11 @@
 geo,year,gender_parity_index_tertiary,datasource
-zaf,2009,1.32,hemis2015
-zaf,2011,1.39,hemis2015
-zaf,2015,1.41,hemis2015
+zaf,2007,1.26,hemis2016
+zaf,2008,1.27,hemis2016
+zaf,2009,1.32,hemis2016
+zaf,2010,1.37,hemis2016
+zaf,2011,1.39,hemis2016
+zaf,2012,1.43,hemis2016
+zaf,2013,1.43,hemis2016
+zaf,2014,1.43,hemis2016
+zaf,2015,1.41,hemis2016
+zaf,2016,1.40,hemis2016

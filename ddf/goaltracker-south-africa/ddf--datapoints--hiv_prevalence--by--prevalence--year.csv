@@ -1,0 +1,9 @@
+geo,year,hiv_prevalence,prevalence,datasource
+zaf,2005,9.3,15_24_pop,hsrc
+zaf,2005,15.6,15_24_preg,hsrc
+zaf,2008,10.3,15_24_pop,hsrc
+zaf,2008,16.2,15_24_preg,hsrc
+zaf,2012,7.1,15_24_pop,hsrc
+zaf,2012,18.8,15_24_preg,hsrc
+zaf,2017,7.9,15_24_pop,hsrc
+zaf,2017,20.6,15_24_preg,hsrc

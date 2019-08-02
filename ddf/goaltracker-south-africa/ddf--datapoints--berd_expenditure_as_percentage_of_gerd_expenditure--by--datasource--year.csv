@@ -1,4 +1,6 @@
 geo,year,berd_expenditure_as_percentage_of_gerd_expenditure,datasource
-zaf,2012,47.1,res2014gdp2014
-zaf,2013,44.3,res2014gdp2014
-zaf,2014,45.9,res2014gdp2014
+zaf,2011,47.1,dst
+zaf,2012,44.3,dst
+zaf,2013,45.9,dst
+zaf,2014,45.3,dst
+zaf,2015,42.7,dst

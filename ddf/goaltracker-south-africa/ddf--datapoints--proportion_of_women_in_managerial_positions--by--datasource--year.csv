@@ -1,4 +1,5 @@
 geo,year,proportion_of_women_in_managerial_positions,datasource
-zaf,2014,0.31,qlfs2016
-zaf,2015,0.31,qlfs2016
-zaf,2016,0.32,qlfs2016
+zaf,2014,31.1,qlfs14_17
+zaf,2015,30.5,qlfs14_17
+zaf,2016,31.6,qlfs14_17
+zaf,2017,32.1,qlfs14_17

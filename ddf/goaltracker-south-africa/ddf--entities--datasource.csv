@@ -1,58 +1,84 @@
 datasource,name,description,provider
 ies2015lc2015,Income and Expenditure Survey 2015 and Living Conditions Survey 2015,Income and Expenditure Survey and Living Conditions Survey,Statistics South Africa
+ies2006lc2015,Income and Expenditure Survey 2006_2011 and Living Conditions Survey 2015,Income and Expenditure Survey and Living Conditions Survey,Statistics South Africa
 ghs2013,General Household Survey for 2013,Annual General Household Survey for 2013,Statistics South Africa
 ghs2014,General Household Survey for 2014,Annual General Household Survey for 2014,Statistics South Africa
 ghs2015,General Household Survey for 2015,General Household Survey for 2015,Statistics South Africa
 ghs2016,General Household Survey for 2016,General Household Survey for 2016,Statistics South Africa
 ghs2017,General Household Survey for 2017,General Household Survey for 2017,Statistics South Africa
-ghs2018,General Household Survey for 2018,Annual General Household Survey for  2018,Statistics South Africa
+ghs09_17,General Household Survey for 2009-2017,General Household Survey for 2009-2017,Statistics South Africa
+ghs15_17,General Household Survey for 2015-2017,General Household Survey for 2015-2017,Statistics South Africa
+ghs2018,General Household Survey for 2018,Annual General Household Survey for 2018,Statistics South Africa
+ghs13_17,General Household Survey for 2013-2017,Annual General Household Survey for 2013-2017,Statistics South Africa
 ene2017,ENE 2017,Estimates of National Expenditure for 2017,National Treasury
 ies2015,Income and Expenditure Survey 2015,Income and Expenditure Survey,Statistics South Africa
 socpen2016,SOCPEN 2016,,Department of Social Development
+socpen2018,Social Pension 2013-2018,,Department of Social Development
 cs2016,Community Survey 2016,Community Survey 2016,Statistics South Africa
+cs2016cen2016,Community Survey 2016 and Census (2001 and 2016),Community Survey 2016 and Census (2011 and 2016)SAMPI Index,Statistics South Africa
 socpenpopestimates2016,SOCPEN and Mid-year population estimates_2016,SOCPEN and Mid-year population estimates_2016,Department of Social Development and Statistics South Africa
 ene2015,ENE 2015,Estimates of National Expenditure for 2015,National Treasury
 ene2016,ENE 2016,Estimates of National Expenditure for 2016,National Treasury
 sanhanes2014,SANHANES,South African National Health and Nutrition Examination Survey (SANHANES-1)_2014,Human Science Research Council
 sanhanes2016sadhs,SANHANES,South African National Health and Nutrition Examination Survey and SADHS,Human Science Research Council and Statistics South Africa
 sadhs2016,South African Demographic Health Survey 2016,South African Demographic Health Survey 2016,Statistics South Africa
+sadhs98_16,South African Demographic Health Survey 1998 and 2016,South African Demographic Health Survey 1998 and 2016,Statistics South Africa
+sadhs16,South African Demographic Health Survey 1998 and 2016,South African Demographic Health Survey 1998 and 2016,Statistics South Africa and South African Medical Research Counsel
 dhis2015,District Health Information System 2015,District Health Information System 2015,Statistics South Africa
 dhis2016,District Health Information System 2016,District Health Information System 2016,Statistics South Africa
+dhis2017,District Health Information System 2017,District Health Information System 2017,Statistics South Africa
+dhis11_17,District Health Information System 2011-2017,District Health Information System 2011-2017,Department of Health
+dhis14_18,District Health Information System 2014-2014,District Health Information System 2014-2018,Department of Health
 rms2015,Rapid Mortality Surveillance 2015,Rapid Mortality Surveillance 2015,Department of Health
-anpas2016,Agricultural National Public Assets,Agricultural National Public Assets,Agricultural Research Council 
-anpas2016,Agricultural National Public Assets,Agricultural National Public Assets,Agricultural Research Council 
+anpas2015,Agricultural National Public Assets,Agricultural National Public Assets,Agricultural Research Council 
+anpas2017,Agricultural National Public Assets,Agricultural National Public Assets,Agricultural Research Council
 dcsannualreports2016,Annual Reports 2016,Annual Reports 2015-2016,Department of Correctional Services
 vocs2016,Victims of Crime Survey 2016,Victims of Crime Survey 2016,Statistics South Africa
-crvs2014,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics_2014,Statistics South Africa
-crvs2016,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics_2016,Statistics South
-crvs2015,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics_2015,Statistics South Africa
-crvs2013,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics_2013,Statistics South Africa
+vocs2018,Victims of Crime Survey 2014-2018,Victims of Crime Survey 2014-2018,Statistics South Africa
+crvs2014,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics 2014,Statistics South Africa
+crvs2016,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics 2016,Statistics South
+crvs2015,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics 2015,Statistics South Africa
+crvs15,Civil Registration and Vita Statistics (2010-2015) and South African Demographic Health Survey (1998 and 2016),Civil Registration and Vita Statistics (2001-2015) and South African Demographic Health Survey (1998 and 2016),Statistics South Africa
+crvs2013,Civil Registration and Vita Statistics,Civil Registration and Vita Statistics 2013,Statistics South Africa
+crvs07_17,Civil Registration and Vita Statistics 2007-2017,Civil Registration and Vita Statistics 2007-2017,Statistics South Africa
+rlb13_17,Recorded Live Births 2013–2017,Recorded Live Births 2013–2017,Statistics South Africa
 naneb2014,National Energy Balances,National Accounts 2014 & National Energy Balances,Statistics South Africa and  Department of Energy
+naneb,National Energy Balances 2011-2015,Financial Statistics of National Government 2011-2015,Statistics South Africa and Department of Energy
 naneb2013,national Energy Balances 2013,National Energy Balances 2013,Statistics South Africa and  Department of Energy
-redis2016,REDIS 2016,Renewable Energy Data and Information Service (REDIS)_2016,Department of Energy
+naneb2015,national Energy Balances 2013-2015,National Energy Balances 2013-2015,Statistics South Africa and  Department of Energy
+redis,REDIS 2012-2018,Renewable Energy Data and Information Service (REDIS)2012-2018,Department of Energy
 mype2016,Mid-year Population Estimates,Mid-year Population Estimates for 2016 based on Vital Statistics,Statistics South Africa
 gdp2016,Gross Domestic Product for 2016,Gross Domestic Product for 2016 based on the System of National Accounts,Statistics South Africa
 qlfs2016,Quarterly Labour Force Survey for 2016,Quarterly Labour Force Survey for 2016,Statistics South Africa
+qlfs2017,Quarterly Labour Force Survey for 2015-2017,Quarterly Labour Force Survey for 2015-2017,Statistics South Africa
+qlfs,Quarterly Labour Force Survey for 2010-2017,Quarterly Labour Force Survey for 2015-2017,Statistics South Africa
+qlfs10_15,Quarterly Labour Force Survey for 2010-2015,Quarterly Labour Force Survey for 2015-2017,Statistics South Africa
+qlfs14_17,Quarterly Labour Force Survey for 2014-2017,Quarterly Labour Force Survey for 2014-2017,Statistics South Africa
 sayp2015,Survey of Activities of Young People for 2015,Survey of Activities of Young People for 2015,Statistics South Africa
 umehluko2016,Management information system of fatal and non-fatal occupational injuries ,Management information system of fatal and non-fatal occupational injuries ,Department of Labour
 tsa2015,Tourism Satellite Account,Toursim Satellite Accounts for 2015,Statistics South Africa
+tsa2016,Tourism Satellite Account,Toursim Satellite Accounts for 2007-2016,Statistics South Africa
 lts2016,South Africa Land Transport Survey,South Africa Land Transport Survey,Statistics South Africa
 crimestats2016,Reported Crime Statistics for 2015/16,Reported Crime Statistics for 2015/16,South African Police Services
+crimestats,Reported Crime Statistics for 2008-2018,Reported Crime Statistics for 2008-2018,South African Police Services
 sayrbs2002,South African Youth Risk Behaviour Survey for the year 2002,South African Youth Risk Behaviour Survey for the year 2002,South African Medical Research Council (MRC)
 sayrbs2008,South African Youth Risk Behaviour Survey for the year 2008,South African Youth Risk Behaviour Survey for the year 2008,South African Medical Research Council (MRC)
 sayrbs2011,South African Youth Risk Behaviour Survey for the year 2011,South African Youth Risk Behaviour Survey for the year 2011,Human Sciences Research Council (HSRC)
 sanhiv2012,South African National HIV Prevalence Incidence and Behaviour Survey for 2012,South African National HIV Prevalence Incidence and Behaviour Survey for 2012, Human Sciences Research Council
-globaltb2015, Global TB Reports 2015, Global TB Reports 2015, Global TB Reports
-mis2015, Malaria Information System for 2015, Malaria Information System for 2015, Department of Health
+globaltb2015,Global TB Reports 2015,Global TB Reports 2015,Global TB Reports
+globaltb2017,Global TB Reports 2010-2017,Global TB Reports 2010-2017,Global TB Reports
+mis2015,Malaria Information System for 2015, Malaria Information System for 2015, Department of Health
+mis10_18,Malaria Information System for 2010-2018, Malaria Information System for 2010-2018, Department of Health
 srsr2016,State of Road Safety Report for 2016,State of Road Safety Report for 2016,Road Traffic Management Corporation
 hemis2015,Higher Education Management Information System for 2015,Higher Education Management Information System for 2015,Department of Higher Education and Training
+hemis2016,Higher Education Management Information System for 2007-2016,Higher Education Management Information System for 2007-2016,Department of Higher Education and Training
 neims2016,National Education Infrastructure Management System (NEIMS)_2016,National Education Infrastructure Management System (NEIMS)_2016,Department of Basic Education
 np2016, National Parliament 2016, National Parliament 2016, National Parliament
 gds2017,GDS 2017,Green Drop System for 2017,Department of Water and Sanitation
 dwsstrategy2013,2013 Strategic Overview of the Water Sector in South Africa,Strategic Overview of the Water Sector in South Africa,Department of Water and Sanitation
 dwstransboundarywater2017,Transboundary Water Basin Cooperation,Monitoring of SDG Indicator on Transboundary Water Cooperation,Department of Water and Sanitation
 neb2013,National Energy Balances for 2013,National Energy Balances for 2013,Department of Energy
-mype2016gdp2016, Mid Year Population Estimates 2016 and Gross Domestic Product 2016, Mid Year Population Estimates 2016 and Gross Domestic Product 2016, Statistics South Africa
+mype2016gdp2016, Mid Year Population Estimates and Gross Domestic Product (2015-2017), Mid Year Population Estimates and Gross Domestic Product (2015-2017), Statistics South Africa
 qlfs2016gdp2016,Quarterly Labour Force Survey 2016 and Gross Domestic Product 2016, Quarterly Labour Force Survey 2016 and Gross Domestic Product 2016, Statistics South Africa
 sayp2015,Survey of Activities of Young People for 2015,Survey of Activities of Young People for 2015,Statistics South Africa
 umehluko2016,Management information system of fatal and non-fatal occupational injuries,Management information system of fatal and non-fatal occupational injuries,Department of Labour
@@ -67,13 +93,24 @@ mea2014,Chemicals and Waste  Multilateral Environmental Agreements (MEAs) Made  
 ndmc,National Disaster Management Centre,Department of Cooperative Governance,Department of Cooperative Governance
 nbapei2013,National Biodiversity Assessment and Prince Edward & Marion Islands 2013,National Biodiversity Assessment and Prince Edward & Marion Islands 2013,Department of Environmental Affairs
 sapad2016,South African Protected Areas Database,South African Protected Areas Database,Department of Environmental Affairs
+sapad2018,South African Protected Areas Database,South African Protected Areas Database,Department of Environmental Affairs and South African National Biodiversity Institute (SANBI)
 sanbi2014,South African National Biodiversity Institute 2014,South African National Biodiversity Institute 2014,South African National Biodiversity Institute
 sayrbs2002,South African Youth Risk Behaviour Survey for the year 2002,South African Youth Risk Behaviour Survey for the year 2002,South African Medical Research Council (MRC)
 sayrbs2008,South African Youth Risk Behaviour Survey for the year 2008,South African Youth Risk Behaviour Survey for the year 2008,South African Medical Research Council (MRC)
 sayrbs2011,South African Youth Risk Behaviour Survey for the year 2011,South African Youth Risk Behaviour Survey for the year 2011,Human Sciences Research Council (HSRC)
 br2016,Budget Review 2016,Budget Review 2016,National Treasury
+finstats,Financial Statistics of National Government and GDP (2008-2016),Financial Statistics of National Government and GDP (2008-2016),Statistics South Africa
 dhs2015,Department of Human Settlements for 2015,Department of Human Settlements for 2015,Department of Human Settlements
 sawis2015,South African Waste Information System for 2015,South African Waste Information System for 2015,Department of Environmental Affairs
+sawis2017,South African Waste Information System for 2015 to 2017,South African Waste Information System for 2015 to 2017,Department of Environmental Affairs
 saaqis2015,South African Air Quality Information System for 2015,South African Air Quality Information System for 2015,Department of Environmental Affairs
 who2015,World Health Organisation for 2015,World Health Organisation for 2015,World Health organisation
 tus2010,Time Use Survey for 2010,Time Use Survey for 2010,Statistics South Africa
+ntes,Estimates of National Expenditure ,Estimates of National Expenditure(2013-2014 - 2015-2016),National Treasury
+dst,CSTI 2011-2015 (survey conducted by DST),CSTI 2011-2015 (survey conducted by DST),Department of Science and Technology
+gdp,GDP 2008-2017,GDP 2008-2017,Statistics South Africa
+hsrc,SABSSM 2012 and SABSSM 2017,SABSSM 2012 and SABSSM 2017,Human Sciences Research Council
+lts2017,LTS 2015–2017,LTS 2015–2017,Statistics South Africa
+icasa,ICASA 2015–2018,ICASA 2015–2018,ICASA
+csti2015,HSRC and Mid-year Population Estimates,HSRC and Mid-year Population Estimates 2010–2015,Statistics South Africa
+ana11_14,ANA - PIRLS - TIMMS (2011–2014),ANA - PIRLS - TIMMS (2011–2014),Department of Basic Edication

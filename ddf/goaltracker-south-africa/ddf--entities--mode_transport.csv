@@ -1,5 +1,5 @@
 mode_transport,name,description
-rail_journey,Rail journey,Passenger journey by rail
-rail_freight,Rail freight,Freight transport by rail
-road_journey,Road journey,Passenger journey by road
-road_freight,Road freight,Freight  transport by road
+rail_journey,Rail Journey: Million,Passenger journey by rail
+road_journey,Road Journey: Million,Passenger journey by road
+road_freight,Road Freight: Million Tons,Freight  transport by road
+rail_freight,Rail Freight: Million Tons,Freight transport by rail

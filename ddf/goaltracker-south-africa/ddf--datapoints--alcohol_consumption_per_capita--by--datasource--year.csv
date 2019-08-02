@@ -1,2 +1,8 @@
 geo,year,alcohol_consumption_per_capita,datasource
-zaf,2015,11.5,who2015
+zaf,2011,7.13,sawis2017
+zaf,2012,7.20,sawis2017
+zaf,2013,7.21,sawis2017
+zaf,2014,7.28,sawis2017
+zaf,2015,7.23,sawis2017
+zaf,2016,7.22,sawis2017
+zaf,2017,7.27,sawis2017

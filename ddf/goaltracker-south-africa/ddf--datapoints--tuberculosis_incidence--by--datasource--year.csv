@@ -1,6 +1,9 @@
 geo,year,tuberculosis_incidence,datasource
-zaf,2011,993,globaltb2015
-zaf,2012,1003,globaltb2015
-zaf,2013,860,globaltb2015
-zaf,2014,834,globaltb2015
-zaf,2015,834,globaltb2015
+zaf,2010,981,globaltb2017
+zaf,2011,993,globaltb2017
+zaf,2012,1003,globaltb2017
+zaf,2013,860,globaltb2017
+zaf,2014,834,globaltb2017
+zaf,2015,834,globaltb2017
+zaf,2016,81,globaltb2017
+zaf,2017,567,globaltb2017

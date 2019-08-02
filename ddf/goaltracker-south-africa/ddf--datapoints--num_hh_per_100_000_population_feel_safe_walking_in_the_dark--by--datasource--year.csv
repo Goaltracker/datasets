@@ -1,4 +1,6 @@
 geo,year,num_hh_per_100_000_population_feel_safe_walking_in_the_dark,datasource
-zaf,2014,34 492,vocs2016
-zaf,2015,30 666,vocs2016
-zaf,2016,30 481,vocs2016
+zaf,2014,34.8,vocs2018
+zaf,2015,31,vocs2018
+zaf,2016,30.7,vocs2018
+zaf,2017,29.4,vocs2018
+zaf,2018,31.8,vocs2018

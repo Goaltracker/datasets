@@ -1,7 +1,9 @@
 geo,year,infant_mortality_rate,datasource
+zaf,1998,44,sadhs98_16
 zaf,2010,33.40,crvs2015
 zaf,2011,27.20,crvs2015
 zaf,2012,25.60,crvs2015
 zaf,2013,25.00,crvs2015
 zaf,2014,24.70,crvs2015
 zaf,2015,22.30,crvs2015
+zaf,2016,35,sadhs98_16

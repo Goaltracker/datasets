@@ -1,0 +1,8 @@
+service,name,description
+"electricity","Electricity",Electricity
+"sanitation","Single-sex basic sanitation facilities","Single-sex basic sanitation facilities"
+"water","Basic Drinking Water","Basic Drinking water"
+"internet","Internet","The Internet for pedagogical purposes"
+"computer","Computer","Computers for pedagogical purposes"
+"infrastructure","Adapted Infrastructure","Adapted Infrastructure and materials for students with disabilities"
+"handwashing","Basic handwashing facilities","Basic handwashing facilities"

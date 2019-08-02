@@ -1,0 +1,13 @@
+geo,year,poverty_level,population_living_below_the_national_poverty_line,datasource
+zaf,2006,lower,51,ies2006lc2015
+zaf,2006,upper,66.6,ies2006lc2015
+zaf,2006,food,28.4,ies2006lc2015
+zaf,2009,lower,47.6,ies2006lc2015
+zaf,2009,upper,62.1,ies2006lc2015
+zaf,2009,food,33.5,ies2006lc2015
+zaf,2011,lower,36.4,ies2006lc2015
+zaf,2011,upper,53.2,ies2006lc2015
+zaf,2011,food,21.4,ies2006lc2015
+zaf,2015,lower,40,ies2006lc2015
+zaf,2015,upper,55.5,ies2006lc2015
+zaf,2015,food,25.2,ies2006lc2015

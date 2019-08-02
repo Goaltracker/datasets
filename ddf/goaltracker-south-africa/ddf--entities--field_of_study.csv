@@ -1,10 +1,23 @@
 field_of_study,description
-arts,Arts
-health,Health professions and related clinical sciences
-eng,Engineering
-math,Math
+arts,"Arts (Visual and Performing ARTS)"
+health,"Health professions and related clinical sciences"
+engi,Engineering
+math,"Mathematics and Statistics"
 edu,Education
 other,Other
-agric,Agriculture
-bus,Business
-law,Law
+agric,"Agriculture Agricultural Operations & Related Sciences"
+bus,"Business Economics and Management Sciences"
+law,"Law"
+arch,"Architecture and the Built Environment"
+commu,"Communication, Journalism and Related Studies"
+comp,"Computer and Information Sciences"
+fam,"Family Ecology and Consumer Sciences"
+lang,"Languages, Linguistics or Literature"
+mili,"Military Sciences"
+phil,"Philosophy, Religion and Theology"
+soc,"Social Sciences"
+psy,"Psychology"
+pub,"Public Management and Services"
+life,"Life Sciences"
+phy,"Physical Sciences"
+total,Total

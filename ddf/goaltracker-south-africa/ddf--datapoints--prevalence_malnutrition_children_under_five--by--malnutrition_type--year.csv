@@ -1,0 +1,4 @@
+geo,year,malnutrition_type,prevalence_malnutrition_children_under_five,datasource
+zaf,2016,wasting,3.0,sadhs2016
+zaf,2016,overweight,13.0,sadhs2016
+zaf,2016,total,16.0,sadhs2016

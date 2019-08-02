@@ -1,4 +1,7 @@
 geo,year,num_researchers_per_million_population,datasource
-zaf,2012,788,res2014mype2014
-zaf,2013,819,res2014mype2014
-zaf,2014,867,res2014mype2014
+zaf,2010,369,csti2015
+zaf,2011,390.2,csti2015
+zaf,2012,408,csti2015
+zaf,2013,438.2,csti2015
+zaf,2014,435.2,csti2015
+zaf,2015,475.1,csti2015

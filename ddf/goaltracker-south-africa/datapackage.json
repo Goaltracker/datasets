@@ -36,33 +36,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--adolescent_birth_rate--by--age_group--year.csv",
-      "name": "adolescent_birth_rate--by--age_group--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "adolescent_birth_rate"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--alcohol_consumption_per_capita--by--datasource--year.csv",
       "name": "alcohol_consumption_per_capita--by--datasource--year",
       "schema": {
@@ -110,6 +83,33 @@
         "primaryKey": [
           "energy",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--annual_mean_levels_fine_particulate_matter--by--year--particulate_matter_size.csv",
+      "name": "annual_mean_levels_fine_particulate_matter--by--year--particulate_matter_size",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "annual_mean_levels_fine_particulate_matter"
+          },
+          {
+            "name": "particulate_matter_size"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "particulate_matter_size"
         ]
       }
     },
@@ -189,102 +189,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--ddf--num_bank_atm_per_100000_population--by--datasource--year.csv",
-      "name": "ddf--num_bank_atm_per_100000_population--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "num_bank_atm_per_100000_population"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--ddf--num_bank_branches_per_100000_population--by--datasource--year.csv",
-      "name": "ddf--num_bank_branches_per_100000_population--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "num_bank_branches_per_100000_population"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--ddf--percentage_child_attend_school_experience_punish_aggression--by--datasource--year.csv",
-      "name": "ddf--percentage_child_attend_school_experience_punish_aggression--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_child_attend_school_experience_punish_aggression"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--death_rate_due_to_road_traffic_injuries--by--datasource--year.csv",
-      "name": "death_rate_due_to_road_traffic_injuries--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "death_rate_due_to_road_traffic_injuries"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--energy_intensity--by--currency--year.csv",
       "name": "energy_intensity--by--currency--year",
       "schema": {
@@ -315,60 +219,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--freight_volume_transported--by--mode_transport--year.csv",
-      "name": "freight_volume_transported--by--mode_transport--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "mode_transport"
-          },
-          {
-            "name": "freight_volume_transported"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "mode_transport",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million--by--sex--year.csv",
-      "name": "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million--by--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "sex",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--gender_parity_index_tertiary--by--datasource--year.csv",
       "name": "gender_parity_index_tertiary--by--datasource--year",
       "schema": {
@@ -381,30 +231,6 @@
           },
           {
             "name": "gender_parity_index_tertiary"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--gross_reseach_and_development_expenditure_as_percentage_of_gdp--by--datasource--year.csv",
-      "name": "gross_reseach_and_development_expenditure_as_percentage_of_gdp--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "gross_reseach_and_development_expenditure_as_percentage_of_gdp"
           },
           {
             "name": "datasource"
@@ -441,8 +267,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--hiv_prevalence--by--age_group--year.csv",
-      "name": "hiv_prevalence--by--age_group--year",
+      "path": "ddf--datapoints--hiv_prevalence--by--prevalence--year.csv",
+      "name": "hiv_prevalence--by--prevalence--year",
       "schema": {
         "fields": [
           {
@@ -455,14 +281,14 @@
             "name": "hiv_prevalence"
           },
           {
-            "name": "age_group"
+            "name": "prevalence"
           },
           {
             "name": "datasource"
           }
         ],
         "primaryKey": [
-          "age_group",
+          "prevalence",
           "year"
         ]
       }
@@ -490,33 +316,6 @@
         ],
         "primaryKey": [
           "geo",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--households_victims_of_crime--by--sex--year.csv",
-      "name": "households_victims_of_crime--by--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "households_victims_of_crime"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "sex",
           "year"
         ]
       }
@@ -576,8 +375,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--incidence_sexual_assault_per_100000--by--datasource--geo--year.csv",
-      "name": "incidence_sexual_assault_per_100000--by--datasource--geo--year",
+      "path": "ddf--datapoints--incidence_sexual_assault_per_100000--by--geo--year.csv",
+      "name": "incidence_sexual_assault_per_100000--by--geo--year",
       "schema": {
         "fields": [
           {
@@ -597,7 +396,6 @@
           }
         ],
         "primaryKey": [
-          "datasource",
           "geo",
           "year"
         ]
@@ -628,30 +426,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--labour_share_of_gdp--by--datasource--year.csv",
-      "name": "labour_share_of_gdp--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "labour_share_of_gdp"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--malaria_incidence--by--datasource--year.csv",
       "name": "malaria_incidence--by--datasource--year",
       "schema": {
@@ -664,6 +438,54 @@
           },
           {
             "name": "malaria_incidence"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--manufacture_employment_as_pecentage_total_employment--by--datasource--year.csv",
+      "name": "manufacture_employment_as_pecentage_total_employment--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "manufacture_employment_as_percentage_total_employment"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year.csv",
+      "name": "manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "manufacture_value_added_as_percentage_gdp_per_capita"
           },
           {
             "name": "datasource"
@@ -758,34 +580,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--mortality_rate_lifestyle_disease--by--datasource--disease_type--year.csv",
-      "name": "mortality_rate_lifestyle_disease--by--datasource--disease_type--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "disease_type"
-          },
-          {
-            "name": "mortality_rate_lifestyle_disease"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "disease_type",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--neonatal_mortality_rate--by--datasource--year.csv",
       "name": "neonatal_mortality_rate--by--datasource--year",
       "schema": {
@@ -798,6 +592,161 @@
           },
           {
             "name": "neonatal_mortality_rate"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--number_homeloans_granted_dfi--by--datasource--year.csv",
+      "name": "number_homeloans_granted_dfi--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "number_homeloans_granted_dfi"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--number_national_local_strategies--by--datasource--year.csv",
+      "name": "number_national_local_strategies--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "number_national_local_strategies"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--number_new_hiv_infections_per_1000_unifected_population_by_age_sex--by--datasource--sex--age_group--year.csv",
+      "name": "number_new_hiv_infections_per_1000_unifected_population_by_age_sex--by--datasource--sex--age_group--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "number_new_hiv_infections_per_1000_unifected_population_by_age_sex"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "age_group"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "sex",
+          "age_group",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--number_of_plant_and_animal_genetic_resources--by--genebank_resources_type--year.csv",
+      "name": "number_of_plant_and_animal_genetic_resources--by--genebank_resources_type--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "genebank_resources_type"
+          },
+          {
+            "name": "number_of_plant_and_animal_genetic_resources"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "genebank_resources_type",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--number_of_social_grants--by--geo--year.csv",
+      "name": "number_of_social_grants--by--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "number_of_social_grants"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--number_producers_benefit_animal_improvement_scheme--by--datasource--year.csv",
+      "name": "number_producers_benefit_animal_improvement_scheme--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "number_producers_benefit_animal_improvement_scheme"
           },
           {
             "name": "datasource"
@@ -858,37 +807,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--num_passenger_journeys--by--datasource--mode_transport--year.csv",
-      "name": "num_passenger_journeys--by--datasource--mode_transport--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "mode_transport"
-          },
-          {
-            "name": "num_passenger_journeys"
-          },
-          {
-            "name": "freight_volume_transported"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "mode_transport",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--num_researchers_per_million_population--by--datasource--year.csv",
       "name": "num_researchers_per_million_population--by--datasource--year",
       "schema": {
@@ -908,38 +826,6 @@
         ],
         "primaryKey": [
           "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--number_new_hiv_infections_per_1000_unifected_population_by_age_sex--by--datasource--sex--age_group--year.csv",
-      "name": "number_new_hiv_infections_per_1000_unifected_population_by_age_sex--by--datasource--sex--age_group--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "number_new_hiv_infections_per_1000_unifected_population_by_age_sex"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "sex",
-          "age_group",
           "year"
         ]
       }
@@ -977,37 +863,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--participation_rate_in_education_and_training_for_35_64_year_olds--by--sex--age_group--year.csv",
-      "name": "participation_rate_in_education_and_training_for_35_64_year_olds--by--sex--age_group--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "participation_rate_in_education_and_training_for_35_64_year_olds"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "sex",
-          "age_group",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--participation_rate_organised_learning--by--datasource--year.csv",
       "name": "participation_rate_organised_learning--by--datasource--year",
       "schema": {
@@ -1032,8 +887,92 @@
       }
     },
     {
-      "path": "ddf--datapoints--perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group--by--age_group--sex--year.csv",
-      "name": "perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group--by--age_group--sex--year",
+      "path": "ddf--datapoints--passenger_and_freight_volumes--by--mode_transport--datasource--year.csv",
+      "name": "passenger_and_freight_volumes--by--mode_transport--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "mode_transport"
+          },
+          {
+            "name": "passenger_and_freight_volumes"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "mode_transport",
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_children_completed_relavant_grade--by--grade--sex--datasource--year.csv",
+      "name": "percentage_children_completed_relavant_grade--by--grade--sex--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "grade"
+          },
+          {
+            "name": "percentage_children_completed_relavant_grade"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "grade",
+          "sex",
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_fully_funded_national_statistical_plan--by--datasource--year.csv",
+      "name": "percentage_fully_funded_national_statistical_plan--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_fully_funded_national_statistical_plan"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_graduates_age_and_field_of_study--by--field_of_study--age_group--year.csv",
+      "name": "percentage_graduates_age_and_field_of_study--by--field_of_study--age_group--year",
       "schema": {
         "fields": [
           {
@@ -1046,10 +985,401 @@
             "name": "age_group"
           },
           {
+            "name": "field_of_study"
+          },
+          {
+            "name": "percentage_graduates_age_and_field_of_study"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "field_of_study",
+          "age_group",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_hh_perception_crime--by--perceived_crime_trend--year.csv",
+      "name": "percentage_hh_perception_crime--by--perceived_crime_trend--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "perceived_crime_trend"
+          },
+          {
+            "name": "percentage_hh_perception_crime"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "perceived_crime_trend",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_international_agreement_on_hazardous_waste--by--datasource--year.csv",
+      "name": "percentage_international_agreement_on_hazardous_waste--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_international_agreements_on_hazardous_waste"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_marine_and_coastal_ecosystem_well_represented--by--ecosystem_type--datasource--year.csv",
+      "name": "percentage_marine_and_coastal_ecosystem_well_represented--by--ecosystem_type--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ecosystem_type"
+          },
+          {
+            "name": "percentage_ecosystem_well_represented"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "ecosystem_type",
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_mothers_children_receive_post_natal_care--by--datasource--year.csv",
+      "name": "percentage_mothers_children_receive_post_natal_care--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_mothers_children_receive_post_natal_care"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_mountain_ecosystem_types--by--datasource--year.csv",
+      "name": "percentage_mountain_ecosystem_types--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_mountain_ecosystem_types"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_mpa_of_eez--by--ecosystem--datasource--year.csv",
+      "name": "percentage_mpa_of_eez--by--ecosystem--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ecosystem"
+          },
+          {
+            "name": "percentage_mpa_of_eez"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "ecosystem",
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_municipal_waste_generated_recycled--by--datasource--year.csv",
+      "name": "percentage_municipal_waste_generated_recycled--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_municipal_waste_generated_recycled"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year.csv",
+      "name": "percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_of_individuals_who_own_a_mobile_telephone"
+          },
+          {
             "name": "sex"
           },
           {
-            "name": "perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group"
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "sex",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_of_seats_held_by_women_governments--by--datasource--geo--year.csv",
+      "name": "percentage_of_seats_held_by_women_governments--by--datasource--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_of_seats_held_by_women_governments"
+          },
+          {
+            "name": "geo"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_population_covered_by_social_protection--by--year--datasource.csv",
+      "name": "percentage_population_covered_by_social_protection--by--year--datasource",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_population_covered_by_social_protection"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "datasource"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_urban_access_basic_services_informal_dwellings--by--basic_service--year.csv",
+      "name": "percentage_urban_access_basic_services_informal_dwellings--by--basic_service--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_urban_access_basic_services_informal_dwellings"
+          },
+          {
+            "name": "basic_service"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "basic_service",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_urban_population_informal_dwellings--by--datasource--year.csv",
+      "name": "percentage_urban_population_informal_dwellings--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_urban_population_informal_dwellings"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_well_represented_protected_areas--by--ecosystem_type--year.csv",
+      "name": "percentage_well_represented_protected_areas--by--ecosystem_type--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ecosystem_type"
+          },
+          {
+            "name": "percentage_well_represented_protected_areas"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "ecosystem_type",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_women_reproductive_age_family_planning_needs_met--by--datasource--year.csv",
+      "name": "percentage_women_reproductive_age_family_planning_needs_met--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "percentage_women_reproductive_age_family_planning_needs_met"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year.csv",
+      "name": "percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "age_group"
+          },
+          {
+            "name": "percentage_youth_aged_15_24_dropped_out_school"
           },
           {
             "name": "datasource"
@@ -1058,134 +1388,6 @@
         "primaryKey": [
           "age_group",
           "sex",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--perc_youth_15_24_not_in_educ_employ_train--by--age_group--datasource--year.csv",
-      "name": "perc_youth_15_24_not_in_educ_employ_train--by--age_group--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "perc_youth_15_24_not_in_educ_employ_train"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--perc_youth_15_34_not_in_educ_employ_train--by--datasource--year.csv",
-      "name": "perc_youth_15_34_not_in_educ_employ_train--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "perc_youth_15_34_not_in_educ_employ_train"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percent_early_marriages_experienced_by_girls--by--geo--datasource--year.csv",
-      "name": "percent_early_marriages_experienced_by_girls--by--geo--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percent_early_marriages_experienced_by_girls"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "geo",
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percent_manufacture_employment_as_pecentage_total_employment--by--datasource--year.csv",
-      "name": "percent_manufacture_employment_as_pecentage_total_employment--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percent_manufacture_employment_as_percentage_total_employment"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percent_manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year.csv",
-      "name": "percent_manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percent_manufacture_value_added_as_percentage_gdp_per_capita"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
           "year"
         ]
       }
@@ -1210,87 +1412,6 @@
         ],
         "primaryKey": [
           "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percent_pop_access_safe_water--by--geotype--year.csv",
-      "name": "percent_pop_access_safe_water--by--geotype--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "geotype"
-          },
-          {
-            "name": "percent_pop_access_safe_water"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "geotype",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percent_pop_open_defaecation--by--geotype--year.csv",
-      "name": "percent_pop_open_defaecation--by--geotype--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "geotype"
-          },
-          {
-            "name": "percent_pop_open_defaecation"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "geotype",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percent_pop_use_safe_sanitation_hand_wash--by--geotype--year.csv",
-      "name": "percent_pop_use_safe_sanitation_hand_wash--by--geotype--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "geotype"
-          },
-          {
-            "name": "percent_pop_use_safe_sanitation_hand_wash"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "geotype",
           "year"
         ]
       }
@@ -1450,95 +1571,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--percent_women_subject_to_physical_or_sexual_violence--by--age_group--forms_of_violence--year.csv",
-      "name": "percent_women_subject_to_physical_or_sexual_violence--by--age_group--forms_of_violence--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percent_women_subject_to_physical_or_sexual_violence"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "forms_of_violence"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "forms_of_violence",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_children_completed_relavant_grade--by--grade--sex--datasource--year.csv",
-      "name": "percentage_children_completed_relavant_grade--by--grade--sex--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "grade"
-          },
-          {
-            "name": "percentage_children_completed_relavant_grade"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "grade",
-          "sex",
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_fully_funded_national_statistical_plan--by--datasource--year.csv",
-      "name": "percentage_fully_funded_national_statistical_plan--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_fully_funded_national_statistical_plan"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_graduates_age_and_field_of_study--by--datasource--field_of_study--age_group--year.csv",
-      "name": "percentage_graduates_age_and_field_of_study--by--datasource--field_of_study--age_group--year",
+      "path": "ddf--datapoints--perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group--by--age_group--sex--year.csv",
+      "name": "perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group--by--age_group--sex--year",
       "schema": {
         "fields": [
           {
@@ -1551,128 +1585,25 @@
             "name": "age_group"
           },
           {
-            "name": "field_of_study"
-          },
-          {
-            "name": "percentage_graduates_age_and_field_of_study"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "field_of_study",
-          "age_group",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_hh_perception_crime--by--perceived_crime_trend--year.csv",
-      "name": "percentage_hh_perception_crime--by--perceived_crime_trend--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "perceived_crime_trend"
-          },
-          {
-            "name": "percentage_hh_perception_crime"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "perceived_crime_trend",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_learners_threatened_injured_school_property--by--datasource--year.csv",
-      "name": "percentage_learners_threatened_injured_school_property--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_learners_threatened_injured_school_property"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_mothers_children_receive_post_natal_care--by--datasource--year.csv",
-      "name": "percentage_mothers_children_receive_post_natal_care--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_mothers_children_receive_post_natal_care"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year.csv",
-      "name": "percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_of_individuals_who_own_a_mobile_telephone"
-          },
-          {
             "name": "sex"
           },
           {
+            "name": "perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group"
+          },
+          {
             "name": "datasource"
           }
         ],
         "primaryKey": [
+          "age_group",
           "sex",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints--percentage_of_seats_held_by_women_governments--by--datasource--geo--year.csv",
-      "name": "percentage_of_seats_held_by_women_governments--by--datasource--geo--year",
+      "path": "ddf--datapoints--perc_youth_15_34_not_in_educ_employ_train--by--datasource--year.csv",
+      "name": "perc_youth_15_34_not_in_educ_employ_train--by--datasource--year",
       "schema": {
         "fields": [
           {
@@ -1682,10 +1613,10 @@
             "name": "year"
           },
           {
-            "name": "percentage_of_seats_held_by_women_governments"
+            "name": "age_group"
           },
           {
-            "name": "geo"
+            "name": "perc_youth_15_34_not_in_educ_employ_train"
           },
           {
             "name": "datasource"
@@ -1693,142 +1624,108 @@
         ],
         "primaryKey": [
           "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--population_below_international_poverty_line--by--datasource--year.csv",
+      "name": "population_below_international_poverty_line--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_below_international_poverty_line"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--population_living_below_the_national_poverty_line--by--poverty_level--year.csv",
+      "name": "population_living_below_the_national_poverty_line--by--poverty_level--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "poverty_level"
+          },
+          {
+            "name": "population_living_below_the_national_poverty_line"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "poverty_level",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--prevalence_malnutrition_children_under_five--by--malnutrition_type--year.csv",
+      "name": "prevalence_malnutrition_children_under_five--by--malnutrition_type--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "malnutrition_type"
+          },
+          {
+            "name": "prevalence_malnutrition_children_under_five"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "malnutrition_type",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--prevalence_moderate_severe_food_insecurity--by--geo--year.csv",
+      "name": "prevalence_moderate_severe_food_insecurity--by--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "prevalence_moderate_severe_food_insecurity"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
           "geo",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_people_living_with_hiv_exposed_to_art--by--age_group--sex--year.csv",
-      "name": "percentage_people_living_with_hiv_exposed_to_art--by--age_group--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "percentage_people_living_with_hiv_exposed_to_art"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "sex",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_population_covered_by_social_protection--by--datasource--geo--year.csv",
-      "name": "percentage_population_covered_by_social_protection--by--datasource--geo--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_population_covered_by_social_protection"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "geo",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_schools_access_singlesex_sanitation--by--datasource--year.csv",
-      "name": "percentage_schools_access_singlesex_sanitation--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_schools_access_singlesex_sanitation"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_women_reproductive_age_family_planning_needs_met--by--datasource--year.csv",
-      "name": "percentage_women_reproductive_age_family_planning_needs_met--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "percentage_women_reproductive_age_family_planning_needs_met"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year.csv",
-      "name": "percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "percentage_youth_aged_15_24_dropped_out_school"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "sex",
           "year"
         ]
       }
@@ -1861,6 +1758,30 @@
       }
     },
     {
+      "path": "ddf--datapoints--prevalence_stunting_children_under_5yrs--by--geo--year.csv",
+      "name": "prevalence_stunting_children_under_5yrs--by--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "prevalence_stunting_children_under_5yrs"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--proportion_births_attended_skilled_health_personnel--by--datasource--year.csv",
       "name": "proportion_births_attended_skilled_health_personnel--by--datasource--year",
       "schema": {
@@ -1885,8 +1806,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--proportion_learners_self_reported_forced_sex--by--datasource--year.csv",
-      "name": "proportion_learners_self_reported_forced_sex--by--datasource--year",
+      "path": "ddf--datapoints--proportion_government_spending_essential_services--by--geo--year.csv",
+      "name": "proportion_government_spending_essential_services--by--geo--year",
       "schema": {
         "fields": [
           {
@@ -1896,13 +1817,100 @@
             "name": "year"
           },
           {
-            "name": "proportion_learners_self_reported_forced_sex"
+            "name": "proportion_government_spending_essential_services"
           },
           {
             "name": "datasource"
           }
         ],
         "primaryKey": [
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_children_and_young_people--by--levels--grade--datasource--year.csv",
+      "name": "proportion_of_children_and_young_people--by--levels--grade--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "grade"
+          },
+          {
+            "name": "levels"
+          },
+          {
+            "name": "proportion_of_children_and_young_people"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "levels",
+          "grade",
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_men_women_living_in_poverty--by--sampi_index--year.csv",
+      "name": "proportion_of_men_women_living_in_poverty--by--sampi_index--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_of_men_women_living_in_poverty"
+          },
+          {
+            "name": "sampi_index"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "sampi_index",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_schools_with_access_to--by--service--datasource--year.csv",
+      "name": "proportion_of_schools_with_access_to--by--service--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_of_schools_access_to"
+          },
+          {
+            "name": "service"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "service",
           "datasource",
           "year"
         ]
@@ -2060,6 +2068,30 @@
       }
     },
     {
+      "path": "ddf--datapoints--total_official_flows--by--datasource--year.csv",
+      "name": "total_official_flows--by--datasource--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "total_official_flows"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "datasource",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--tourism_direct_gdp_as_percentage_of_total_gdp--by--datasource--year.csv",
       "name": "tourism_direct_gdp_as_percentage_of_total_gdp--by--datasource--year",
       "schema": {
@@ -2156,32 +2188,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployment_rate--by--age_group.csv",
-      "name": "unemployment_rate--by--age_group",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "unemployment_rate_age_group"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "age_group"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--unemployment_rate--by--sex--year.csv",
       "name": "unemployment_rate--by--sex--year",
       "schema": {
@@ -2245,54 +2251,6 @@
           },
           {
             "name": "unsentenced_detainees"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--victims_of_crime--by--datasource--year.csv",
-      "name": "victims_of_crime--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "victims_of_crime"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "datasource",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--water_sanitation_oda_spent--by--datasource--year.csv",
-      "name": "water_sanitation_oda_spent--by--datasource--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "water_sanitation_oda_spent"
           },
           {
             "name": "datasource"
@@ -2650,6 +2608,24 @@
       }
     },
     {
+      "path": "ddf--entities--levels.csv",
+      "name": "levels",
+      "schema": {
+        "fields": [
+          {
+            "name": "levels"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "description"
+          }
+        ],
+        "primaryKey": "levels"
+      }
+    },
+    {
       "path": "ddf--entities--malnutrition_type.csv",
       "name": "malnutrition_type",
       "schema": {
@@ -2773,6 +2749,57 @@
       }
     },
     {
+      "path": "ddf--entities--prevalence.csv",
+      "name": "prevalence",
+      "schema": {
+        "fields": [
+          {
+            "name": "prevalence"
+          },
+          {
+            "name": "description"
+          }
+        ],
+        "primaryKey": "prevalence"
+      }
+    },
+    {
+      "path": "ddf--entities--sampi_index.csv",
+      "name": "sampi_index",
+      "schema": {
+        "fields": [
+          {
+            "name": "sampi_index"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "description"
+          }
+        ],
+        "primaryKey": "sampi_index"
+      }
+    },
+    {
+      "path": "ddf--entities--service.csv",
+      "name": "service",
+      "schema": {
+        "fields": [
+          {
+            "name": "service"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "description"
+          }
+        ],
+        "primaryKey": "service"
+      }
+    },
+    {
       "path": "ddf--entities--sex.csv",
       "name": "sex",
       "schema": {
@@ -2815,30 +2842,6 @@
         "primaryKey": [
           "age_group",
           "datasource",
-          "field_of_study",
-          "year"
-        ],
-        "value": "geo",
-        "resources": [
-          "percentage_graduates_age_and_field_of_study--by--datasource--field_of_study--age_group--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "datasource",
-          "field_of_study",
-          "year"
-        ],
-        "value": "percentage_graduates_age_and_field_of_study",
-        "resources": [
-          "percentage_graduates_age_and_field_of_study--by--datasource--field_of_study--age_group--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "datasource",
           "sex",
           "year"
         ],
@@ -2875,56 +2878,34 @@
       {
         "primaryKey": [
           "age_group",
-          "datasource",
-          "year"
-        ],
-        "value": "geo",
-        "resources": [
-          "perc_youth_15_24_not_in_educ_employ_train--by--age_group--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "datasource",
-          "year"
-        ],
-        "value": "perc_youth_15_24_not_in_educ_employ_train",
-        "resources": [
-          "perc_youth_15_24_not_in_educ_employ_train--by--age_group--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "forms_of_violence",
+          "field_of_study",
           "year"
         ],
         "value": "datasource",
         "resources": [
-          "percent_women_subject_to_physical_or_sexual_violence--by--age_group--forms_of_violence--year"
+          "percentage_graduates_age_and_field_of_study--by--field_of_study--age_group--year"
         ]
       },
       {
         "primaryKey": [
           "age_group",
-          "forms_of_violence",
+          "field_of_study",
           "year"
         ],
         "value": "geo",
         "resources": [
-          "percent_women_subject_to_physical_or_sexual_violence--by--age_group--forms_of_violence--year"
+          "percentage_graduates_age_and_field_of_study--by--field_of_study--age_group--year"
         ]
       },
       {
         "primaryKey": [
           "age_group",
-          "forms_of_violence",
+          "field_of_study",
           "year"
         ],
-        "value": "percent_women_subject_to_physical_or_sexual_violence",
+        "value": "percentage_graduates_age_and_field_of_study",
         "resources": [
-          "percent_women_subject_to_physical_or_sexual_violence--by--age_group--forms_of_violence--year"
+          "percentage_graduates_age_and_field_of_study--by--field_of_study--age_group--year"
         ]
       },
       {
@@ -2935,9 +2916,7 @@
         ],
         "value": "datasource",
         "resources": [
-          "participation_rate_in_education_and_training_for_35_64_year_olds--by--sex--age_group--year",
           "perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group--by--age_group--sex--year",
-          "percentage_people_living_with_hiv_exposed_to_art--by--age_group--sex--year",
           "percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year"
         ]
       },
@@ -2949,21 +2928,8 @@
         ],
         "value": "geo",
         "resources": [
-          "participation_rate_in_education_and_training_for_35_64_year_olds--by--sex--age_group--year",
           "perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group--by--age_group--sex--year",
-          "percentage_people_living_with_hiv_exposed_to_art--by--age_group--sex--year",
           "percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "sex",
-          "year"
-        ],
-        "value": "participation_rate_in_education_and_training_for_35_64_year_olds",
-        "resources": [
-          "participation_rate_in_education_and_training_for_35_64_year_olds--by--sex--age_group--year"
         ]
       },
       {
@@ -2983,17 +2949,6 @@
           "sex",
           "year"
         ],
-        "value": "percentage_people_living_with_hiv_exposed_to_art",
-        "resources": [
-          "percentage_people_living_with_hiv_exposed_to_art--by--age_group--sex--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "sex",
-          "year"
-        ],
         "value": "percentage_youth_aged_15_24_dropped_out_school",
         "resources": [
           "percentage_youth_aged_15_24_dropped_out_school--by--age_group--sex--year"
@@ -3001,44 +2956,32 @@
       },
       {
         "primaryKey": [
-          "age_group",
-          "year"
-        ],
-        "value": "adolescent_birth_rate",
-        "resources": [
-          "adolescent_birth_rate--by--age_group--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
+          "basic_service",
           "year"
         ],
         "value": "datasource",
         "resources": [
-          "adolescent_birth_rate--by--age_group--year",
-          "hiv_prevalence--by--age_group--year"
+          "percentage_urban_access_basic_services_informal_dwellings--by--basic_service--year"
         ]
       },
       {
         "primaryKey": [
-          "age_group",
+          "basic_service",
           "year"
         ],
         "value": "geo",
         "resources": [
-          "adolescent_birth_rate--by--age_group--year",
-          "hiv_prevalence--by--age_group--year"
+          "percentage_urban_access_basic_services_informal_dwellings--by--basic_service--year"
         ]
       },
       {
         "primaryKey": [
-          "age_group",
+          "basic_service",
           "year"
         ],
-        "value": "hiv_prevalence",
+        "value": "percentage_urban_access_basic_services_informal_dwellings",
         "resources": [
-          "hiv_prevalence--by--age_group--year"
+          "percentage_urban_access_basic_services_informal_dwellings--by--basic_service--year"
         ]
       },
       {
@@ -3084,45 +3027,45 @@
       {
         "primaryKey": [
           "datasource",
-          "disease_type",
+          "ecosystem",
           "year"
         ],
         "value": "geo",
         "resources": [
-          "mortality_rate_lifestyle_disease--by--datasource--disease_type--year"
+          "percentage_mpa_of_eez--by--ecosystem--datasource--year"
         ]
       },
       {
         "primaryKey": [
           "datasource",
-          "disease_type",
+          "ecosystem",
           "year"
         ],
-        "value": "mortality_rate_lifestyle_disease",
+        "value": "percentage_mpa_of_eez",
         "resources": [
-          "mortality_rate_lifestyle_disease--by--datasource--disease_type--year"
+          "percentage_mpa_of_eez--by--ecosystem--datasource--year"
         ]
       },
       {
         "primaryKey": [
           "datasource",
-          "geo",
+          "ecosystem_type",
           "year"
         ],
-        "value": "incidence_sexual_assault_per_100000",
+        "value": "geo",
         "resources": [
-          "incidence_sexual_assault_per_100000--by--datasource--geo--year"
+          "percentage_marine_and_coastal_ecosystem_well_represented--by--ecosystem_type--datasource--year"
         ]
       },
       {
         "primaryKey": [
           "datasource",
-          "geo",
+          "ecosystem_type",
           "year"
         ],
-        "value": "percent_early_marriages_experienced_by_girls",
+        "value": "percentage_ecosystem_well_represented",
         "resources": [
-          "percent_early_marriages_experienced_by_girls--by--geo--datasource--year"
+          "percentage_marine_and_coastal_ecosystem_well_represented--by--ecosystem_type--datasource--year"
         ]
       },
       {
@@ -3139,12 +3082,25 @@
       {
         "primaryKey": [
           "datasource",
-          "geo",
+          "grade",
+          "levels",
           "year"
         ],
-        "value": "percentage_population_covered_by_social_protection",
+        "value": "geo",
         "resources": [
-          "percentage_population_covered_by_social_protection--by--datasource--geo--year"
+          "proportion_of_children_and_young_people--by--levels--grade--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "grade",
+          "levels",
+          "year"
+        ],
+        "value": "proportion_of_children_and_young_people",
+        "resources": [
+          "proportion_of_children_and_young_people--by--levels--grade--datasource--year"
         ]
       },
       {
@@ -3177,31 +3133,42 @@
           "mode_transport",
           "year"
         ],
-        "value": "freight_volume_transported",
+        "value": "geo",
         "resources": [
-          "num_passenger_journeys--by--datasource--mode_transport--year"
+          "passenger_and_freight_volumes--by--mode_transport--datasource--year"
         ]
       },
       {
         "primaryKey": [
           "datasource",
           "mode_transport",
+          "year"
+        ],
+        "value": "passenger_and_freight_volumes",
+        "resources": [
+          "passenger_and_freight_volumes--by--mode_transport--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "service",
           "year"
         ],
         "value": "geo",
         "resources": [
-          "num_passenger_journeys--by--datasource--mode_transport--year"
+          "proportion_of_schools_with_access_to--by--service--datasource--year"
         ]
       },
       {
         "primaryKey": [
           "datasource",
-          "mode_transport",
+          "service",
           "year"
         ],
-        "value": "num_passenger_journeys",
+        "value": "proportion_of_schools_access_to",
         "resources": [
-          "num_passenger_journeys--by--datasource--mode_transport--year"
+          "proportion_of_schools_with_access_to--by--service--datasource--year"
         ]
       },
       {
@@ -3271,16 +3238,6 @@
           "datasource",
           "year"
         ],
-        "value": "death_rate_due_to_road_traffic_injuries",
-        "resources": [
-          "death_rate_due_to_road_traffic_injuries--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
         "value": "gender_parity_index_tertiary",
         "resources": [
           "gender_parity_index_tertiary--by--datasource--year"
@@ -3296,60 +3253,49 @@
           "alcohol_consumption_per_capita--by--datasource--year",
           "berd_expenditure_as_percentage_of_gerd_expenditure--by--datasource--year",
           "couple_year_protection_rate--by--datasource--year",
-          "ddf--num_bank_atm_per_100000_population--by--datasource--year",
-          "ddf--num_bank_branches_per_100000_population--by--datasource--year",
-          "ddf--percentage_child_attend_school_experience_punish_aggression--by--datasource--year",
-          "death_rate_due_to_road_traffic_injuries--by--datasource--year",
           "gender_parity_index_tertiary--by--datasource--year",
-          "gross_reseach_and_development_expenditure_as_percentage_of_gdp--by--datasource--year",
           "growth_rate_gdp_per_capita--by--datasource--year",
           "infant_mortality_rate--by--datasource--year",
-          "labour_share_of_gdp--by--datasource--year",
           "malaria_incidence--by--datasource--year",
+          "manufacture_employment_as_pecentage_total_employment--by--datasource--year",
+          "manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year",
           "maternal_mortality--by--datasource--year",
           "mortality_due_to_hepatitis--by--datasource--year",
           "neonatal_mortality_rate--by--datasource--year",
           "num_hh_per_100_000_population_feel_safe_walking_in_the_dark--by--datasource--year",
           "num_murders_victims_per_100_000_population--by--datasource--year",
           "num_researchers_per_million_population--by--datasource--year",
+          "number_homeloans_granted_dfi--by--datasource--year",
+          "number_national_local_strategies--by--datasource--year",
+          "number_producers_benefit_animal_improvement_scheme--by--datasource--year",
           "participation_rate_organised_learning--by--datasource--year",
           "perc_youth_15_34_not_in_educ_employ_train--by--datasource--year",
-          "percent_manufacture_employment_as_pecentage_total_employment--by--datasource--year",
-          "percent_manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year",
           "percent_pop_access_electricity--by--datasource--year",
           "percent_renewable_share_in_total_final_energy_consumption--by--datasource--year",
           "percent_transboundary_basin_water_arrangement--by--datasource--year",
           "percent_waste_water_safely_treated--by--datasource--year",
           "percent_water_level_stress--by--datasource--year",
           "percentage_fully_funded_national_statistical_plan--by--datasource--year",
-          "percentage_learners_threatened_injured_school_property--by--datasource--year",
+          "percentage_international_agreement_on_hazardous_waste--by--datasource--year",
           "percentage_mothers_children_receive_post_natal_care--by--datasource--year",
-          "percentage_schools_access_singlesex_sanitation--by--datasource--year",
+          "percentage_mountain_ecosystem_types--by--datasource--year",
+          "percentage_municipal_waste_generated_recycled--by--datasource--year",
+          "percentage_population_covered_by_social_protection--by--year--datasource",
+          "percentage_urban_population_informal_dwellings--by--datasource--year",
           "percentage_women_reproductive_age_family_planning_needs_met--by--datasource--year",
+          "population_below_international_poverty_line--by--datasource--year",
           "proportion_births_attended_skilled_health_personnel--by--datasource--year",
-          "proportion_learners_self_reported_forced_sex--by--datasource--year",
           "proportion_of_women_in_managerial_positions--by--datasource--year",
           "revenue_as_a_proportion_of_gdp--by--datasource--year",
           "stillbirth_rate--by--datasource--year",
           "suicide_mortality_rate--by--datasource--year",
+          "total_official_flows--by--datasource--year",
           "tourism_direct_gdp_as_percentage_of_total_gdp--by--datasource--year",
           "tuberculosis_incidence--by--datasource--year",
           "under_five_birth_registered--by--datasource--year",
           "under_five_yrs_mortality_rate--by--datasource--year",
           "unintentional_poisoning_mortality_rate_per_100_000_population--by--datasource--year",
-          "unsentenced_detainees--by--datasource--year",
-          "victims_of_crime--by--datasource--year",
-          "water_sanitation_oda_spent--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
-        "value": "gross_reseach_and_development_expenditure_as_percentage_of_gdp",
-        "resources": [
-          "gross_reseach_and_development_expenditure_as_percentage_of_gdp--by--datasource--year"
+          "unsentenced_detainees--by--datasource--year"
         ]
       },
       {
@@ -3377,9 +3323,9 @@
           "datasource",
           "year"
         ],
-        "value": "labour_share_of_gdp",
+        "value": "malaria_incidence",
         "resources": [
-          "labour_share_of_gdp--by--datasource--year"
+          "malaria_incidence--by--datasource--year"
         ]
       },
       {
@@ -3387,9 +3333,19 @@
           "datasource",
           "year"
         ],
-        "value": "malaria_incidence",
+        "value": "manufacture_employment_as_percentage_total_employment",
         "resources": [
-          "malaria_incidence--by--datasource--year"
+          "manufacture_employment_as_pecentage_total_employment--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "manufacture_value_added_as_percentage_gdp_per_capita",
+        "resources": [
+          "manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year"
         ]
       },
       {
@@ -3427,26 +3383,6 @@
           "datasource",
           "year"
         ],
-        "value": "num_bank_atm_per_100000_population",
-        "resources": [
-          "ddf--num_bank_atm_per_100000_population--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
-        "value": "num_bank_branches_per_100000_population",
-        "resources": [
-          "ddf--num_bank_branches_per_100000_population--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
         "value": "num_hh_per_100_000_population_feel_safe_walking_in_the_dark",
         "resources": [
           "num_hh_per_100_000_population_feel_safe_walking_in_the_dark--by--datasource--year"
@@ -3477,6 +3413,36 @@
           "datasource",
           "year"
         ],
+        "value": "number_homeloans_granted_dfi",
+        "resources": [
+          "number_homeloans_granted_dfi--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "number_national_local_strategies",
+        "resources": [
+          "number_national_local_strategies--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "number_producers_benefit_animal_improvement_scheme",
+        "resources": [
+          "number_producers_benefit_animal_improvement_scheme--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
         "value": "participation_rate_organised_learning",
         "resources": [
           "participation_rate_organised_learning--by--datasource--year"
@@ -3490,26 +3456,6 @@
         "value": "perc_youth_15_34_not_in_educ_employ_train",
         "resources": [
           "perc_youth_15_34_not_in_educ_employ_train--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
-        "value": "percent_manufacture_employment_as_percentage_total_employment",
-        "resources": [
-          "percent_manufacture_employment_as_pecentage_total_employment--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
-        "value": "percent_manufacture_value_added_as_percentage_gdp_per_capita",
-        "resources": [
-          "percent_manufacture_value_added_as_percentage_gdp_per_capita--by--datasource--year"
         ]
       },
       {
@@ -3567,16 +3513,6 @@
           "datasource",
           "year"
         ],
-        "value": "percentage_child_attend_school_experience_punish_aggression",
-        "resources": [
-          "ddf--percentage_child_attend_school_experience_punish_aggression--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
         "value": "percentage_fully_funded_national_statistical_plan",
         "resources": [
           "percentage_fully_funded_national_statistical_plan--by--datasource--year"
@@ -3587,9 +3523,9 @@
           "datasource",
           "year"
         ],
-        "value": "percentage_learners_threatened_injured_school_property",
+        "value": "percentage_international_agreements_on_hazardous_waste",
         "resources": [
-          "percentage_learners_threatened_injured_school_property--by--datasource--year"
+          "percentage_international_agreement_on_hazardous_waste--by--datasource--year"
         ]
       },
       {
@@ -3607,9 +3543,39 @@
           "datasource",
           "year"
         ],
-        "value": "percentage_schools_access_singlesex_sanitation",
+        "value": "percentage_mountain_ecosystem_types",
         "resources": [
-          "percentage_schools_access_singlesex_sanitation--by--datasource--year"
+          "percentage_mountain_ecosystem_types--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "percentage_municipal_waste_generated_recycled",
+        "resources": [
+          "percentage_municipal_waste_generated_recycled--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "percentage_population_covered_by_social_protection",
+        "resources": [
+          "percentage_population_covered_by_social_protection--by--year--datasource"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "percentage_urban_population_informal_dwellings",
+        "resources": [
+          "percentage_urban_population_informal_dwellings--by--datasource--year"
         ]
       },
       {
@@ -3627,9 +3593,9 @@
           "datasource",
           "year"
         ],
-        "value": "proportion_births_attended_skilled_health_personnel",
+        "value": "population_below_international_poverty_line",
         "resources": [
-          "proportion_births_attended_skilled_health_personnel--by--datasource--year"
+          "population_below_international_poverty_line--by--datasource--year"
         ]
       },
       {
@@ -3637,9 +3603,9 @@
           "datasource",
           "year"
         ],
-        "value": "proportion_learners_self_reported_forced_sex",
+        "value": "proportion_births_attended_skilled_health_personnel",
         "resources": [
-          "proportion_learners_self_reported_forced_sex--by--datasource--year"
+          "proportion_births_attended_skilled_health_personnel--by--datasource--year"
         ]
       },
       {
@@ -3680,6 +3646,16 @@
         "value": "suicide_mortality_rate",
         "resources": [
           "suicide_mortality_rate--by--datasource--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "datasource",
+          "year"
+        ],
+        "value": "total_official_flows",
+        "resources": [
+          "total_official_flows--by--datasource--year"
         ]
       },
       {
@@ -3744,26 +3720,6 @@
       },
       {
         "primaryKey": [
-          "datasource",
-          "year"
-        ],
-        "value": "victims_of_crime",
-        "resources": [
-          "victims_of_crime--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "datasource",
-          "year"
-        ],
-        "value": "water_sanitation_oda_spent",
-        "resources": [
-          "water_sanitation_oda_spent--by--datasource--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "domestic_work_type",
           "sex",
           "year"
@@ -3793,6 +3749,36 @@
         "value": "percent_time_spent_unpaid_work",
         "resources": [
           "percent_time_spent_unpaid_work--by--domestic_work_type--sex--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "ecosystem_type",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "percentage_well_represented_protected_areas--by--ecosystem_type--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "ecosystem_type",
+          "year"
+        ],
+        "value": "geo",
+        "resources": [
+          "percentage_well_represented_protected_areas--by--ecosystem_type--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "ecosystem_type",
+          "year"
+        ],
+        "value": "percentage_well_represented_protected_areas",
+        "resources": [
+          "percentage_well_represented_protected_areas--by--ecosystem_type--year"
         ]
       },
       {
@@ -3839,6 +3825,36 @@
       },
       {
         "primaryKey": [
+          "genebank_resources_type",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "number_of_plant_and_animal_genetic_resources--by--genebank_resources_type--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "genebank_resources_type",
+          "year"
+        ],
+        "value": "geo",
+        "resources": [
+          "number_of_plant_and_animal_genetic_resources--by--genebank_resources_type--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "genebank_resources_type",
+          "year"
+        ],
+        "value": "number_of_plant_and_animal_genetic_resources",
+        "resources": [
+          "number_of_plant_and_animal_genetic_resources--by--genebank_resources_type--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -3846,7 +3862,12 @@
         "resources": [
           "households_using_the_internet--by--geo--year",
           "incidence_human_trafficking_per_100000_population--by--geo--year",
-          "incidence_rape_reported_to_police_per_100000--by--geo--year"
+          "incidence_rape_reported_to_police_per_100000--by--geo--year",
+          "incidence_sexual_assault_per_100000--by--geo--year",
+          "number_of_social_grants--by--geo--year",
+          "prevalence_moderate_severe_food_insecurity--by--geo--year",
+          "prevalence_stunting_children_under_5yrs--by--geo--year",
+          "proportion_government_spending_essential_services--by--geo--year"
         ]
       },
       {
@@ -3881,56 +3902,82 @@
       },
       {
         "primaryKey": [
-          "geotype",
+          "geo",
+          "year"
+        ],
+        "value": "incidence_sexual_assault_per_100000",
+        "resources": [
+          "incidence_sexual_assault_per_100000--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "number_of_social_grants",
+        "resources": [
+          "number_of_social_grants--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "prevalence_moderate_severe_food_insecurity",
+        "resources": [
+          "prevalence_moderate_severe_food_insecurity--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "prevalence_stunting_children_under_5yrs",
+        "resources": [
+          "prevalence_stunting_children_under_5yrs--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "proportion_government_spending_essential_services",
+        "resources": [
+          "proportion_government_spending_essential_services--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "malnutrition_type",
           "year"
         ],
         "value": "datasource",
         "resources": [
-          "percent_pop_access_safe_water--by--geotype--year",
-          "percent_pop_open_defaecation--by--geotype--year",
-          "percent_pop_use_safe_sanitation_hand_wash--by--geotype--year"
+          "prevalence_malnutrition_children_under_five--by--malnutrition_type--year"
         ]
       },
       {
         "primaryKey": [
-          "geotype",
+          "malnutrition_type",
           "year"
         ],
         "value": "geo",
         "resources": [
-          "percent_pop_access_safe_water--by--geotype--year",
-          "percent_pop_open_defaecation--by--geotype--year",
-          "percent_pop_use_safe_sanitation_hand_wash--by--geotype--year"
+          "prevalence_malnutrition_children_under_five--by--malnutrition_type--year"
         ]
       },
       {
         "primaryKey": [
-          "geotype",
+          "malnutrition_type",
           "year"
         ],
-        "value": "percent_pop_access_safe_water",
+        "value": "prevalence_malnutrition_children_under_five",
         "resources": [
-          "percent_pop_access_safe_water--by--geotype--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geotype",
-          "year"
-        ],
-        "value": "percent_pop_open_defaecation",
-        "resources": [
-          "percent_pop_open_defaecation--by--geotype--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geotype",
-          "year"
-        ],
-        "value": "percent_pop_use_safe_sanitation_hand_wash",
-        "resources": [
-          "percent_pop_use_safe_sanitation_hand_wash--by--geotype--year"
+          "prevalence_malnutrition_children_under_five--by--malnutrition_type--year"
         ]
       },
       {
@@ -3961,36 +4008,6 @@
         "value": "proportion_pop_covered_mobile_network",
         "resources": [
           "proportion_pop_covered_mobile_network--by--mobile_network_type--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "mode_transport",
-          "year"
-        ],
-        "value": "datasource",
-        "resources": [
-          "freight_volume_transported--by--mode_transport--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "mode_transport",
-          "year"
-        ],
-        "value": "freight_volume_transported",
-        "resources": [
-          "freight_volume_transported--by--mode_transport--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "mode_transport",
-          "year"
-        ],
-        "value": "geo",
-        "resources": [
-          "freight_volume_transported--by--mode_transport--year"
         ]
       },
       {
@@ -4039,6 +4056,36 @@
       },
       {
         "primaryKey": [
+          "particulate_matter_size",
+          "year"
+        ],
+        "value": "annual_mean_levels_fine_particulate_matter",
+        "resources": [
+          "annual_mean_levels_fine_particulate_matter--by--year--particulate_matter_size"
+        ]
+      },
+      {
+        "primaryKey": [
+          "particulate_matter_size",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "annual_mean_levels_fine_particulate_matter--by--year--particulate_matter_size"
+        ]
+      },
+      {
+        "primaryKey": [
+          "particulate_matter_size",
+          "year"
+        ],
+        "value": "geo",
+        "resources": [
+          "annual_mean_levels_fine_particulate_matter--by--year--particulate_matter_size"
+        ]
+      },
+      {
+        "primaryKey": [
           "perceived_crime_trend",
           "year"
         ],
@@ -4069,16 +4116,92 @@
       },
       {
         "primaryKey": [
-          "sex",
+          "poverty_level",
           "year"
         ],
         "value": "datasource",
         "resources": [
-          "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million--by--sex--year",
-          "households_victims_of_crime--by--sex--year",
-          "percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year",
-          "prevalence_of_current_tobacco_use--by--sex--year",
-          "unemployment_rate--by--sex--year"
+          "population_living_below_the_national_poverty_line--by--poverty_level--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "poverty_level",
+          "year"
+        ],
+        "value": "geo",
+        "resources": [
+          "population_living_below_the_national_poverty_line--by--poverty_level--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "poverty_level",
+          "year"
+        ],
+        "value": "population_living_below_the_national_poverty_line",
+        "resources": [
+          "population_living_below_the_national_poverty_line--by--poverty_level--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "prevalence",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "hiv_prevalence--by--prevalence--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "prevalence",
+          "year"
+        ],
+        "value": "geo",
+        "resources": [
+          "hiv_prevalence--by--prevalence--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "prevalence",
+          "year"
+        ],
+        "value": "hiv_prevalence",
+        "resources": [
+          "hiv_prevalence--by--prevalence--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sampi_index",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "proportion_of_men_women_living_in_poverty--by--sampi_index--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sampi_index",
+          "year"
+        ],
+        "value": "geo",
+        "resources": [
+          "proportion_of_men_women_living_in_poverty--by--sampi_index--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sampi_index",
+          "year"
+        ],
+        "value": "proportion_of_men_women_living_in_poverty",
+        "resources": [
+          "proportion_of_men_women_living_in_poverty--by--sampi_index--year"
         ]
       },
       {
@@ -4086,9 +4209,11 @@
           "sex",
           "year"
         ],
-        "value": "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million",
+        "value": "datasource",
         "resources": [
-          "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million--by--sex--year"
+          "percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year",
+          "prevalence_of_current_tobacco_use--by--sex--year",
+          "unemployment_rate--by--sex--year"
         ]
       },
       {
@@ -4098,21 +4223,9 @@
         ],
         "value": "geo",
         "resources": [
-          "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million--by--sex--year",
-          "households_victims_of_crime--by--sex--year",
           "percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year",
           "prevalence_of_current_tobacco_use--by--sex--year",
           "unemployment_rate--by--sex--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sex",
-          "year"
-        ],
-        "value": "households_victims_of_crime",
-        "resources": [
-          "households_victims_of_crime--by--sex--year"
         ]
       },
       {
@@ -4181,15 +4294,6 @@
         "primaryKey": [
           "age_group"
         ],
-        "value": "datasource",
-        "resources": [
-          "unemployment_rate--by--age_group"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group"
-        ],
         "value": "description",
         "resources": [
           "age_group"
@@ -4199,36 +4303,9 @@
         "primaryKey": [
           "age_group"
         ],
-        "value": "geo",
-        "resources": [
-          "unemployment_rate--by--age_group"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group"
-        ],
         "value": "name",
         "resources": [
           "age_group"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group"
-        ],
-        "value": "unemployment_rate_age_group",
-        "resources": [
-          "unemployment_rate--by--age_group"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group"
-        ],
-        "value": "year",
-        "resources": [
-          "unemployment_rate--by--age_group"
         ]
       },
       {
@@ -4566,6 +4643,24 @@
       },
       {
         "primaryKey": [
+          "levels"
+        ],
+        "value": "description",
+        "resources": [
+          "levels"
+        ]
+      },
+      {
+        "primaryKey": [
+          "levels"
+        ],
+        "value": "name",
+        "resources": [
+          "levels"
+        ]
+      },
+      {
+        "primaryKey": [
           "malnutrition_type"
         ],
         "value": "description",
@@ -4679,6 +4774,51 @@
         "value": "name",
         "resources": [
           "poverty_level"
+        ]
+      },
+      {
+        "primaryKey": [
+          "prevalence"
+        ],
+        "value": "description",
+        "resources": [
+          "prevalence"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sampi_index"
+        ],
+        "value": "description",
+        "resources": [
+          "sampi_index"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sampi_index"
+        ],
+        "value": "name",
+        "resources": [
+          "sampi_index"
+        ]
+      },
+      {
+        "primaryKey": [
+          "service"
+        ],
+        "value": "description",
+        "resources": [
+          "service"
+        ]
+      },
+      {
+        "primaryKey": [
+          "service"
+        ],
+        "value": "name",
+        "resources": [
+          "service"
         ]
       },
       {

@@ -1,0 +1,17 @@
+geo,year,percentage_urban_access_basic_services_informal_dwellings,basic_service,datasource
+zaf,2014,62.2,ref,ghs2017
+zaf,2014,64.3,san,ghs2017
+zaf,2014,77.6,elec,ghs2017
+zaf,2014,95.8,wat,ghs2017
+zaf,2015,56.8,san,ghs2017
+zaf,2015,59.3,ref,ghs2017
+zaf,2015,73.9,elec,ghs2017
+zaf,2015,93.1,wat,ghs2017
+zaf,2016,59.8,san,ghs2017
+zaf,2016,60,ref,ghs2017
+zaf,2016,78.4,elec,ghs2017
+zaf,2016,92.4,wat,ghs2017
+zaf,2017,59.3,san,ghs2017
+zaf,2017,60.6,ref,ghs2017
+zaf,2017,78.4,elec,ghs2017
+zaf,2017,92.7,wat,ghs2017

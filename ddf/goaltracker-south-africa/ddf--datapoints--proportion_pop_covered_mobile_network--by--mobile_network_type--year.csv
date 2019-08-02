@@ -1,5 +1,9 @@
 geo,year,mobile_network_type,proportion_pop_covered_mobile_network,datasource
-zaf,2015,three_g,98,ictreport2016
-zaf,2016,three_g,99,ictreport2016
-zaf,2015,lte,53,ictreport2016
-zaf,2016,lte,75,ictreport2016
+zaf,2015,three_g,97.8,icasa
+zaf,2016,three_g,99,icasa
+zaf,2017,three_g,99.3,icasa
+zaf,2018,three_g,99.5,icasa
+zaf,2015,lte,53,icasa
+zaf,2016,lte,75,icasa
+zaf,2017,lte,76.7,icasa
+zaf,2018,lte,85.7,icasa
