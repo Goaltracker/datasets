@@ -33,12 +33,12 @@
       }
     },
     {
-      "path": "ddf--datapoints--adolscent_birth_rate--by--area--year.csv",
-      "name": "adolscent_birth_rate--by--area--year",
+      "path": "ddf--datapoints--adolscent_birth_rate--by--age_group--year.csv",
+      "name": "adolscent_birth_rate--by--age_group--year",
       "schema": {
         "fields": [
           {
-            "name": "area"
+            "name": "age_group"
           },
           {
             "name": "year"
@@ -48,7 +48,49 @@
           }
         ],
         "primaryKey": [
-          "area",
+          "age_group",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--adolscent_birth_rate--by--area--year.csv",
+      "name": "adolscent_birth_rate--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sex"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "adolscent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          null,
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--adolscent_birth_rate--by--sex--year.csv",
+      "name": "adolscent_birth_rate--by--sex--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sex"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "adolscent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          "sex",
           "year"
         ]
       }
@@ -1258,6 +1300,16 @@
       },
       {
         "primaryKey": [
+          "age_group",
+          "year"
+        ],
+        "value": "adolscent_birth_rate",
+        "resources": [
+          "adolscent_birth_rate--by--age_group--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "area",
           "location",
           "sex",
@@ -1466,16 +1518,6 @@
         "value": "youth_not_in_education_employment_or_training",
         "resources": [
           "youth_not_in_education_employment_or_training--by--area--year--sex"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "year"
-        ],
-        "value": "adolscent_birth_rate",
-        "resources": [
-          "adolscent_birth_rate--by--area--year"
         ]
       },
       {
@@ -1756,6 +1798,36 @@
         "value": "working_population_employed_population_with_high_skills",
         "resources": [
           "working_population_employed_population_with_high_skills--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sex",
+          "year"
+        ],
+        "value": "adolscent_birth_rate",
+        "resources": [
+          "adolscent_birth_rate--by--sex--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "year",
+          null
+        ],
+        "value": "adolscent_birth_rate",
+        "resources": [
+          "adolscent_birth_rate--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "year",
+          null
+        ],
+        "value": "sex",
+        "resources": [
+          "adolscent_birth_rate--by--area--year"
         ]
       }
     ],
