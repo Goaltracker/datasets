@@ -59,7 +59,7 @@
       "schema": {
         "fields": [
           {
-            "name": "sex"
+            "name": "area"
           },
           {
             "name": "year"
@@ -69,7 +69,7 @@
           }
         ],
         "primaryKey": [
-          null,
+          "area",
           "year"
         ]
       }
@@ -1525,6 +1525,16 @@
           "area",
           "year"
         ],
+        "value": "adolscent_birth_rate",
+        "resources": [
+          "adolscent_birth_rate--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "annual_rate_of_inflation",
         "resources": [
           "annual_rate_of_inflation--by--area--year"
@@ -1808,26 +1818,6 @@
         "value": "adolscent_birth_rate",
         "resources": [
           "adolscent_birth_rate--by--sex--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year",
-          null
-        ],
-        "value": "adolscent_birth_rate",
-        "resources": [
-          "adolscent_birth_rate--by--area--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year",
-          null
-        ],
-        "value": "sex",
-        "resources": [
-          "adolscent_birth_rate--by--area--year"
         ]
       }
     ],
