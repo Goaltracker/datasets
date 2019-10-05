@@ -995,6 +995,69 @@
       }
     },
     {
+      "path": "ddf--datapoints--test_indicator--by--age_group--year.csv",
+      "name": "test_indicator--by--age_group--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "age_group"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "test_indicator"
+          }
+        ],
+        "primaryKey": [
+          "age_group",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--test_indicator--by--area--year.csv",
+      "name": "test_indicator--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "test_indicator"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--test_indicator--by--sex--year.csv",
+      "name": "test_indicator--by--sex--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sex"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "test_indicator"
+          }
+        ],
+        "primaryKey": [
+          "sex",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--transition_rate_from_form_four_to_form_five--by--area--year.csv",
       "name": "transition_rate_from_form_four_to_form_five--by--area--year",
       "schema": {
@@ -1254,6 +1317,16 @@
         "value": "children_aged_5_17_engaging_in_child_labour",
         "resources": [
           "children_aged_5_17_engaging_in_child_labour--by--area--year--sex--age_group"
+        ]
+      },
+      {
+        "primaryKey": [
+          "age_group",
+          "year"
+        ],
+        "value": "test_indicator",
+        "resources": [
+          "test_indicator--by--age_group--year"
         ]
       },
       {
@@ -1713,6 +1786,16 @@
           "area",
           "year"
         ],
+        "value": "test_indicator",
+        "resources": [
+          "test_indicator--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "transition_rate_from_form_four_to_form_five",
         "resources": [
           "transition_rate_from_form_four_to_form_five--by--area--year"
@@ -1756,6 +1839,16 @@
         "value": "working_population_employed_population_with_high_skills",
         "resources": [
           "working_population_employed_population_with_high_skills--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sex",
+          "year"
+        ],
+        "value": "test_indicator",
+        "resources": [
+          "test_indicator--by--sex--year"
         ]
       }
     ],
