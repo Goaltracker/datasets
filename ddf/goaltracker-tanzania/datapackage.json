@@ -985,7 +985,7 @@
             "name": "year"
           },
           {
-            "name": "adolscent_birth_rate"
+            "name": "test_indicator"
           }
         ],
         "primaryKey": [
@@ -1006,7 +1006,7 @@
             "name": "year"
           },
           {
-            "name": "adolscent_birth_rate"
+            "name": "test_indicator"
           }
         ],
         "primaryKey": [
@@ -1027,7 +1027,7 @@
             "name": "year"
           },
           {
-            "name": "adolscent_birth_rate"
+            "name": "test_indicator"
           }
         ],
         "primaryKey": [
@@ -1303,7 +1303,7 @@
           "age_group",
           "year"
         ],
-        "value": "adolscent_birth_rate",
+        "value": "test_indicator",
         "resources": [
           "test_indicator--by--age_group--year"
         ]
@@ -1518,16 +1518,6 @@
         "value": "youth_not_in_education_employment_or_training",
         "resources": [
           "youth_not_in_education_employment_or_training--by--area--year--sex"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "year"
-        ],
-        "value": "adolscent_birth_rate",
-        "resources": [
-          "test_indicator--by--area--year"
         ]
       },
       {
@@ -1765,6 +1755,16 @@
           "area",
           "year"
         ],
+        "value": "test_indicator",
+        "resources": [
+          "test_indicator--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "transition_rate_from_form_four_to_form_five",
         "resources": [
           "transition_rate_from_form_four_to_form_five--by--area--year"
@@ -1815,7 +1815,7 @@
           "sex",
           "year"
         ],
-        "value": "adolscent_birth_rate",
+        "value": "test_indicator",
         "resources": [
           "test_indicator--by--sex--year"
         ]
