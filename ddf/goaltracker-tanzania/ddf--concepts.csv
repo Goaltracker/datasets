@@ -7,6 +7,7 @@
 "sex","entity_domain","Sex",
 "location","entity_domain","Location",
 "age_group","entity_domain","Age group",
+"test_indicator","measure","This is a test indicator","_18_1_1"
 "adolscent_birth_rate","measure","adolscent birth rate","_3_7_2"
 "annual_rate_of_inflation","measure","annual rate of inflation","_17_13_1"
 "average_number_of_persons_per_sleeping_room","measure","average number of persons per sleeping room",

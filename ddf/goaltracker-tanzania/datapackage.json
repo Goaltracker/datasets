@@ -33,69 +33,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--adolscent_birth_rate--by--age_group--year.csv",
-      "name": "adolscent_birth_rate--by--age_group--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "adolscent_birth_rate"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--adolscent_birth_rate--by--area--year.csv",
-      "name": "adolscent_birth_rate--by--area--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "adolscent_birth_rate"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--adolscent_birth_rate--by--sex--year.csv",
-      "name": "adolscent_birth_rate--by--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sex"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "adolscent_birth_rate"
-          }
-        ],
-        "primaryKey": [
-          "sex",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--annual_rate_of_inflation--by--area--year.csv",
       "name": "annual_rate_of_inflation--by--area--year",
       "schema": {
@@ -1037,6 +974,69 @@
       }
     },
     {
+      "path": "ddf--datapoints--test_indicator--by--age_group--year.csv",
+      "name": "test_indicator--by--age_group--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "age_group"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "adolscent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          "age_group",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--test_indicator--by--area--year.csv",
+      "name": "test_indicator--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "adolscent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--test_indicator--by--sex--year.csv",
+      "name": "test_indicator--by--sex--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sex"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "adolscent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          "sex",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--transition_rate_from_form_four_to_form_five--by--area--year.csv",
       "name": "transition_rate_from_form_four_to_form_five--by--area--year",
       "schema": {
@@ -1305,7 +1305,7 @@
         ],
         "value": "adolscent_birth_rate",
         "resources": [
-          "adolscent_birth_rate--by--age_group--year"
+          "test_indicator--by--age_group--year"
         ]
       },
       {
@@ -1527,7 +1527,7 @@
         ],
         "value": "adolscent_birth_rate",
         "resources": [
-          "adolscent_birth_rate--by--area--year"
+          "test_indicator--by--area--year"
         ]
       },
       {
@@ -1817,7 +1817,7 @@
         ],
         "value": "adolscent_birth_rate",
         "resources": [
-          "adolscent_birth_rate--by--sex--year"
+          "test_indicator--by--sex--year"
         ]
       }
     ],
