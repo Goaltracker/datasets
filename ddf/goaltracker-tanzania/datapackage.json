@@ -33,6 +33,27 @@
       }
     },
     {
+      "path": "ddf--datapoints--adolscent_birth_rate--by--area--year.csv",
+      "name": "adolscent_birth_rate--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "adolscent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--annual_rate_of_inflation--by--area--year.csv",
       "name": "annual_rate_of_inflation--by--area--year",
       "schema": {
@@ -1518,6 +1539,16 @@
         "value": "youth_not_in_education_employment_or_training",
         "resources": [
           "youth_not_in_education_employment_or_training--by--area--year--sex"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "adolscent_birth_rate",
+        "resources": [
+          "adolscent_birth_rate--by--area--year"
         ]
       },
       {
