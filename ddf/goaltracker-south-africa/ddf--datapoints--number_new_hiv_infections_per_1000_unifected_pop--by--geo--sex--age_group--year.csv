@@ -1,4 +1,4 @@
-geo,year,number_new_hiv_infections_per_1000_unifected_population_by_age_sex,sex,age_group,datasource
+geo,year,number_new_hiv_infections_per_1000_unifected_pop,sex,age_group,datasource
 zaf,2005,2.8,total,15_24,hsrc
 zaf,2005,2.2,total,15_49,hsrc
 zaf,2008,2.3,total,15_24,hsrc
