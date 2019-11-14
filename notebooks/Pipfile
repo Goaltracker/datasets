@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "~=1.1.4"
+ddf_utils = "~=1.0.6"
+lxml = "~=4.3.4"
+openpyxl = "~=2.6.3"
+pandas = "~=0.25.1"
+requests = "~=2.22.0"
+unidecode = "~=1.1.1"
+
+[requires]
+python_version = "3.7"
