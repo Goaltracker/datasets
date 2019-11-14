@@ -1,4 +1,4 @@
-"concept","concept_type","description","sdg_indicator"
+"concept","concept_type","name","sdg_indicator"
 "name","string",,
 "sdg_indicator","string","SDG Indicator",
 "description","string",,
