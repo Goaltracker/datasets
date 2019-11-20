@@ -23,7 +23,7 @@
 "mobile_network_type","entity_domain","Mobile Network types","_9_c_1D","Networks that support 3G LTE or 5G"
 "ecosystem","entity_domain","Ecosystems",,"Terrestrial freshwater marine or coastal"
 "biome_type","entity_domain","Biome types","_15_1_1D","Type of forest and woodland biome"
-"prevalence_of_current_tobacco_use","measure","Prevalence of current tobacco use","3.A.1","Prevalence of current tobacco use"
+"prevalence_of_current_tobacco_use","measure","Prevalence of current tobacco use","_3_A_1","Prevalence of current tobacco use"
 "domestic_budget_funded_by_domestic_taxes","measure","Domestic budget funded by domestic taxes",,"Domestic budget funded by domestic taxes"
 "area","entity_domain","Area",,"Name of area and measured in squared kilometers"
 "forms_of_violence_by_age","entity_domain","Forms of violence by age",,"Forms of violence experienced by women such as physical or sexual violence for those older than 18 years"
