@@ -116,7 +116,7 @@
 "median_monthly_earnings_employees","measure","Average monthly earnings of female and male employees, by occupation, age and persons with disabilities","_8_5_1D","Average monthly earnings of female and male employees, by occupation, age and persons with disabilities"
 "unemployment_rate_sex","measure","Annual unemployment rate by sex","_8_5_2a","Annual unemployment rate by sex"
 "unemployment_rate_age_group","measure","Annual unemployment rate by age group","_8_5_2b","Annual unemployment rate by 5-year age groups"
-"perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group","measure","Percentage of children aged 7-17 engaged in child labour by sex and age group","_8_7_1D","Percentage of children aged 7-17 engaged in child labour by sex and age group"
+"perc_child_7_17_engaged_in_child_labour","measure","Percentage of children aged 7-17 engaged in child labour by sex and age group","_8_7_1D","Percentage of children aged 7-17 engaged in child labour by sex and age group"
 "frequency_rate_fatal_and_not_fatal_occupational_injuries_per_million","measure","Frequency rates of fatal and non-fatal occupational injuries per million","_8_8_1","Frequency rates of fatal and non-fatal occupational injuries per million "
 "tourism_direct_gdp_as_percentage_of_total_gdp","measure","Toursim direct GDP as a percentage of total GDP","_8_9_1","Toursim direct GDP as a percentage of total GDP"
 "num_bank_branches_per_100000_population","measure","Number of bank branches per 100 000 population","_8_10_1Da","Number of bank branches per 100 000 population"

@@ -1,4 +1,4 @@
-geo,year,age_group,sex,perc_child_7_17_engaged_in_child_labour_by_sex_and_age_group,datasource
+geo,year,age_group,sex,perc_child_7_17_engaged_in_child_labour,datasource
 zaf,2010,total,male,6.67,qlfs10_15
 zaf,2015,total,male,5.29,qlfs10_15
 zaf,2010,total,female,7.41,qlfs10_15
