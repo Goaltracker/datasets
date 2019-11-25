@@ -75,31 +75,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--average_number_of_persons_per_sleeping_room--by--area--year--location.csv",
-      "name": "average_number_of_persons_per_sleeping_room--by--area--year--location",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "location"
-          },
-          {
-            "name": "average_number_of_persons_per_sleeping_room"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year",
-          "location"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--births_attended_by_skilled_health_personnel--by--area--year.csv",
       "name": "births_attended_by_skilled_health_personnel--by--area--year",
       "schema": {
@@ -278,31 +253,6 @@
           },
           {
             "name": "early_learning_net_enrolment_ratio_percent_of_eligible"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year",
-          "sex"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--gross_enrolment_ratio_in_higher_secondary_schools--by--area--year--sex.csv",
-      "name": "gross_enrolment_ratio_in_higher_secondary_schools--by--area--year--sex",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "gross_enrolment_ratio_in_higher_secondary_schools"
           }
         ],
         "primaryKey": [
@@ -501,58 +451,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--primary_education_gross_enrolment_ratio--by--area--year--sex.csv",
-      "name": "primary_education_gross_enrolment_ratio--by--area--year--sex",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "primary_gross_enrolment_ratio"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year",
-          "sex"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--primary_education_net_enrolment_ratio--by--area--year--sex.csv",
       "name": "primary_education_net_enrolment_ratio--by--area--year--sex",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "primary_net_enrolment_ratio"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year",
-          "sex"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--primary_education_net_enrolment_ratio_of_eligible--by--area--year--sex.csv",
-      "name": "primary_education_net_enrolment_ratio_of_eligible--by--area--year--sex",
       "schema": {
         "fields": [
           {
@@ -689,35 +589,6 @@
           "area",
           "year",
           "location"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--proportion_of_population_below_food_poverty_line--by--area--year--location--sex.csv",
-      "name": "proportion_of_population_below_food_poverty_line--by--area--year--location--sex",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "location"
-          },
-          {
-            "name": "sex"
-          },
-          {
-            "name": "proportion_of_population_below_food_poverty_line"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year",
-          "location",
-          "sex"
         ]
       }
     },
@@ -890,27 +761,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_of_livestock_total_export_earnings--by--area--year.csv",
-      "name": "share_of_livestock_total_export_earnings--by--area--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "share_of_livestock_total_export_earnings"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--share_of_total_export_earnings--by--area--year.csv",
       "name": "share_of_total_export_earnings--by--area--year",
       "schema": {
@@ -990,69 +840,6 @@
         ],
         "primaryKey": [
           "area",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--test_indicator--by--age_group--year.csv",
-      "name": "test_indicator--by--age_group--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "age_group"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "test_indicator"
-          }
-        ],
-        "primaryKey": [
-          "age_group",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--test_indicator--by--area--year.csv",
-      "name": "test_indicator--by--area--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "test_indicator"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--test_indicator--by--sex--year.csv",
-      "name": "test_indicator--by--sex--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sex"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "test_indicator"
-          }
-        ],
-        "primaryKey": [
-          "sex",
           "year"
         ]
       }
@@ -1321,28 +1108,6 @@
       },
       {
         "primaryKey": [
-          "age_group",
-          "year"
-        ],
-        "value": "test_indicator",
-        "resources": [
-          "test_indicator--by--age_group--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "location",
-          "sex",
-          "year"
-        ],
-        "value": "proportion_of_population_below_food_poverty_line",
-        "resources": [
-          "proportion_of_population_below_food_poverty_line--by--area--year--location--sex"
-        ]
-      },
-      {
-        "primaryKey": [
           "area",
           "location",
           "sex",
@@ -1351,17 +1116,6 @@
         "value": "under_five_mortality_rate",
         "resources": [
           "under_five_mortality_rate--by--area--location--year--sex"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "location",
-          "year"
-        ],
-        "value": "average_number_of_persons_per_sleeping_room",
-        "resources": [
-          "average_number_of_persons_per_sleeping_room--by--area--year--location"
         ]
       },
       {
@@ -1447,17 +1201,6 @@
           "sex",
           "year"
         ],
-        "value": "gross_enrolment_ratio_in_higher_secondary_schools",
-        "resources": [
-          "gross_enrolment_ratio_in_higher_secondary_schools--by--area--year--sex"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "sex",
-          "year"
-        ],
         "value": "gross_enrolment_ratio_in_lower_secondary_schools",
         "resources": [
           "gross_enrolment_ratio_in_lower_secondary_schools--by--area--year--sex"
@@ -1502,21 +1245,9 @@
           "sex",
           "year"
         ],
-        "value": "primary_gross_enrolment_ratio",
-        "resources": [
-          "primary_education_gross_enrolment_ratio--by--area--year--sex"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "sex",
-          "year"
-        ],
         "value": "primary_net_enrolment_ratio",
         "resources": [
-          "primary_education_net_enrolment_ratio--by--area--year--sex",
-          "primary_education_net_enrolment_ratio_of_eligible--by--area--year--sex"
+          "primary_education_net_enrolment_ratio--by--area--year--sex"
         ]
       },
       {
@@ -1736,16 +1467,6 @@
           "area",
           "year"
         ],
-        "value": "share_of_livestock_total_export_earnings",
-        "resources": [
-          "share_of_livestock_total_export_earnings--by--area--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "year"
-        ],
         "value": "share_of_total_export_earnings",
         "resources": [
           "share_of_total_export_earnings--by--area--year"
@@ -1779,16 +1500,6 @@
         "value": "stunting_in_children",
         "resources": [
           "stunting_in_children--by--area--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "area",
-          "year"
-        ],
-        "value": "test_indicator",
-        "resources": [
-          "test_indicator--by--area--year"
         ]
       },
       {
@@ -1839,16 +1550,6 @@
         "value": "working_population_employed_population_with_high_skills",
         "resources": [
           "working_population_employed_population_with_high_skills--by--area--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sex",
-          "year"
-        ],
-        "value": "test_indicator",
-        "resources": [
-          "test_indicator--by--sex--year"
         ]
       }
     ],
