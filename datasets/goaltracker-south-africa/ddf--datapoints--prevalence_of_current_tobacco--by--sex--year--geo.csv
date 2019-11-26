@@ -1,4 +1,4 @@
-geo,year,prevalence_of_current_tobacco_use,sex,datasource
+geo,year,prevalence_of_current_tobacco,sex,datasource
 zaf,1998,11,female,sadhs98_16
 zaf,1998,42,male,sadhs98_16
 zaf,2016,37.3,male,sadhs98_16

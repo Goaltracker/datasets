@@ -22,3 +22,5 @@ age_group,name,description
 total_15_49,Total 15-49,Total for persons 15-49 years
 total_18,Total (18+),Total for persons older than 18 yrs
 total,Total,Total for persons
+15,Before 15,Marriage before age 15
+18,Before 18,Marriage before age 18

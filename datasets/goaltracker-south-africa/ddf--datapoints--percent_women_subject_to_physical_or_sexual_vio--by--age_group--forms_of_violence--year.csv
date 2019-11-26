@@ -1,0 +1,15 @@
+geo,year,age_group,forms_of_violence,percent_women_subject_to_physical_or_sexual_vio,datasource
+zaf,2016,18_24,sexual_violence,3.2,sadhs2016
+zaf,2016,25_34,sexual_violence,3.1,sadhs2016
+zaf,2016,35_44,sexual_violence,2.7,sadhs2016
+zaf,2016,45_54,sexual_violence,1.9,sadhs2016
+zaf,2016,55_64,sexual_violence,1,sadhs2016
+zaf,2016,65,sexual_violence,0.4,sadhs2016
+zaf,2016,total_18,sexual_violence,2.3,sadhs2016
+zaf,2016,18_24,physical_violence,10.3,sadhs2016
+zaf,2016,25_34,physical_violence,9.8,sadhs2016
+zaf,2016,35_44,physical_violence,8.6,sadhs2016
+zaf,2016,45_54,physical_violence,5.8,sadhs2016
+zaf,2016,55_64,physical_violence,6.1,sadhs2016
+zaf,2016,65,physical_violence,1.6,sadhs2016
+zaf,2016,total_18,physical_violence,7.7,sadhs2016

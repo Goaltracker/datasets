@@ -1,0 +1,5 @@
+geo,year,age_group,sex,percentage_people_living_with_hiv_exposed_to_art,datasource
+zaf,2012,total,male,25.7,hsrc
+zaf,2017,total,male,56.3,hsrc
+zaf,2012,total,female,34.7,hsrc
+zaf,2017,total,female,65.5,hsrc

@@ -1,0 +1,5 @@
+vaccine,name,description
+dtp,Covarage of DTP containing vaccine,Covarage of DTP containing vaccine(3rd dose)
+measles,Covarage of Measles containing vaccine,Covarage of Measles containing vaccine(2rd dose)
+pneumococcal,Covarage of Pneumococcal conjugate vaccine,Covarage of Pneumococcal conjugate vaccine(last dose in the schedule)
+hpv,Covarage of HPV vaccine,Covarage of HPV vaccine(last dose in the schedule)

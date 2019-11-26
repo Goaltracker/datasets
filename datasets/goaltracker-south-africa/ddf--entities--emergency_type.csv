@@ -1,0 +1,13 @@
+emergency_type,name,description
+communications,Communications,
+surveillance,Surveillance,
+response,Response,
+preparedness,Preparedness,
+risk,Risk communication,
+human,Human resources,
+laboratory,Laboratory,
+points_of_entry,Points of entry, 
+zoonotic,Zoonotic events,
+food,Food safety,
+chemical,Chemical events,
+radionuclear,Radionuclear,

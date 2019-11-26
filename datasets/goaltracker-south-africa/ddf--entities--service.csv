@@ -6,3 +6,6 @@ service,name,description
 "computer","Computer","Computers for pedagogical purposes"
 "infrastructure","Adapted Infrastructure","Adapted Infrastructure and materials for students with disabilities"
 "handwashing","Basic handwashing facilities","Basic handwashing facilities"
+"improved_san","Access to improved sanitation","Access to improved sanitation"
+"access_elect","Access to electricity","Access to electricity"
+"access_water","Access to improved water facilities","Access to improved water facilities"
