@@ -1,35 +1,35 @@
-area,name,area_code
-tanzania,tanzania,TZA
-mainland,mainland,TZA001
-dodoma,dodoma,TZA001001
-arusha,arusha,TZA001002
-kilimanjaro,kilimanjaro,TZA001003
-tanga,tanga,TZA001004
-morogoro,morogoro,TZA001005
-pwani,pwani,TZA001006
-dar_es_salaam,dar_es_salaam,TZA001007
-lindi,lindi,TZA001008
-mtwara,mtwara,TZA001009
-ruvuma,ruvuma,TZA001010
-iringa,iringa,TZA001011
-mbeya,mbeya,TZA001012
-singida,singida,TZA001013
-tabora,tabora,TZA001014
-rukwa,rukwa,TZA001015
-kigoma,kigoma,TZA001016
-shinyanga,shinyanga,TZA001017
-songwe,songwe,TX
-kagera,kagera,TZA001018
-mwanza,mwanza,TZA001019
-mara,mara,TZA001020
-manyara,manyara,TZA001021
-njombe,njombe,TZA001022
-katavi,katavi,TZA001023
-simiyu,simiyu,TZA001024
-geita,geita,TZA001025
-zanzibar,zanzibar,TZA002
-kaskazini_unguja,kaskazini_unguja,TZA002051
-kusini_unguja,kusini_unguja,TZA002052
-mjini_magharibi,mjini_magharibi,TZA002053
-kaskazini_pemba,kaskazini_pemba,TZA002054
-kusini_pemba,kusini_pemba,TZA002055
+"area","name","area_code"
+"tanzania","Tanzania","TZA"
+"mainland","Mainland","TZA001"
+"dodoma","Dodoma","TZA001001"
+"arusha","Arusha","TZA001002"
+"kilimanjaro","Kilimanjaro","TZA001003"
+"tanga","Tanga","TZA001004"
+"morogoro","Morogoro","TZA001005"
+"pwani","Pwani","TZA001006"
+"dar_es_salaam","Dar Es Salaam","TZA001007"
+"lindi","Lindi","TZA001008"
+"mtwara","Mtwara","TZA001009"
+"ruvuma","Ruvuma","TZA001010"
+"iringa","Iringa","TZA001011"
+"mbeya","Mbeya","TZA001012"
+"singida","Singida","TZA001013"
+"tabora","Tabora","TZA001014"
+"rukwa","Rukwa","TZA001015"
+"kigoma","Kigoma","TZA001016"
+"shinyanga","Shinyanga","TZA001017"
+"songwe","Songwe","TX"
+"kagera","Kagera","TZA001018"
+"mwanza","Mwanza","TZA001019"
+"mara","Mara","TZA001020"
+"manyara","Manyara","TZA001021"
+"njombe","Njombe","TZA001022"
+"katavi","Katavi","TZA001023"
+"simiyu","Simiyu","TZA001024"
+"geita","Geita","TZA001025"
+"zanzibar","Zanzibar","TZA002"
+"kaskazini_unguja","Kaskazini Unguja","TZA002051"
+"kusini_unguja","Kusini Unguja","TZA002052"
+"mjini_magharibi","Mjini Magharibi","TZA002053"
+"kaskazini_pemba","Kaskazini Pemba","TZA002054"
+"kusini_pemba","Kusini Pemba","TZA002055"

@@ -156,13 +156,13 @@
 "service_type","entity_domain",,,
 "ecosystem_type","entity_domain",,,
 "provider","string","Provider",,"Department or Institution resposible for the publication"
-"geo","entity_domain","GEO",,"One of UN states"
+"geo","entity_domain","Geography",,"One of UN states"
 "year","time","Year",,
 "income","entity_domain",,,
 "levels","entity_domain",,,
 "service","entity_domain",,,
 "prevalence","entity_domain",,,
-"sampi_index","entity_domain",,,
+"sampi_index","entity_domain","Sampi index",,
 "perceived_crime_trend","entity_domain",,,
 "datasource","entity_domain","Data source",,"Where the indicator value(s) was sourced from"
 "age_group","entity_domain","Age groups",,"Age group dissagregations"

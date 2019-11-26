@@ -3313,9 +3313,6 @@
           },
           {
             "name": "name"
-          },
-          {
-            "name": "description"
           }
         ],
         "primaryKey": "geo"
@@ -5507,15 +5504,6 @@
         "value": "name",
         "resources": [
           "genebank_resources_type"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo"
-        ],
-        "value": "description",
-        "resources": [
-          "geo"
         ]
       },
       {
