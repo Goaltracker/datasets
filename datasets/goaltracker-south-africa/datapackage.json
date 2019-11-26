@@ -424,6 +424,30 @@
       }
     },
     {
+      "path": "ddf--datapoints--growth_rate_real_gdp_employed_person--by--year--geo.csv",
+      "name": "growth_rate_real_gdp_employed_person--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "growth_rate_real_gdp_employed_person"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--hiv_prevalence--by--geo--prevalence--year.csv",
       "name": "hiv_prevalence--by--geo--prevalence--year",
       "schema": {
@@ -818,6 +842,54 @@
       }
     },
     {
+      "path": "ddf--datapoints--num_bank_atm_per_100000_population--by--geo--year.csv",
+      "name": "num_bank_atm_per_100000_population--by--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "num_bank_atm_per_100000_population"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--num_bank_branches_per_100000_population--by--geo--year.csv",
+      "name": "num_bank_branches_per_100000_population--by--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "num_bank_branches_per_100000_population"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--num_hh_per_100_000_population_feel_safe_walking_in_the_dark--by--geo--year.csv",
       "name": "num_hh_per_100_000_population_feel_safe_walking_in_the_dark--by--geo--year",
       "schema": {
@@ -1070,6 +1142,38 @@
       }
     },
     {
+      "path": "ddf--datapoints--participation_rate_in_education_35_64--by--geo--sex--age_group--year.csv",
+      "name": "participation_rate_in_education_35_64--by--geo--sex--age_group--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "age_group"
+          },
+          {
+            "name": "participation_rate_in_education_35_64"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "sex",
+          "age_group",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--participation_rate_in_education_and_training_15_24--by--geo--sex--age_group--year.csv",
       "name": "participation_rate_in_education_and_training_15_24--by--geo--sex--age_group--year",
       "schema": {
@@ -1186,8 +1290,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--perc_youth_15_34_not_in_educ_employ_train--by--geo--year.csv",
-      "name": "perc_youth_15_34_not_in_educ_employ_train--by--geo--year",
+      "path": "ddf--datapoints--perc_youth_not_in_educ_employ_train--by--age_group--geo--year.csv",
+      "name": "perc_youth_not_in_educ_employ_train--by--age_group--geo--year",
       "schema": {
         "fields": [
           {
@@ -1200,13 +1304,14 @@
             "name": "age_group"
           },
           {
-            "name": "perc_youth_15_34_not_in_educ_employ_train"
+            "name": "perc_youth_not_in_educ_employ_train"
           },
           {
             "name": "datasource"
           }
         ],
         "primaryKey": [
+          "age_group",
           "geo",
           "year"
         ]
@@ -2269,6 +2374,30 @@
           },
           {
             "name": "proportion_government_spending_essential_services"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_learners_self_reported_forced_sex--by--geo--year.csv",
+      "name": "proportion_learners_self_reported_forced_sex--by--geo--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_learners_self_reported_forced_sex"
           },
           {
             "name": "datasource"
@@ -3599,6 +3728,7 @@
         "value": "datasource",
         "resources": [
           "number_new_hiv_infections_per_1000_unifected_pop--by--geo--sex--age_group--year",
+          "participation_rate_in_education_35_64--by--geo--sex--age_group--year",
           "participation_rate_in_education_and_training_15_24--by--geo--sex--age_group--year",
           "perc_child_7_17_engaged_in_child_labour--by--age_group--sex--year--geo",
           "percentage_people_living_with_hiv_exposed_to_art--by--year--sex--age_group--geo",
@@ -3615,6 +3745,18 @@
         "value": "number_new_hiv_infections_per_1000_unifected_pop",
         "resources": [
           "number_new_hiv_infections_per_1000_unifected_pop--by--geo--sex--age_group--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "age_group",
+          "geo",
+          "sex",
+          "year"
+        ],
+        "value": "participation_rate_in_education_35_64",
+        "resources": [
+          "participation_rate_in_education_35_64--by--geo--sex--age_group--year"
         ]
       },
       {
@@ -3685,7 +3827,19 @@
         "value": "datasource",
         "resources": [
           "adolescent_birth_rate--by--year--age_group--geo",
+          "perc_youth_not_in_educ_employ_train--by--age_group--geo--year",
           "percent_early_marriages_experienced_by_women--by--age_group--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "age_group",
+          "geo",
+          "year"
+        ],
+        "value": "perc_youth_not_in_educ_employ_train",
+        "resources": [
+          "perc_youth_not_in_educ_employ_train--by--age_group--geo--year"
         ]
       },
       {
@@ -4395,16 +4549,6 @@
           "geo",
           "year"
         ],
-        "value": "age_group",
-        "resources": [
-          "perc_youth_15_34_not_in_educ_employ_train--by--geo--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
         "value": "alcohol_consumption_per_capita",
         "resources": [
           "alcohol_consumption_per_capita--by--geo--year"
@@ -4455,6 +4599,7 @@
           "facilities_that_have_relevant_essential--by--geo--year",
           "gender_parity_index_tertiary--by--geo--year",
           "growth_rate_gdp_per_capita--by--geo--year",
+          "growth_rate_real_gdp_employed_person--by--year--geo",
           "households_using_the_internet--by--geo--year",
           "incidence_human_trafficking_per_100000_pop--by--geo--year",
           "incidence_human_trafficking_per_100000_population--by--geo--year",
@@ -4467,6 +4612,8 @@
           "maternal_mortality--by--geo--year",
           "mortality_due_to_hepatitis--by--geo--year",
           "neonatal_mortality_rate--by--geo--year",
+          "num_bank_atm_per_100000_population--by--geo--year",
+          "num_bank_branches_per_100000_population--by--geo--year",
           "num_hh_per_100_000_population_feel_safe_walking_in_the_dark--by--geo--year",
           "num_murders_victims_per_100_000_population--by--geo--year",
           "num_researchers_per_million_population--by--geo--year",
@@ -4476,7 +4623,6 @@
           "number_of_social_grants--by--geo--year",
           "number_producers_benefit_animal_improvement_scheme--by--geo--year",
           "participation_rate_organised_learning--by--geo--year",
-          "perc_youth_15_34_not_in_educ_employ_train--by--geo--year",
           "percent_early_marriages_experienced_by_girls--by--year--geo",
           "percent_pop_access_electricity--by--geo--year",
           "percent_renewable_share_in_total_final_energy_consumption--by--geo--year",
@@ -4496,6 +4642,7 @@
           "prevalence_stunting_children_under_5yrs--by--geo--year",
           "proportion_births_attended_skilled_health_personnel--by--geo--year",
           "proportion_government_spending_essential_services--by--geo--year",
+          "proportion_learners_self_reported_forced_sex--by--geo--year",
           "proportion_of_women_in_managerial_positions--by--geo--year",
           "proportion_population_below_international_poverty_line--by--geo--year",
           "proportion_women_regarding_contraceptive--by--geo--year",
@@ -4553,6 +4700,16 @@
         "value": "growth_rate_gdp_per_capita",
         "resources": [
           "growth_rate_gdp_per_capita--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "growth_rate_real_gdp_employed_person",
+        "resources": [
+          "growth_rate_real_gdp_employed_person--by--year--geo"
         ]
       },
       {
@@ -4680,6 +4837,26 @@
           "geo",
           "year"
         ],
+        "value": "num_bank_atm_per_100000_population",
+        "resources": [
+          "num_bank_atm_per_100000_population--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "num_bank_branches_per_100000_population",
+        "resources": [
+          "num_bank_branches_per_100000_population--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
         "value": "num_hh_per_100_000_population_feel_safe_walking_in_the_dark",
         "resources": [
           "num_hh_per_100_000_population_feel_safe_walking_in_the_dark--by--geo--year"
@@ -4763,16 +4940,6 @@
         "value": "participation_rate_organised_learning",
         "resources": [
           "participation_rate_organised_learning--by--geo--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "perc_youth_15_34_not_in_educ_employ_train",
-        "resources": [
-          "perc_youth_15_34_not_in_educ_employ_train--by--geo--year"
         ]
       },
       {
@@ -4963,6 +5130,16 @@
         "value": "proportion_government_spending_essential_services",
         "resources": [
           "proportion_government_spending_essential_services--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "proportion_learners_self_reported_forced_sex",
+        "resources": [
+          "proportion_learners_self_reported_forced_sex--by--geo--year"
         ]
       },
       {
