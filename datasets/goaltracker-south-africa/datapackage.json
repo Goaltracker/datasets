@@ -296,37 +296,6 @@
       }
     },
     {
-      "path": "ddf--datapoints--energy_intensity--by--currency--year--geo.csv",
-      "name": "energy_intensity--by--currency--year--geo",
-      "schema": {
-        "fields": [
-          {
-            "name": "geo"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "energy_intensity"
-          },
-          {
-            "name": "energy_per_million"
-          },
-          {
-            "name": "currency"
-          },
-          {
-            "name": "datasource"
-          }
-        ],
-        "primaryKey": [
-          "currency",
-          "year",
-          "geo"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints--facilities_that_have_relevant_essential--by--geo--year.csv",
       "name": "facilities_that_have_relevant_essential--by--geo--year",
       "schema": {
@@ -448,8 +417,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--hiv_prevalence--by--geo--prevalence--year.csv",
-      "name": "hiv_prevalence--by--geo--prevalence--year",
+      "path": "ddf--datapoints--hiv_prevalence--by--geo--year.csv",
+      "name": "hiv_prevalence--by--geo--year",
       "schema": {
         "fields": [
           {
@@ -462,15 +431,11 @@
             "name": "hiv_prevalence"
           },
           {
-            "name": "prevalence"
-          },
-          {
             "name": "datasource"
           }
         ],
         "primaryKey": [
           "geo",
-          "prevalence",
           "year"
         ]
       }
@@ -774,9 +739,6 @@
           },
           {
             "name": "sex"
-          },
-          {
-            "name": "currency"
           },
           {
             "name": "median_monthly_earnings_employees"
@@ -1550,8 +1512,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--percent_women_subject_to_physical_or_sexual_vio--by--age_group--forms_of_violence--year.csv",
-      "name": "percent_women_subject_to_physical_or_sexual_vio--by--age_group--forms_of_violence--year",
+      "path": "ddf--datapoints--percent_women_subject_to_physical_or_sexual_vio--by--geo--age_group--forms_of_violence--year.csv",
+      "name": "percent_women_subject_to_physical_or_sexual_vio--by--geo--age_group--forms_of_violence--year",
       "schema": {
         "fields": [
           {
@@ -1574,6 +1536,7 @@
           }
         ],
         "primaryKey": [
+          "geo",
           "age_group",
           "forms_of_violence",
           "year"
@@ -3689,33 +3652,24 @@
         "primaryKey": [
           "age_group",
           "forms_of_violence",
+          "geo",
           "year"
         ],
         "value": "datasource",
         "resources": [
-          "percent_women_subject_to_physical_or_sexual_vio--by--age_group--forms_of_violence--year"
+          "percent_women_subject_to_physical_or_sexual_vio--by--geo--age_group--forms_of_violence--year"
         ]
       },
       {
         "primaryKey": [
           "age_group",
           "forms_of_violence",
-          "year"
-        ],
-        "value": "geo",
-        "resources": [
-          "percent_women_subject_to_physical_or_sexual_vio--by--age_group--forms_of_violence--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "age_group",
-          "forms_of_violence",
+          "geo",
           "year"
         ],
         "value": "percent_women_subject_to_physical_or_sexual_vio",
         "resources": [
-          "percent_women_subject_to_physical_or_sexual_vio--by--age_group--forms_of_violence--year"
+          "percent_women_subject_to_physical_or_sexual_vio--by--geo--age_group--forms_of_violence--year"
         ]
       },
       {
@@ -3907,39 +3861,6 @@
         "value": "percentage_total_land_area",
         "resources": [
           "percentage_total_land_area--by--biome_type--year--geo"
-        ]
-      },
-      {
-        "primaryKey": [
-          "currency",
-          "geo",
-          "year"
-        ],
-        "value": "datasource",
-        "resources": [
-          "energy_intensity--by--currency--year--geo"
-        ]
-      },
-      {
-        "primaryKey": [
-          "currency",
-          "geo",
-          "year"
-        ],
-        "value": "energy_intensity",
-        "resources": [
-          "energy_intensity--by--currency--year--geo"
-        ]
-      },
-      {
-        "primaryKey": [
-          "currency",
-          "geo",
-          "year"
-        ],
-        "value": "energy_per_million",
-        "resources": [
-          "energy_intensity--by--currency--year--geo"
         ]
       },
       {
@@ -4257,18 +4178,6 @@
           "sex",
           "year"
         ],
-        "value": "currency",
-        "resources": [
-          "median_monthly_earnings_employees--by--occupation--sex--year--geo"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "occupation",
-          "sex",
-          "year"
-        ],
         "value": "datasource",
         "resources": [
           "median_monthly_earnings_employees--by--occupation--sex--year--geo"
@@ -4350,28 +4259,6 @@
         "value": "population_living_below_the_national_poverty_line",
         "resources": [
           "population_living_below_the_national_poverty_line--by--poverty_level--year--geo"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "prevalence",
-          "year"
-        ],
-        "value": "datasource",
-        "resources": [
-          "hiv_prevalence--by--geo--prevalence--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "prevalence",
-          "year"
-        ],
-        "value": "hiv_prevalence",
-        "resources": [
-          "hiv_prevalence--by--geo--prevalence--year"
         ]
       },
       {
@@ -4600,6 +4487,7 @@
           "gender_parity_index_tertiary--by--geo--year",
           "growth_rate_gdp_per_capita--by--geo--year",
           "growth_rate_real_gdp_employed_person--by--year--geo",
+          "hiv_prevalence--by--geo--year",
           "households_using_the_internet--by--geo--year",
           "incidence_human_trafficking_per_100000_pop--by--geo--year",
           "incidence_human_trafficking_per_100000_population--by--geo--year",
@@ -4710,6 +4598,16 @@
         "value": "growth_rate_real_gdp_employed_person",
         "resources": [
           "growth_rate_real_gdp_employed_person--by--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "hiv_prevalence",
+        "resources": [
+          "hiv_prevalence--by--geo--year"
         ]
       },
       {
