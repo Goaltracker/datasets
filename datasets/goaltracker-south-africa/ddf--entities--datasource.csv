@@ -8,6 +8,7 @@ ghs2016,General Household Survey for 2016,General Household Survey for 2016,Stat
 ghs2017,General Household Survey for 2017,General Household Survey for 2017,Statistics South Africa
 ghs09_17,General Household Survey for 2009-2017,General Household Survey for 2009-2017,Statistics South Africa
 ghs15_17,General Household Survey for 2015-2017,General Household Survey for 2015-2017,Statistics South Africa
+ghs11_18,General Household Survey for 2011-2018,General Household Survey for 2011-2018,Statistics South Africa
 ghs2018,General Household Survey for 2018,Annual General Household Survey for 2018,Statistics South Africa
 ghs07_17,General Household Survey for 2007-2017,General Household Survey for 2007-2017,Statistics South Africa
 ghs13_17,General Household Survey for 2013-2017,Annual General Household Survey for 2013-2017,Statistics South Africa
@@ -17,6 +18,7 @@ socpen2016,SOCPEN 2016,,Department of Social Development
 who,Health Regulation(IHR)capacity and health emergency prepardness,World Health Organisation IHR Core Capacities Implementation Status 2010-2018,World Health Organisation
 socpen2018,Social Pension 2013-2018,,Department of Social Development
 cs2016,Community Survey 2016,Community Survey 2016,Statistics South Africa
+cen,Census,Census 2011,Statistics South Africa
 cs2016cen2016,Community Survey 2016 and Census (2001 and 2016),Community Survey 2016 and Census (2011 and 2016)SAMPI Index,Statistics South Africa
 socpenpopestimates2016,SOCPEN and Mid-year population estimates_2016,SOCPEN and Mid-year population estimates_2016,Department of Social Development and Statistics South Africa
 ene2015,ENE 2015,Estimates of National Expenditure for 2015,National Treasury
@@ -36,6 +38,7 @@ rms2015,Rapid Mortality Surveillance 2015,Rapid Mortality Surveillance 2015,Depa
 anpas2015,Agricultural National Public Assets,Agricultural National Public Assets,Agricultural Research Council 
 anpas2017,Agricultural National Public Assets,Agricultural National Public Assets,Agricultural Research Council
 dcsannualreports2016,Annual Reports 2016,Annual Reports 2015-2016,Department of Correctional Services
+dcsannualreports2018,Annual Reports 2016,Annual Reports 2007/2008-2017/2018,Department of Correctional Services
 vocs2016,Victims of Crime Survey 2016,Victims of Crime Survey 2016,Statistics South Africa
 vocs2018,Victims of Crime Survey 2014-2018,Victims of Crime Survey 2014-2018,Statistics South Africa
 vocs2015,Victims of Crime Survey 2015/2016-2017/2018,Victims of Crime Survey 2015/2016-2017/2018,Statistics South Africa
@@ -67,6 +70,8 @@ tsa2016,Tourism Satellite Account,Toursim Satellite Accounts for 2007-2016,Stati
 lts2016,South Africa Land Transport Survey,South Africa Land Transport Survey,Statistics South Africa
 crimestats2016,Reported Crime Statistics for 2015/16,Reported Crime Statistics for 2015/16,South African Police Services
 crimestats,Reported Crime Statistics for 2008-2018,Reported Crime Statistics for 2008-2018,South African Police Services
+crimestats2018,Reported Crime Statistics for 2008/2019-2017/2017,Reported Crime Statistics for 2008/2019-2017/2017,South African Police Services
+saps,Annual Reports 2015/2016-2017/2018,Annual Reports 2015/2016-2017/2018,South African Police Services
 sayrbs2002,South African Youth Risk Behaviour Survey for the year 2002,South African Youth Risk Behaviour Survey for the year 2002,South African Medical Research Council (MRC)
 sayrbs2008,South African Youth Risk Behaviour Survey for the year 2008,South African Youth Risk Behaviour Survey for the year 2008,South African Medical Research Council (MRC)
 sayrbs2011,South African Youth Risk Behaviour Survey for the year 2011,South African Youth Risk Behaviour Survey for the year 2011,Human Sciences Research Council (HSRC)
@@ -108,6 +113,7 @@ sayrbs2008,South African Youth Risk Behaviour Survey for the year 2008,South Afr
 sayrbs2011,South African Youth Risk Behaviour Survey for the year 2011,South African Youth Risk Behaviour Survey for the year 2011,Human Sciences Research Council (HSRC)
 br2016,Budget Review 2016,Budget Review 2016,National Treasury
 finstats,Financial Statistics of National Government and GDP (2008-2016),Financial Statistics of National Government and GDP (2008-2016),Statistics South Africa
+finstats13_15,Financial Statistics of National Government (2013-2015),Financial Statistics of National Government (2013-2015),Statistics South Africa and National Treasury
 dhs2015,Department of Human Settlements for 2015,Department of Human Settlements for 2015,Department of Human Settlements
 sawis2015,South African Waste Information System for 2015,South African Waste Information System for 2015,Department of Environmental Affairs
 sawis2017,South African Waste Information System for 2015 to 2017,South African Waste Information System for 2015 to 2017,Department of Environmental Affairs
@@ -120,6 +126,7 @@ gdp,GDP 2008-2017,GDP 2008-2017,Statistics South Africa
 hsrc,SABSSM 2012 and SABSSM 2017,SABSSM 2012 and SABSSM 2017,Human Sciences Research Council
 lts2017,LTS 2015–2017,LTS 2015–2017,Statistics South Africa
 icasa,ICASA 2015–2018,ICASA 2015–2018,ICASA
+icasa_dtps,ICASA,ICASA,Independent Communications Authority of South Africa and Department Of Telecommunications & Postal Services
 csti2015,HSRC and Mid-year Population Estimates,HSRC and Mid-year Population Estimates 2010–2015,Statistics South Africa
 ana11_14,ANA - PIRLS - TIMMS (2011–2014),ANA - PIRLS - TIMMS (2011–2014),Department of Basic Edication
 rtmc_2016,State of Road Safety Reports,State of Road Safety Reports(2010-2017),Road Traffic Management Corporation
@@ -127,4 +134,10 @@ mcd,Mortality and Causes of Death,Mortality and Causes of Death 1997-2017,Statis
 dsd,2016-2018,,Department of Social Development
 dsd_16_18,2015-2018,Victim Empowerment Programme Service Centres,Department of Social Development
 drdlr,Land Audit Report 2017,,
+wits7,WITS 2007-2017,WITS 2007-2017,
+wits10,WITS 2010-2017,WITS 2010-2017,
+ocj,Office of Chief Justice 2012-2017,Office of Chief Justice 2012-2017,Office of Chief Justice
+derco,UNGA;UNSC;UN-ECOSOC;IMF;IBRD;IFC;AfDB;ADB;IDB;WTO;FSB;NDB;UNHRC,UNGA;UNSC;UN-ECOSOC;IMF;IBRD;IFC;AfDB;ADB;IDB;WTO;FSB;NDB;UNHRC,
 bis,Bank for International Settlements 2012-2017,Bank for International Settlements 2012-2017,Bank for International Settlements
+un_irp,United Nations International Resource Panel 2007-2017,United Nations International Resource Panel 2007-2017,United Nations
+wb,World Bank: Worldwide weighted tarrif,World Bank: Worldwide weighted tarrif,World Bank

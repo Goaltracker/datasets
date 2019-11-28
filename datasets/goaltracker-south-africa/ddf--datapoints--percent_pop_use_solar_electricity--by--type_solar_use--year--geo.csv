@@ -11,3 +11,7 @@ zaf,2016,0.1,cooking,ghs2017
 zaf,2016,0.1,space_heating,ghs2017
 zaf,2016,0.5,lighting,ghs2017
 zaf,2016,0.6,water_heating,ghs2017
+zaf,2017,0.15,cooking,ghs2017
+zaf,2017,0.30,space_heating,ghs2017
+zaf,2017,0.48,lighting,ghs2017
+zaf,2017,0.68,water_heating,ghs2017

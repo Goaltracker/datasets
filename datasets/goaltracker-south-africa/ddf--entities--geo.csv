@@ -1,11 +1,11 @@
-geo,name
-zaf,South Africa
-wc,Western Cape
-ec,Eastern Cape
-nc,Northern Cape
-fs,Free State
-kzn,KwaZulu-Natal
-nw,North West
-gp,Gauteng
-mp,Mpumalanga
-lm,Limpopo
+geo,name,description
+zaf,RSA,South Africa
+wc,WC,Western Cape
+ec,EC,Eastern Cape
+nc,NC,Northern Cape
+fs,FS,Free State
+kzn,KZN,KwaZulu-Natal
+nw,NW,North West
+gp,GP,Gauteng
+mp,MP,Mpumalanga
+lm,LP,Limpopo
