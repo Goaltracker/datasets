@@ -3,3 +3,8 @@ t,Terrestrial,Terrestrial
 f,Freshwater,Freshwater
 m,Marine,Marine
 c,Coastal,Coastal
+dam,Dams,Dams
+est,Estuaries,Estuaries 
+wet,Wetlands,Wetlands
+lak,Lakes,Lakes
+riv,Rivers,Rivers

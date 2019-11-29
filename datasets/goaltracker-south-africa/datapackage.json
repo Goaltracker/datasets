@@ -224,6 +224,34 @@
       }
     },
     {
+      "path": "ddf--datapoints--change_national_discharge_rivers--by--year--ecosystem_type--geo.csv",
+      "name": "change_national_discharge_rivers--by--year--ecosystem_type--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ecosystem_type"
+          },
+          {
+            "name": "change_national_discharge_rivers"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "ecosystem_type",
+          "geo"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--children_accessing_registered_ecd--by--geo--year.csv",
       "name": "children_accessing_registered_ecd--by--geo--year",
       "schema": {
@@ -316,6 +344,30 @@
         "primaryKey": [
           "geo",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--degree_of_integrated_wrm--by--year--geo.csv",
+      "name": "degree_of_integrated_wrm--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "degree_of_integrated_wrm"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
         ]
       }
     },
@@ -1001,6 +1053,34 @@
       }
     },
     {
+      "path": "ddf--datapoints--mortality_rate_lifestyle_disease--by--year--disease_type--geo.csv",
+      "name": "mortality_rate_lifestyle_disease--by--year--disease_type--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "mortality_rate_lifestyle_disease"
+          },
+          {
+            "name": "disease_type"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "disease_type",
+          "geo"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--neonatal_mortality_rate--by--geo--year.csv",
       "name": "neonatal_mortality_rate--by--geo--year",
       "schema": {
@@ -1597,6 +1677,70 @@
         "primaryKey": [
           "geo",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percent_pop_access_safe_water--by--service--geotype--year--geo.csv",
+      "name": "percent_pop_access_safe_water--by--service--geotype--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "geotype"
+          },
+          {
+            "name": "service"
+          },
+          {
+            "name": "percent_pop_access_safe_water"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "service",
+          "geotype",
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--percent_pop_use_safe_sanitation_hand_wash--by--geotype--service--year--geo.csv",
+      "name": "percent_pop_use_safe_sanitation_hand_wash--by--geotype--service--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "geotype"
+          },
+          {
+            "name": "service"
+          },
+          {
+            "name": "percent_pop_use_safe_sanitation_hand_wash"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "geotype",
+          "service",
+          "year",
+          "geo"
         ]
       }
     },
@@ -2656,8 +2800,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--proportion_learners_reported_forced_sex--by--year--geo.csv",
-      "name": "proportion_learners_reported_forced_sex--by--year--geo",
+      "path": "ddf--datapoints--proportion_land_degraded--by--year--geo.csv",
+      "name": "proportion_land_degraded--by--year--geo",
       "schema": {
         "fields": [
           {
@@ -2667,7 +2811,7 @@
             "name": "year"
           },
           {
-            "name": "proportion_learners_reported_forced_sex"
+            "name": "proportion_land_degraded"
           },
           {
             "name": "datasource"
@@ -2700,6 +2844,30 @@
         "primaryKey": [
           "geo",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_medium_high_tech_industry--by--year--geo.csv",
+      "name": "proportion_medium_high_tech_industry--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_medium_high_tech_industry"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
         ]
       }
     },
@@ -2807,6 +2975,34 @@
           },
           {
             "name": "proportion_of_countries_birth_registrations"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "essential_services",
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_countries_birth_registrations_16--by--essential_services--year--geo.csv",
+      "name": "proportion_of_countries_birth_registrations_16--by--essential_services--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "essential_services"
+          },
+          {
+            "name": "proportion_of_countries_birth_registrations_16"
           },
           {
             "name": "datasource"
@@ -3108,6 +3304,30 @@
       }
     },
     {
+      "path": "ddf--datapoints--proportion_water_comply_rsa--by--year--geo.csv",
+      "name": "proportion_water_comply_rsa--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_water_comply_rsa"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--proportion_women_regarding_contraceptive--by--geo--year.csv",
       "name": "proportion_women_regarding_contraceptive--by--geo--year",
       "schema": {
@@ -3154,6 +3374,78 @@
         ],
         "primaryKey": [
           "sex",
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--ratio_of_land_consumption--by--year--geo.csv",
+      "name": "ratio_of_land_consumption--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ratio_of_land_consumption"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--red_list_index--by--year--geo.csv",
+      "name": "red_list_index--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "red_list_index"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--reseach_and_development_expenditure_as_percentage_of_gdp--by--year--geo.csv",
+      "name": "reseach_and_development_expenditure_as_percentage_of_gdp--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "reseach_and_development_expenditure_as_percentage_of_gdp"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
           "year",
           "geo"
         ]
@@ -3256,6 +3548,34 @@
           "geo",
           "sex",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--spatial_extent_water_related_ecosystems--by--year--ecosystem_type--geo.csv",
+      "name": "spatial_extent_water_related_ecosystems--by--year--ecosystem_type--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ecosystem_type"
+          },
+          {
+            "name": "spatial_extent_water_related_ecosystems"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "ecosystem_type",
+          "geo"
         ]
       }
     },
@@ -3524,6 +3844,58 @@
         "primaryKey": [
           "geo",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--water_sanitation_oda_spent--by--year--currency--geo.csv",
+      "name": "water_sanitation_oda_spent--by--year--currency--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "currency"
+          },
+          {
+            "name": "water_sanitation_oda_spent"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "currency",
+          "geo"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--water_use_efficiency--by--year--geo.csv",
+      "name": "water_use_efficiency--by--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "water_use_efficiency"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "geo"
         ]
       }
     },
@@ -3921,9 +4293,6 @@
           },
           {
             "name": "name"
-          },
-          {
-            "name": "description"
           }
         ],
         "primaryKey": "geo"
@@ -4512,7 +4881,8 @@
         ],
         "value": "datasource",
         "resources": [
-          "energy_intensity--by--currency--year--geo"
+          "energy_intensity--by--currency--year--geo",
+          "water_sanitation_oda_spent--by--year--currency--geo"
         ]
       },
       {
@@ -4524,6 +4894,39 @@
         "value": "energy_intensity",
         "resources": [
           "energy_intensity--by--currency--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "currency",
+          "geo",
+          "year"
+        ],
+        "value": "water_sanitation_oda_spent",
+        "resources": [
+          "water_sanitation_oda_spent--by--year--currency--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "disease_type",
+          "geo",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "mortality_rate_lifestyle_disease--by--year--disease_type--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "disease_type",
+          "geo",
+          "year"
+        ],
+        "value": "mortality_rate_lifestyle_disease",
+        "resources": [
+          "mortality_rate_lifestyle_disease--by--year--disease_type--geo"
         ]
       },
       {
@@ -4602,10 +5005,23 @@
           "geo",
           "year"
         ],
+        "value": "change_national_discharge_rivers",
+        "resources": [
+          "change_national_discharge_rivers--by--year--ecosystem_type--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "ecosystem_type",
+          "geo",
+          "year"
+        ],
         "value": "datasource",
         "resources": [
+          "change_national_discharge_rivers--by--year--ecosystem_type--geo",
           "percentage_marine_and_coastal_ecosystem_well_represented--by--ecosystem_type--geo--year",
-          "percentage_well_represented_protected_areas--by--ecosystem_type--year--geo"
+          "percentage_well_represented_protected_areas--by--ecosystem_type--year--geo",
+          "spatial_extent_water_related_ecosystems--by--year--ecosystem_type--geo"
         ]
       },
       {
@@ -4628,6 +5044,17 @@
         "value": "percentage_well_represented_protected_areas",
         "resources": [
           "percentage_well_represented_protected_areas--by--ecosystem_type--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "ecosystem_type",
+          "geo",
+          "year"
+        ],
+        "value": "spatial_extent_water_related_ecosystems",
+        "resources": [
+          "spatial_extent_water_related_ecosystems--by--year--ecosystem_type--geo"
         ]
       },
       {
@@ -4695,6 +5122,7 @@
         "value": "datasource",
         "resources": [
           "proportion_of_countries_birth_registrations--by--essential_services--year--geo",
+          "proportion_of_countries_birth_registrations_16--by--essential_services--year--geo",
           "proportion_of_countries_conducted_census--by--essential_services--year--geo",
           "proportion_of_countries_death_registrations--by--essential_services--year--geo"
         ]
@@ -4708,6 +5136,17 @@
         "value": "proportion_of_countries_birth_registrations",
         "resources": [
           "proportion_of_countries_birth_registrations--by--essential_services--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "essential_services",
+          "geo",
+          "year"
+        ],
+        "value": "proportion_of_countries_birth_registrations_16",
+        "resources": [
+          "proportion_of_countries_birth_registrations_16--by--essential_services--year--geo"
         ]
       },
       {
@@ -4752,6 +5191,43 @@
         "value": "number_of_plant_and_animal_genetic_resources",
         "resources": [
           "number_of_plant_and_animal_genetic_resources--by--genebank_resources_type--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "geotype",
+          "service",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "percent_pop_access_safe_water--by--service--geotype--year--geo",
+          "percent_pop_use_safe_sanitation_hand_wash--by--geotype--service--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "geotype",
+          "service",
+          "year"
+        ],
+        "value": "percent_pop_access_safe_water",
+        "resources": [
+          "percent_pop_access_safe_water--by--service--geotype--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "geotype",
+          "service",
+          "year"
+        ],
+        "value": "percent_pop_use_safe_sanitation_hand_wash",
+        "resources": [
+          "percent_pop_use_safe_sanitation_hand_wash--by--geotype--service--year--geo"
         ]
       },
       {
@@ -5284,6 +5760,7 @@
           "countries_share_global_exports--by--year--geo",
           "couple_year_protection_rate--by--geo--year",
           "death_rate_due_to_road_traffic_injuries--by--geo--year",
+          "degree_of_integrated_wrm--by--year--geo",
           "facilities_that_have_relevant_essential--by--geo--year",
           "gender_parity_index_tertiary--by--geo--year",
           "graduates_in_public_and_private_higher_institutions--by--geo--year",
@@ -5339,15 +5816,20 @@
           "proportion_budget_funded_taxes--by--year--geo",
           "proportion_government_spending_essential_services--by--geo--year",
           "proportion_households_experience_robbery--by--year--geo",
-          "proportion_learners_reported_forced_sex--by--year--geo",
+          "proportion_land_degraded--by--year--geo",
           "proportion_learners_self_reported_forced_sex--by--geo--year",
+          "proportion_medium_high_tech_industry--by--year--geo",
           "proportion_of_children_corporal_punishment--by--year--geo",
           "proportion_of_victims_assault_reported_to_police--by--year--geo",
           "proportion_of_women_in_managerial_positions--by--geo--year",
           "proportion_population_asked_bribe_public_official--by--year--geo",
           "proportion_population_below_international_poverty_line--by--geo--year",
           "proportion_population_experienced_assault--by--year--geo",
+          "proportion_water_comply_rsa--by--year--geo",
           "proportion_women_regarding_contraceptive--by--geo--year",
+          "ratio_of_land_consumption--by--year--geo",
+          "red_list_index--by--year--geo",
+          "reseach_and_development_expenditure_as_percentage_of_gdp--by--year--geo",
           "revenue_as_a_proportion_of_gdp--by--geo--year",
           "risk_reduction_strategies_adopted_1--by--geo--year",
           "risk_reduction_strategies_adopted_13--by--geo--year",
@@ -5361,6 +5843,7 @@
           "unintentional_poisoning_mortality_rate_per_100_000_population--by--geo--year",
           "unsentenced_detainees--by--year--geo",
           "victims_of_crime--by--geo--year",
+          "water_use_efficiency--by--year--geo",
           "women_accessed_victim_empowerment_centres--by--geo--year",
           "worldwide_weighted_tariff--by--year--geo"
         ]
@@ -5373,6 +5856,16 @@
         "value": "death_rate_due_to_road_traffic_injuries",
         "resources": [
           "death_rate_due_to_road_traffic_injuries--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "degree_of_integrated_wrm",
+        "resources": [
+          "degree_of_integrated_wrm--by--year--geo"
         ]
       },
       {
@@ -5930,9 +6423,9 @@
           "geo",
           "year"
         ],
-        "value": "proportion_learners_reported_forced_sex",
+        "value": "proportion_land_degraded",
         "resources": [
-          "proportion_learners_reported_forced_sex--by--year--geo"
+          "proportion_land_degraded--by--year--geo"
         ]
       },
       {
@@ -5943,6 +6436,16 @@
         "value": "proportion_learners_self_reported_forced_sex",
         "resources": [
           "proportion_learners_self_reported_forced_sex--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "proportion_medium_high_tech_industry",
+        "resources": [
+          "proportion_medium_high_tech_industry--by--year--geo"
         ]
       },
       {
@@ -6010,9 +6513,49 @@
           "geo",
           "year"
         ],
+        "value": "proportion_water_comply_rsa",
+        "resources": [
+          "proportion_water_comply_rsa--by--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
         "value": "proportion_women_regarding_contraceptive",
         "resources": [
           "proportion_women_regarding_contraceptive--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ratio_of_land_consumption",
+        "resources": [
+          "ratio_of_land_consumption--by--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "red_list_index",
+        "resources": [
+          "red_list_index--by--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "reseach_and_development_expenditure_as_percentage_of_gdp",
+        "resources": [
+          "reseach_and_development_expenditure_as_percentage_of_gdp--by--year--geo"
         ]
       },
       {
@@ -6153,6 +6696,16 @@
         "value": "victims_of_crime",
         "resources": [
           "victims_of_crime--by--geo--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "water_use_efficiency",
+        "resources": [
+          "water_use_efficiency--by--year--geo"
         ]
       },
       {
@@ -6499,15 +7052,6 @@
         "value": "name",
         "resources": [
           "genebank_resources_type"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo"
-        ],
-        "value": "description",
-        "resources": [
-          "geo"
         ]
       },
       {

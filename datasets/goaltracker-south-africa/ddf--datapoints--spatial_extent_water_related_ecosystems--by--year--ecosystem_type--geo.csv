@@ -1,0 +1,5 @@
+geo,year,ecosystem_type,spatial_extent_water_related_ecosystems,datasource
+zaf,2018,dam,0.17,hydstra
+zaf,2018,est,0.23,hydstra
+zaf,2018,wet,2.17,hydstra
+zaf,2018,lak,0.01,hydstra

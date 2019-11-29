@@ -87,6 +87,7 @@ hemis2016,Higher Education Management Information System for 2007-2016,Higher Ed
 neims2016,National Education Infrastructure Management System (NEIMS)_2016,National Education Infrastructure Management System (NEIMS)_2016,Department of Basic Education
 np2016, National Parliament 2016, National Parliament 2016, National Parliament
 gds2017,GDS 2017,Green Drop System for 2017,Department of Water and Sanitation
+wms,Water Management System(WMS)-2018,Water Management System(WMS)-2018,Department of Water and Sanitation
 dwsstrategy2013,2013 Strategic Overview of the Water Sector in South Africa,Strategic Overview of the Water Sector in South Africa,Department of Water and Sanitation
 dwstransboundarywater2017,Transboundary Water Basin Cooperation,Monitoring of SDG Indicator on Transboundary Water Cooperation,Department of Water and Sanitation
 neb2013,National Energy Balances for 2013,National Energy Balances for 2013,Department of Energy
@@ -111,6 +112,8 @@ sanbi,South African National Biodiversity Institute,South African National Biodi
 sayrbs2002,South African Youth Risk Behaviour Survey for the year 2002,South African Youth Risk Behaviour Survey for the year 2002,South African Medical Research Council (MRC)
 sayrbs2008,South African Youth Risk Behaviour Survey for the year 2008,South African Youth Risk Behaviour Survey for the year 2008,South African Medical Research Council (MRC)
 sayrbs2011,South African Youth Risk Behaviour Survey for the year 2011,South African Youth Risk Behaviour Survey for the year 2011,Human Sciences Research Council (HSRC)
+hsrc,SABSSM 2012 and SABSSM 2017,SABSSM 2012 and SABSSM 2017,Human Sciences Research Council
+csti,Centre for Science and Technology 2015,Centre for Science and Technology 2015,Human Sciences Research Council (HSRC)
 br2016,Budget Review 2016,Budget Review 2016,National Treasury
 finstats,Financial Statistics of National Government and GDP (2008-2016),Financial Statistics of National Government and GDP (2008-2016),Statistics South Africa
 finstats13_15,Financial Statistics of National Government (2013-2015),Financial Statistics of National Government (2013-2015),Statistics South Africa and National Treasury
@@ -123,7 +126,6 @@ tus2010,Time Use Survey for 2010,Time Use Survey for 2010,Statistics South Afric
 ntes,Estimates of National Expenditure ,Estimates of National Expenditure(2013-2014 - 2015-2016),National Treasury
 dst,CSTI 2011-2015 (survey conducted by DST),CSTI 2011-2015 (survey conducted by DST),Department of Science and Technology
 gdp,GDP 2008-2017,GDP 2008-2017,Statistics South Africa
-hsrc,SABSSM 2012 and SABSSM 2017,SABSSM 2012 and SABSSM 2017,Human Sciences Research Council
 lts2017,LTS 2015–2017,LTS 2015–2017,Statistics South Africa
 icasa,ICASA 2015–2018,ICASA 2015–2018,ICASA
 icasa_dtps,ICASA,ICASA,Independent Communications Authority of South Africa and Department Of Telecommunications & Postal Services
@@ -136,8 +138,13 @@ dsd_16_18,2015-2018,Victim Empowerment Programme Service Centres,Department of S
 drdlr,Land Audit Report 2017,,
 wits7,WITS 2007-2017,WITS 2007-2017,
 wits10,WITS 2010-2017,WITS 2010-2017,
+dti,Department of Trade Idustry and World Bank,Department of Trade Idustry and World Bank,Department of Trade Idustry and World Bank
+sansa,LCRPGR 1996-2001 and 2001-2011,LCRPGR 1996-2001 and 2001-2011,SANSA
 ocj,Office of Chief Justice 2012-2017,Office of Chief Justice 2012-2017,Office of Chief Justice
 derco,UNGA;UNSC;UN-ECOSOC;IMF;IBRD;IFC;AfDB;ADB;IDB;WTO;FSB;NDB;UNHRC,UNGA;UNSC;UN-ECOSOC;IMF;IBRD;IFC;AfDB;ADB;IDB;WTO;FSB;NDB;UNHRC,
 bis,Bank for International Settlements 2012-2017,Bank for International Settlements 2012-2017,Bank for International Settlements
 un_irp,United Nations International Resource Panel 2007-2017,United Nations International Resource Panel 2007-2017,United Nations
+un,United Nations Convention to Combat Desertification Performance Review and Assessment of Implementation System,Convention to Combat Desertification Performance Review and Assessment of Implementation System ,South Africa
 wb,World Bank: Worldwide weighted tarrif,World Bank: Worldwide weighted tarrif,World Bank
+hydstra,"HYDSTRA Database(Wetlands, Lakes and Estuaries)",HYDSTRA Database,South African National Biodiversity Institute and Council for Scientific and Industrial Research
+dws_csir,Council for Scientific and Industrial Research (Estuaries),Council for Scientific and Industrial Research (Estuaries), Department of Water and Sanitation and Water Research Commission (Rivers) 
