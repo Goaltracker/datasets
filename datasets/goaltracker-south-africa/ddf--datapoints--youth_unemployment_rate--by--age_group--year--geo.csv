@@ -1,4 +1,4 @@
-geo,year,age_group,perc_youth_not_in_educ_employ_train,datasource
+geo,year,age_group,youth_unemployment_rate,datasource
 zaf,2010,15_34,35.7,qlfs
 zaf,2011,15_34,35.7,qlfs
 zaf,2012,15_34,35.8,qlfs

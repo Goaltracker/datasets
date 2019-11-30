@@ -1,0 +1,9 @@
+geo,year,bank,num_bank_atm_branch,datasource
+zaf,2012,brn,10.9,bis
+zaf,2014,brn,11.8,bis
+zaf,2015,brn,11.3,bis
+zaf,2016,brn,11.1,bis
+zaf,2017,brn,10.9,bis
+zaf,2012,atm,67.6,bis
+zaf,2015,atm,80.5,bis
+zaf,2017,atm,82.5,bis

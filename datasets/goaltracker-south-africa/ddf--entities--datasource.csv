@@ -60,7 +60,7 @@ mype2016,Mid-year Population Estimates,Mid-year Population Estimates for 2016 ba
 gdp2016,Gross Domestic Product for 2016,Gross Domestic Product for 2016 based on the System of National Accounts,Statistics South Africa
 qlfs2016,Quarterly Labour Force Survey for 2016,Quarterly Labour Force Survey for 2016,Statistics South Africa
 qlfs2017,Quarterly Labour Force Survey for 2015-2017,Quarterly Labour Force Survey for 2015-2017,Statistics South Africa
-qlfs,Quarterly Labour Force Survey for 2010-2017,Quarterly Labour Force Survey for 2015-2017,Statistics South Africa
+qlfs,Quarterly Labour Force Survey for 2010-2017,Quarterly Labour Force Survey for 2010-2017,Statistics South Africa
 qlfs10_15,Quarterly Labour Force Survey for 2010-2015,Quarterly Labour Force Survey for 2015-2017,Statistics South Africa
 qlfs14_17,Quarterly Labour Force Survey for 2014-2017,Quarterly Labour Force Survey for 2014-2017,Statistics South Africa
 sayp2015,Survey of Activities of Young People for 2015,Survey of Activities of Young People for 2015,Statistics South Africa
@@ -114,6 +114,8 @@ sayrbs2008,South African Youth Risk Behaviour Survey for the year 2008,South Afr
 sayrbs2011,South African Youth Risk Behaviour Survey for the year 2011,South African Youth Risk Behaviour Survey for the year 2011,Human Sciences Research Council (HSRC)
 hsrc,SABSSM 2012 and SABSSM 2017,SABSSM 2012 and SABSSM 2017,Human Sciences Research Council
 csti,Centre for Science and Technology 2015,Centre for Science and Technology 2015,Human Sciences Research Council (HSRC)
+csti17,Centre for Science and Technology 2016/2017,Centre for Science and Technology 2016/2017,Human Sciences Research Council (HSRC)
+dcs,DCS: Remand Detention 2015-2018,DCS: Remand Detention 2015-2018,Department of Correctional Services
 br2016,Budget Review 2016,Budget Review 2016,National Treasury
 finstats,Financial Statistics of National Government and GDP (2008-2016),Financial Statistics of National Government and GDP (2008-2016),Statistics South Africa
 finstats13_15,Financial Statistics of National Government (2013-2015),Financial Statistics of National Government (2013-2015),Statistics South Africa and National Treasury
