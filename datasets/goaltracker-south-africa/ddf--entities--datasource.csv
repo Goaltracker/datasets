@@ -1,6 +1,8 @@
 datasource,name,description,provider
 ies2015lc2015,Income and Expenditure Survey 2015 and Living Conditions Survey 2015,Income and Expenditure Survey and Living Conditions Survey,Statistics South Africa
 ies2006lc2015,Income and Expenditure Survey 2006_2011 and Living Conditions Survey 2015,Income and Expenditure Survey and Living Conditions Survey,Statistics South Africa
+ies2011lc2015,Income and Expenditure Survey 2011 and Living Conditions Survey 2015,Income and Expenditure Survey and Living Conditions Survey,Statistics South Africa
+ies2011lc2015,Income and Expenditure Survey 2011 and 2011 and Living Conditions Survey 2009 and 2015,Income and Expenditure Survey and Living Conditions Survey,Statistics South Africa
 ghs2013,General Household Survey for 2013,Annual General Household Survey for 2013,Statistics South Africa
 ghs2014,General Household Survey for 2014,Annual General Household Survey for 2014,Statistics South Africa
 ghs2015,General Household Survey for 2015,General Household Survey for 2015,Statistics South Africa

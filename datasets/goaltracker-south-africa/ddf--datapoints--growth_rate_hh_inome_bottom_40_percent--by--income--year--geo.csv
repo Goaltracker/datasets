@@ -1,0 +1,5 @@
+geo,year,income,growth_rate_hh_inome_bottom_40_percent,datasource
+zaf,2011,total,18.9,ies2011lc2015
+zaf,2011,bottom_40_percent,22.0,ies2011lc2015
+zaf,2015,total,-2.6,ies2011lc2015
+zaf,2015,bottom_40_percent,7.8,ies2011lc2015

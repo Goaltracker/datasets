@@ -617,6 +617,34 @@
       }
     },
     {
+      "path": "ddf--datapoints--growth_rate_hh_inome_bottom_40_percent--by--income--year--geo.csv",
+      "name": "growth_rate_hh_inome_bottom_40_percent--by--income--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "income"
+          },
+          {
+            "name": "growth_rate_hh_inome_bottom_40_percent"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "income",
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--growth_rate_real_gdp_employed_person--by--year--geo.csv",
       "name": "growth_rate_real_gdp_employed_person--by--year--geo",
       "schema": {
@@ -846,6 +874,34 @@
         "primaryKey": [
           "geo",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--international_organizations_rsa_membership--by--sex--year--geo.csv",
+      "name": "international_organizations_rsa_membership--by--sex--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "international_organizations_south_africa_membership"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "sex",
+          "year",
+          "geo"
         ]
       }
     },
@@ -3207,6 +3263,34 @@
       }
     },
     {
+      "path": "ddf--datapoints--proportion_people_living_below_median--by--age_group--year--geo.csv",
+      "name": "proportion_people_living_below_median--by--age_group--year--geo",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "age_group"
+          },
+          {
+            "name": "proportion_people_living_below_median"
+          },
+          {
+            "name": "datasource"
+          }
+        ],
+        "primaryKey": [
+          "age_group",
+          "year",
+          "geo"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--proportion_pop_covered_mobile_network--by--mobile_network_type--year--geo.csv",
       "name": "proportion_pop_covered_mobile_network--by--mobile_network_type--year--geo",
       "schema": {
@@ -4883,6 +4967,7 @@
         "resources": [
           "adolescent_birth_rate--by--year--age_group--geo",
           "percent_early_marriages_experienced_by_women--by--age_group--year--geo",
+          "proportion_people_living_below_median--by--age_group--year--geo",
           "youth_unemployment_rate--by--age_group--year--geo"
         ]
       },
@@ -4895,6 +4980,17 @@
         "value": "percent_early_marriages_experienced_by_women",
         "resources": [
           "percent_early_marriages_experienced_by_women--by--age_group--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "age_group",
+          "geo",
+          "year"
+        ],
+        "value": "proportion_people_living_below_median",
+        "resources": [
+          "proportion_people_living_below_median--by--age_group--year--geo"
         ]
       },
       {
@@ -5440,6 +5536,28 @@
       {
         "primaryKey": [
           "geo",
+          "income",
+          "year"
+        ],
+        "value": "datasource",
+        "resources": [
+          "growth_rate_hh_inome_bottom_40_percent--by--income--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "income",
+          "year"
+        ],
+        "value": "growth_rate_hh_inome_bottom_40_percent",
+        "resources": [
+          "growth_rate_hh_inome_bottom_40_percent--by--income--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
           "malnutrition_type",
           "year"
         ],
@@ -5655,6 +5773,7 @@
         ],
         "value": "datasource",
         "resources": [
+          "international_organizations_rsa_membership--by--sex--year--geo",
           "percentage_of_individuals_who_own_a_mobile_telephone--by--sex--year--geo",
           "percentage_person_with_disabilities_training--by--sex--geo--year",
           "prevalence_of_current_tobacco--by--sex--year--geo",
@@ -5662,6 +5781,17 @@
           "proportions_positions_public_institutions--by--sex--year--geo",
           "share_informal_employment_non_agriculture_employment--by--geo--sex--year",
           "unemployment_rate_sex--by--sex--year--geo"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "sex",
+          "year"
+        ],
+        "value": "international_organizations_south_africa_membership",
+        "resources": [
+          "international_organizations_rsa_membership--by--sex--year--geo"
         ]
       },
       {
