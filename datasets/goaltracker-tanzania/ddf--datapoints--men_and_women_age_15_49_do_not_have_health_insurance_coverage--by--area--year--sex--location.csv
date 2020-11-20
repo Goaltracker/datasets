@@ -1,0 +1,7 @@
+area,year,sex,location,men_and_women_age_15_and_49_do_not_have_health_insurance_coverage_percent
+mainland,2016,female,total,91
+mainland,2016,male,total,90
+mainland,2016,female,urban,90
+mainland,2016,male,urban,89
+mainland,2016,female,rural,92
+mainland,2016,male,rural,91

@@ -33,8 +33,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--adolscent_birth_rate--by--area--year.csv",
-      "name": "adolscent_birth_rate--by--area--year",
+      "path": "ddf--datapoints--adolescent_birth_rate--by--area--year.csv",
+      "name": "adolescent_birth_rate--by--area--year",
       "schema": {
         "fields": [
           {
@@ -44,7 +44,53 @@
             "name": "year"
           },
           {
-            "name": "adolscent_birth_rate"
+            "name": "adolescent_birth_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--adult_literacy_rate--by--area--year--sex.csv",
+      "name": "adult_literacy_rate--by--area--year--sex",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "adult_literacy_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "sex"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--allocated_plots_and_farm--by--area--year.csv",
+      "name": "allocated_plots_and_farm--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "allocated_plots_and_farms"
           }
         ],
         "primaryKey": [
@@ -71,6 +117,73 @@
         "primaryKey": [
           "area",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--area_of_natural_forest_cover--by--area--year.csv",
+      "name": "area_of_natural_forest_cover--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "area_of_natural_forest_cover"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--area_under_irrigation--by--area--year.csv",
+      "name": "area_under_irrigation--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "area_under_irrigation"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--average_number_of_persons_per_sleeping_room--by--area--year--location.csv",
+      "name": "average_number_of_persons_per_sleeping_room--by--area--year--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "average_number_of_persons_per_sleeping_room"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "location"
         ]
       }
     },
@@ -121,6 +234,31 @@
           "year",
           "sex",
           "age_group"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--children_under_5_years_overweight--by--area--year--location.csv",
+      "name": "children_under_5_years_overweight--by--area--year--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "children_under_5_years_overweight"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "location"
         ]
       }
     },
@@ -217,6 +355,48 @@
       }
     },
     {
+      "path": "ddf--datapoints--death_missing_and_affected_due_to_climate_change--by--area--year.csv",
+      "name": "death_missing_and_affected_due_to_climate_change--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "death_missing_and_affected_due_to_climate_change_related_disasters"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--development_budget--by--area--year.csv",
+      "name": "development_budget--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "development_budget"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--early_learning_gross_enrolment_ratio--by--area--year.csv",
       "name": "early_learning_gross_enrolment_ratio--by--area--year",
       "schema": {
@@ -259,6 +439,48 @@
           "area",
           "year",
           "sex"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--food_self_sufficiency_ratio--by--area--year.csv",
+      "name": "food_self_sufficiency_ratio--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "food_self_sufficiency_ratio"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--government_budget--by--area--year.csv",
+      "name": "government_budget--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "government_budget"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
         ]
       }
     },
@@ -355,6 +577,35 @@
       }
     },
     {
+      "path": "ddf--datapoints--infant_mortality_rate_per_1000_births--by--area--year--sex--location.csv",
+      "name": "infant_mortality_rate_per_1000_births--by--area--year--sex--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "infant_mortality_rate_per_1000_births"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "sex",
+          "location"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--life_expectancy_years--by--area--year--sex.csv",
       "name": "life_expectancy_years--by--area--year--sex",
       "schema": {
@@ -380,6 +631,27 @@
       }
     },
     {
+      "path": "ddf--datapoints--malaria_incidence--by--area--year.csv",
+      "name": "malaria_incidence--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "malaria_incidence_per_1000_population"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--maternal_mortality_rate--by--area--year.csv",
       "name": "maternal_mortality_rate--by--area--year",
       "schema": {
@@ -397,6 +669,102 @@
         "primaryKey": [
           "area",
           "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--men_and_women_age_15_49_do_not_have_health_insurance_coverage--by--area--year--sex--location.csv",
+      "name": "men_and_women_age_15_49_do_not_have_health_insurance_coverage--by--area--year--sex--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "men_and_women_age_15_and_49_do_not_have_health_insurance_coverage_percent"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "sex",
+          "location"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--multi_dimension_poverty_index_poverty_head_count--by--area--year.csv",
+      "name": "multi_dimension_poverty_index_poverty_head_count--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "multi_dimension_poverty_index_poverty_head_count_percent"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--national_food_inflation_rate--by--area--year.csv",
+      "name": "national_food_inflation_rate--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "national_food_inflation_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--national_hiv_prevalence_rate--by--area--year--sex.csv",
+      "name": "national_hiv_prevalence_rate--by--area--year--sex",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "national_hiv_prevalence_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "sex"
         ]
       }
     },
@@ -441,6 +809,80 @@
           },
           {
             "name": "physical_violence_from_current_or_former_partners"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility--by--area--year.csv",
+      "name": "prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--prevalence_of_stunting_in_children_aged_0_59_months--by--area--year--location.csv",
+      "name": "prevalence_of_stunting_in_children_aged_0_59_months--by--area--year--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "prevalence_of_stunting_in_children_aged_0_to_59_months"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--prevalence_of_undernourishment_among_children_under_5_years_of_age_disaggregated_by_stunting_wasting_and_weight--by--area--year--location.csv",
+      "name": "prevalence_of_undernourishment_among_children_under_5_years_of_age_disaggregated_by_stunting_wasting_and_weight--by--area--year--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "prevalence_of_undernourishment_among_children_under_5_years_of_age_disaggregated_by_stunting_wasting_and_underweight"
           }
         ],
         "primaryKey": [
@@ -568,6 +1010,48 @@
       }
     },
     {
+      "path": "ddf--datapoints--proportion_of_local_governments_that_adopt_and_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies--by--area--year.csv",
+      "name": "proportion_of_local_governments_that_adopt_and_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_of_local_governments_that_adopt_and_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_paved_roads_in_total_road_network--by--area--year.csv",
+      "name": "proportion_of_paved_roads_in_total_road_network--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_of_paved_roads_in_total_road_network"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--proportion_of_population_below_basic_needs_poverty_line--by--area--year--location.csv",
       "name": "proportion_of_population_below_basic_needs_poverty_line--by--area--year--location",
       "schema": {
@@ -589,6 +1073,52 @@
           "area",
           "year",
           "location"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_population_below_food_poverty_line--by--area--year--location.csv",
+      "name": "proportion_of_population_below_food_poverty_line--by--area--year--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "proportion_of_population_below_food_poverty_line"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--proportion_of_population_below_the_international_poverty_line--by--area--year.csv",
+      "name": "proportion_of_population_below_the_international_poverty_line--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "proportion_of_population_below_the_international_poverty_line"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
         ]
       }
     },
@@ -635,6 +1165,30 @@
       }
     },
     {
+      "path": "ddf--datapoints--rate_of_exclusive_breast_feeding--by--area--year.csv",
+      "name": "rate_of_exclusive_breast_feeding--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "rate_of_exclusive_breast_feeding"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--real_growth_rate--by--area--year.csv",
       "name": "real_growth_rate--by--area--year",
       "schema": {
@@ -647,6 +1201,27 @@
           },
           {
             "name": "real_growth_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--seats_of_women_in_parliament--by--area--year.csv",
+      "name": "seats_of_women_in_parliament--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "seats_of_women_in_parliament"
           }
         ],
         "primaryKey": [
@@ -895,6 +1470,31 @@
       }
     },
     {
+      "path": "ddf--datapoints--unemployment_rate--by--area--year--sex.csv",
+      "name": "unemployment_rate--by--area--year--sex",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "unemployment_rate"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "sex"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--wasting_weight_for_height_of_under_fives--by--area--year.csv",
       "name": "wasting_weight_for_height_of_under_fives--by--area--year",
       "schema": {
@@ -916,6 +1516,52 @@
       }
     },
     {
+      "path": "ddf--datapoints--water_quality_monitoring_networks_established--by--area--year.csv",
+      "name": "water_quality_monitoring_networks_established--by--area--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "water_quality_monitoring_networks_established"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--women_age_15_49_who_ever_violence_experienced--by--area--year--location.csv",
+      "name": "women_age_15_49_who_ever_violence_experienced--by--area--year--location",
+      "schema": {
+        "fields": [
+          {
+            "name": "area"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "location"
+          },
+          {
+            "name": "women_age_15_49_who_ever_violence_experienced"
+          }
+        ],
+        "primaryKey": [
+          "area",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--women_age_15_49_who_have_experienced_sexual_violence--by--area--year.csv",
       "name": "women_age_15_49_who_have_experienced_sexual_violence--by--area--year",
       "schema": {
@@ -933,31 +1579,6 @@
         "primaryKey": [
           "area",
           "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints--women_age_15_to_49_who_ever_violence_experienced--by--area--year--location.csv",
-      "name": "women_age_15_to_49_who_ever_violence_experienced--by--area--year--location",
-      "schema": {
-        "fields": [
-          {
-            "name": "area"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "location"
-          },
-          {
-            "name": "women_age_15_to_49_who_ever_violence_experienced"
-          }
-        ],
-        "primaryKey": [
-          "area",
-          "year",
-          "location"
         ]
       }
     },
@@ -1004,8 +1625,8 @@
       }
     },
     {
-      "path": "ddf--datapoints--youth_not_in_education_employment_or_training--by--area--year--sex.csv",
-      "name": "youth_not_in_education_employment_or_training--by--area--year--sex",
+      "path": "ddf--datapoints--youth_not_in_education_employment_or_training--by--area--year--sex--age_group.csv",
+      "name": "youth_not_in_education_employment_or_training--by--area--year--sex--age_group",
       "schema": {
         "fields": [
           {
@@ -1018,13 +1639,17 @@
             "name": "sex"
           },
           {
+            "name": "age_group"
+          },
+          {
             "name": "youth_not_in_education_employment_or_training"
           }
         ],
         "primaryKey": [
           "area",
           "year",
-          "sex"
+          "sex",
+          "age_group"
         ]
       }
     },
@@ -1108,6 +1733,42 @@
       },
       {
         "primaryKey": [
+          "age_group",
+          "area",
+          "sex",
+          "year"
+        ],
+        "value": "youth_not_in_education_employment_or_training",
+        "resources": [
+          "youth_not_in_education_employment_or_training--by--area--year--sex--age_group"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "sex",
+          "year"
+        ],
+        "value": "infant_mortality_rate_per_1000_births",
+        "resources": [
+          "infant_mortality_rate_per_1000_births--by--area--year--sex--location"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "sex",
+          "year"
+        ],
+        "value": "men_and_women_age_15_and_49_do_not_have_health_insurance_coverage_percent",
+        "resources": [
+          "men_and_women_age_15_49_do_not_have_health_insurance_coverage--by--area--year--sex--location"
+        ]
+      },
+      {
+        "primaryKey": [
           "area",
           "location",
           "sex",
@@ -1116,6 +1777,28 @@
         "value": "under_five_mortality_rate",
         "resources": [
           "under_five_mortality_rate--by--area--location--year--sex"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "year"
+        ],
+        "value": "average_number_of_persons_per_sleeping_room",
+        "resources": [
+          "average_number_of_persons_per_sleeping_room--by--area--year--location"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "year"
+        ],
+        "value": "children_under_5_years_overweight",
+        "resources": [
+          "children_under_5_years_overweight--by--area--year--location"
         ]
       },
       {
@@ -1146,6 +1829,28 @@
           "location",
           "year"
         ],
+        "value": "prevalence_of_stunting_in_children_aged_0_to_59_months",
+        "resources": [
+          "prevalence_of_stunting_in_children_aged_0_59_months--by--area--year--location"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "year"
+        ],
+        "value": "prevalence_of_undernourishment_among_children_under_5_years_of_age_disaggregated_by_stunting_wasting_and_underweight",
+        "resources": [
+          "prevalence_of_undernourishment_among_children_under_5_years_of_age_disaggregated_by_stunting_wasting_and_weight--by--area--year--location"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "year"
+        ],
         "value": "proportion_of_population_below_basic_needs_poverty_line",
         "resources": [
           "proportion_of_population_below_basic_needs_poverty_line--by--area--year--location"
@@ -1157,9 +1862,31 @@
           "location",
           "year"
         ],
-        "value": "women_age_15_to_49_who_ever_violence_experienced",
+        "value": "proportion_of_population_below_food_poverty_line",
         "resources": [
-          "women_age_15_to_49_who_ever_violence_experienced--by--area--year--location"
+          "proportion_of_population_below_food_poverty_line--by--area--year--location"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "location",
+          "year"
+        ],
+        "value": "women_age_15_49_who_ever_violence_experienced",
+        "resources": [
+          "women_age_15_49_who_ever_violence_experienced--by--area--year--location"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "sex",
+          "year"
+        ],
+        "value": "adult_literacy_rate",
+        "resources": [
+          "adult_literacy_rate--by--area--year--sex"
         ]
       },
       {
@@ -1223,6 +1950,17 @@
           "sex",
           "year"
         ],
+        "value": "national_hiv_prevalence_rate",
+        "resources": [
+          "national_hiv_prevalence_rate--by--area--year--sex"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "sex",
+          "year"
+        ],
         "value": "net_enrolment_ratio_in_lower_education",
         "resources": [
           "net_enrolment_ratio_in_lower_education--by--area--year--sex"
@@ -1267,9 +2005,9 @@
           "sex",
           "year"
         ],
-        "value": "youth_not_in_education_employment_or_training",
+        "value": "unemployment_rate",
         "resources": [
-          "youth_not_in_education_employment_or_training--by--area--year--sex"
+          "unemployment_rate--by--area--year--sex"
         ]
       },
       {
@@ -1277,9 +2015,19 @@
           "area",
           "year"
         ],
-        "value": "adolscent_birth_rate",
+        "value": "adolescent_birth_rate",
         "resources": [
-          "adolscent_birth_rate--by--area--year"
+          "adolescent_birth_rate--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "allocated_plots_and_farms",
+        "resources": [
+          "allocated_plots_and_farm--by--area--year"
         ]
       },
       {
@@ -1290,6 +2038,26 @@
         "value": "annual_rate_of_inflation",
         "resources": [
           "annual_rate_of_inflation--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "area_of_natural_forest_cover",
+        "resources": [
+          "area_of_natural_forest_cover--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "area_under_irrigation",
+        "resources": [
+          "area_under_irrigation--by--area--year"
         ]
       },
       {
@@ -1327,9 +2095,49 @@
           "area",
           "year"
         ],
+        "value": "death_missing_and_affected_due_to_climate_change_related_disasters",
+        "resources": [
+          "death_missing_and_affected_due_to_climate_change--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "development_budget",
+        "resources": [
+          "development_budget--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "early_learning_gross_enrolment_ratio",
         "resources": [
           "early_learning_gross_enrolment_ratio--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "food_self_sufficiency_ratio",
+        "resources": [
+          "food_self_sufficiency_ratio--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "government_budget",
+        "resources": [
+          "government_budget--by--area--year"
         ]
       },
       {
@@ -1357,9 +2165,60 @@
           "area",
           "year"
         ],
+        "value": "location",
+        "resources": [
+          "prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility--by--area--year",
+          "rate_of_exclusive_breast_feeding--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "malaria_incidence_per_1000_population",
+        "resources": [
+          "malaria_incidence--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "maternal_mortality_rate",
         "resources": [
           "maternal_mortality_rate--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "multi_dimension_poverty_index_poverty_head_count_percent",
+        "resources": [
+          "multi_dimension_poverty_index_poverty_head_count--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "national_food_inflation_rate",
+        "resources": [
+          "national_food_inflation_rate--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility",
+        "resources": [
+          "prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility--by--area--year"
         ]
       },
       {
@@ -1387,6 +2246,36 @@
           "area",
           "year"
         ],
+        "value": "proportion_of_local_governments_that_adopt_and_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies",
+        "resources": [
+          "proportion_of_local_governments_that_adopt_and_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "proportion_of_paved_roads_in_total_road_network",
+        "resources": [
+          "proportion_of_paved_roads_in_total_road_network--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "proportion_of_population_below_the_international_poverty_line",
+        "resources": [
+          "proportion_of_population_below_the_international_poverty_line--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "propotion_of_women_in_managerial_positions",
         "resources": [
           "propotion_of_women_in_managerial_positions--by--area--year"
@@ -1407,9 +2296,29 @@
           "area",
           "year"
         ],
+        "value": "rate_of_exclusive_breast_feeding",
+        "resources": [
+          "rate_of_exclusive_breast_feeding--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
         "value": "real_growth_rate",
         "resources": [
           "real_growth_rate--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "seats_of_women_in_parliament",
+        "resources": [
+          "seats_of_women_in_parliament--by--area--year"
         ]
       },
       {
@@ -1520,6 +2429,16 @@
         "value": "wasting_weight_for_height_of_under_fives",
         "resources": [
           "wasting_weight_for_height_of_under_fives--by--area--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "area",
+          "year"
+        ],
+        "value": "water_quality_monitoring_networks_established",
+        "resources": [
+          "water_quality_monitoring_networks_established--by--area--year"
         ]
       },
       {

@@ -1,55 +1,83 @@
-"concept","concept_type","name","sdg_indicator"
-"area","entity_domain","Area",
-"sex","entity_domain","Sex",
-"location","entity_domain","Location",
-"age_group","entity_domain","Age group",
-"proportion_of_population_below_basic_needs_poverty_line","measure","Proportion Of Population Below Basic Needs Poverty Line","_1_1_1"
-"income_inequality","measure","Income Inequality","_10_1_1"
-"stunting_in_children","measure","Stunting In Children","_10_1_1"
-"wasting_weight_for_height_of_under_fives","measure","Wasting Weight For Height Of Under Fives","_10_1_1"
-"primary_education_pupils_to_classroom_ratio","measure","Primary Education Pupils To Classroom Ratio","_10_1_1"
-"share_of_forestry_to_gdp_current_prices","measure","Share Of Forestry To Gdp Current Prices","_10_1_1"
-"share_of_total_fisheries_export_earnings","measure","Share Of Total Fisheries Export Earnings","_10_1_1"
-"share_of_fisheries_to_gdp_current_prices","measure","Share Of Fisheries To Gdp Current Prices","_14_7_1"
-"share_of_gdp_current_prices","measure","Share Of Gdp Current Prices","_17_1_1"
-"annual_rate_of_inflation","measure","Annual Rate Of Inflation","_17_13_1"
-"children_under_5_years_overweight","measure","Children Under 5 Years Overweight","_2_2_1"
-"share_of_forestry_to_total_export_earnings","measure","Share Of Forestry To Total Export Earnings","_2_3_1"
-"share_of_total_export_earnings","measure","Share Of Total Export Earnings","_2_b_2"
-"maternal_mortality_rate","measure","Maternal Mortality Rate","_3_1_1"
-"births_attended_by_skilled_health_personnel","measure","Births Attended By Skilled Health Personnel","_3_1_2"
-"life_expectancy_years","measure","Life Expectancy Years","_3_4_1"
-"health_worker_density_nurse_and_midwife","measure","Health Worker Density Nurse And Midwife","_3_6_1"
-"health_worker_density","measure","Health Worker Density","_3_6_1"
-"adolscent_birth_rate","measure","Adolscent Birth Rate","_3_7_2"
-"death_caused_by_road_accidents","measure","Death Caused By Road Accidents","_3_c_1"
-"early_learning_net_enrolment_ratio_percent_of_eligible","measure","Early Learning Net Enrolment Ratio Percent Of Eligible","_4_1_1"
-"early_learning_gross_enrolment_ratio","measure","Early Learning Gross Enrolment Ratio","_4_1_1"
-"gross_enrolment_ratio_in_lower_secondary_schools","measure","Gross Enrolment Ratio In Lower Secondary Schools","_4_1_1"
-"net_enrolment_ratio_in_lower_education","measure","Net Enrolment Ratio In Lower Education","_4_1_1"
-"primary_net_enrolment_ratio","measure","Primary Net Enrolment Ratio","_4_1_1"
-"students_passing_examination","measure","Students Passing Examination","_4_1_1"
-"transition_rate_from_form_four_to_form_five","measure","Transition Rate From Form Four To Form Five","_4_1_1"
-"under_five_mortality_rate","measure","Under Five Mortality Rate","_4_1_1"
-"women_age_15_49_who_have_experienced_sexual_violence","measure","Women Age 15 49 Who Have Experienced Sexual Violence","_4_1_1"
-"women_aged_15_49_years_use_morden_method_of_family_planning","measure","Women Aged 15 49 Years Use Morden Method Of Family Planning","_4_1_1"
-"working_population_employed_population_with_high_skills","measure","Working Population Employed Population With High Skills","_4_1_1"
-"cohort_passing_primary_school_leaving_examination_psle","measure","Cohort Passing Primary School Leaving Examination Psle","_4_3_1"
-"primary_education_pupils_to_teacher_ratio","measure","Primary Education Pupils To Teacher Ratio","_4_a_1"
-"primary_schools_with_electricity_pecent","measure","Primary Schools With Electricity Pecent","_4_a_1"
-"pupils_to_classroom_ratio_in_lower_secondary_schools","measure","Pupils To Classroom Ratio In Lower Secondary Schools","_4_a_1"
-"women_age_15_to_49_who_ever_violence_experienced","measure","Women Age 15 To 49 Who Ever Violence Experienced","_5_2_1"
-"physical_violence_from_current_or_former_partners","measure","Physical Violence From Current Or Former Partners","_5_2_2"
-"circumcised_women","measure","Circumcised Women","_5_3_2"
-"time_spent_on_unpaid_domestic_and_care_work","measure","Time Spent On Unpaid Domestic And Care Work","_5_4_1"
-"propotion_of_women_in_managerial_positions","measure","Propotion Of Women In Managerial Positions","_5_5_2"
-"real_growth_rate","measure","Real Growth Rate","_8_1_1"
-"share_of_livestock_to_gdp_current_prices","measure","Share Of Livestock To Gdp Current Prices","_8_2_1"
-"proportion_of_informal_employment_in_non_agriculture_employment","measure","Proportion Of Informal Employment In Non Agriculture Employment","_8_3_1"
-"unemployment_rate","measure","Unemployment Rate","_8_5_2"
-"youth_not_in_education_employment_or_training","measure","Youth Not In Education Employment Or Training","_8_6_1"
-"children_aged_5_17_engaging_in_child_labour","measure","Children Aged 5 17 Engaging In Child Labour","_8_7_1"
-"name","string","Name",
-"area_code","string","Area code",
-"sdg_indicator","string","SDG indicator",
-"year","time","Year",
+concept,concept_type,name,sdg_indicator
+area,entity_domain,Area,
+location,entity_domain,Location,
+name,string,Name,
+sex,entity_domain,Sex,
+age_group,entity_domain,Age group,
+year,time,Year,
+area_under_irrigation,measure,Area under Irrigation (Hectares),_2_4_1
+proportion_of_paved_roads_in_total_road_network,measure,Proportion of paved roads in total road network (%),11_2_1
+women_age_15_49_who_have_experienced_sexual_violence,measure,Women Age 15 49 Who Have Experienced Sexual Violence,_4_1_1
+women_age_15_49_who_ever_violence_experienced,measure,Women Age 15 To 49 Who Ever Violence Experienced,_5_2_1
+women_aged_15_49_years_use_morden_method_of_family_planning,measure,Women Aged 15 49 Years Use Morden Method Of Family Planning,_4_1_1
+children_aged_5_17_engaging_in_child_labour,measure,Children Aged 5 17 Engaging In Child Labour,_8_7_1
+men_and_women_age_15_and_49_do_not_have_health_insurance_coverage_percent,measure,Men And Womenage 15-49  Do Not Have  Health Insurance Coverage,_1_3_1
+births_attended_by_skilled_health_personnel,measure,Births Attended By Skilled Health Personnel,_3_1_2
+adolescent_birth_rate,measure,Adolscent Birth Rate,_3_7_2
+development_budget,measure,Development Budget,_1_b_1
+government_budget,measure,Government Budget,_17_1_2
+recurrent_budge_percent,measure,Recurrent Budget,_1_b_1
+death_caused_by_road_accidents,measure,Death Caused By Road Accidents,_3_c_1
+multi_dimension_poverty_index_poverty_head_count_percent,measure,Multi Dimension Poverty Index Poverty Head Count,_1_2_2
+primary_education_pupils_to_classroom_ratio,measure,Primary Education Pupils To Classroom Ratio,_4_a_1
+primary_education_pupils_to_teacher_ratio,measure,Primary Education Pupils To Teacher Ratio,_4_a_1
+net_enrolment_ratio_in_lower_education,measure,Net Enrolment Ratio In Lower Education,_4_1_1
+gross_enrolment_ratio_in_lower_secondary_schools,measure,Gross Enrolment Ratio In Lower Secondary Schools,_4_1_1
+life_expectancy_years,measure,Life Expectancy Years,_3_4_1
+under_five_mortality_rate,measure,Under Five Mortality Rate,_4_1_1
+national_food_inflation_rate,measure,National Food Inflation rate (%),_2_c_1  
+real_growth_rate,measure,Real Growth Rate,_8_1_1
+national_hiv_prevalence_rate,measure,National HIV prevalence rate (%),_3_3_1
+stunting_in_children,measure,Stunting In Children,__2_1_1
+income_inequality,measure,Income Inequality,_10_1_1
+early_learning_gross_enrolment_ratio,measure,Early Learning Gross Enrolment Ratio,_4_1_1
+early_learning_net_enrolment_ratio_percent_of_eligible,measure,Early Learning Net Enrolment Ratio Percent Of Eligible,_4_1_1
+adult_literacy_rate,measure,Adult Literecy Rate,_4_6_1
+infant_mortality_rate_per_1000_births,measure,"Infant Mortality Rate per 1,000 births",_3_2_1  
+maternal_mortality_rate,measure,Maternal Mortality Rate,_3_1_1
+primary_net_enrolment_ratio,measure,Primary Net Enrolment Ratio,_4_1_1
+youth_not_in_education_employment_or_training,measure,Youth Not In Education Employment Or Training,_8_6_1
+average_number_of_persons_per_sleeping_room,measure,Average Number Of Persons Per Sleeping Room,_1_2_2
+share_of_fisheries_to_gdp_current_prices,measure,Share Of Fisheries To Gdp Current Prices,_14_7_1
+share_of_forestry_to_gdp_current_prices,measure,Share Of Forestry To Gdp Current Prices,_10_1_1
+share_of_forestry_to_total_export_earnings,measure,Share Of Forestry To Total Export Earnings,_2_3_1
+share_of_gdp_current_prices,measure,Share Of Gdp Current Prices,_17_1_1
+proportion_of_informal_employment_in_non_agriculture_employment,measure,Proportion Of Informal Employment In Non Agriculture Employment,_8_3_1
+share_of_livestock_to_gdp_current_prices,measure,Share Of Livestock To Gdp Current Prices,_8_2_1
+proportion_of_population_below_basic_needs_poverty_line,measure,Proportion Of Population Below Basic Needs Poverty Line,_1_1_1
+share_of_total_export_earnings,measure,Share Of Total Export Earnings,_2_b_2
+share_of_total_fisheries_export_earnings,measure,Share Of Total Fisheries Export Earnings,_10_1_1
+propotion_of_women_in_managerial_positions,measure,Propotion Of Women In Managerial Positions,_5_5_2
+students_passing_examination,measure,Students Passing Examination,_4_1_1
+cohort_passing_primary_school_leaving_examination_psle,measure,Cohort Passing Primary School Leaving Examination Psle,_4_3_1
+allocated_plots_and_farms,measure,Allocated Plots and Farms,_11_3_1
+working_population_employed_population_with_high_skills,measure,Working Population Employed Population With High Skills,_4_1_1
+prevalence_of_low_birth_weight_among_children_out_of_53_delivered_in_health_facility,measure, Prevalence of Low Birth Weight (LBW) among children (Out of 53 delivered in a health facility),_2_2_2
+transition_rate_from_form_four_to_form_five,measure,Transition Rate From Form Four To Form Five,_4_1_1
+annual_rate_of_inflation,measure,Annual Rate Of Inflation,_17_13_1
+rate_of_exclusive_breast_feeding,measure, Rate of Exclusive Breast Feeding (EBF) (%),_2_2_2
+unemployment_rate,measure,Unemployment Rate,_8_5_2
+primary_schools_with_electricity_pecent,measure,Primary Schools With Electricity Pecent,_4_a_1
+food_self_sufficiency_ratio,measure,Food Self Sufficiency Ratio,_2_1_2
+time_spent_on_unpaid_domestic_and_care_work,measure,Time Spent On Unpaid Domestic And Care Work,_5_4_1
+pupils_to_classroom_ratio_in_lower_secondary_schools,measure,Pupils To Classroom Ratio In Lower Secondary Schools,_4_a_1
+physical_violence_from_current_or_former_partners,measure,Physical Violence From Current Or Former Partners,_5_2_2
+wasting_weight_for_height_of_under_fives,measure,Wasting Weight For Height Of Under Fives,_2_1_1
+circumcised_women,measure,Circumcised Women,_5_3_2
+health_worker_density_nurse_and_midwife,measure,Health Worker Density Nurse And Midwife,_3_6_1
+health_worker_density,measure,Health Worker Density,_3_6_1
+area_code,string,Area code,
+proportion_of_local_governments_that_adopt_an_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies,measure,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,_1_5_4
+malaria_incidence_per_1000_population,measure,Malaria incidence per 1000 population,_1_1_1
+sdg_indicator,string,SDG indicator,
+death_missing_and_affected_due_to_climate_change_related_disasters,measure,"Number of Death, Missing and affected due to climate change related disasters per 100,000",_13_1_1
+proportion_of_population_below_food_poverty_line,measure,Proportion of Population Below Food Poverty Line,_1_2_1  
+proportion_of_girls_and_women_aged_15_49_years_who_have_undergone_female_genital_mutilation_cutting,measure,Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting by age,_5_3_2
+proportion_of_local_governments_that_adopt_and_implement_local_disaster_risk_reduction_strategies_in_line_with_national_disaster_risk_reduction_strategies,measure,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,_13_1_3
+area_of_natural_forest_cover,measure,Area of natural forest cover (Ha),_15_1_1
+proportion_of_population_below_the_international_poverty_line,measure,Proportion of population below the international poverty line,_1_1_
+prevalence_of_stunting_in_children_aged_0_to_59_months,measure,Prevalence of stunting in children aged 0 to 59 months,_2_2_1
+prevalence_of_undernourishment_among_children_under_5_years_of_age_disaggregated_by_stunting_wasting_and_underweight,measure,"Prevalence of undernourishment among Children under 5 years of Age, Dis-aggregated by Stunting, Wasting and Underweight",_2_1_1  
+seats_of_women_in_parliament,measure,Seats of women in Parliament Percent,_5_5_1 
+water_quality_monitoring_networks_established,measure,Water quality monitoring networks established,_1_1_1
+children_under_5_years_overweight,measure,Children under 5 years overweight,_2_2_1
