@@ -1,0 +1,7 @@
+area,year,sex,location,infant_mortality_rate_per_1000_births
+mainland,2012,both_sexes,total,46.2
+mainland,2012,male,total,50.9
+mainland,2012,female,total,41.3
+mainland,2015,both_sexes,total,52
+mainland,2015,both_sexes,rural,47
+mainland,2015,both_sexes,urban,63

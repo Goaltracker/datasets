@@ -1,5 +1,6 @@
 location,name
 urban,urban area
-total,both urban and rural
+total,both urban and rural and Dar es Salaam
 rural,rural area
 other_urban,all urban areas excluding Dar_es _salaam
+dar_es_salaam,Dar es salaam area
